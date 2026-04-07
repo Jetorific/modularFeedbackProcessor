@@ -3130,6 +3130,16 @@
 		)
 		(uuid "12eddb1e-f3e8-4693-a278-a6853145fd6c")
 	)
+	(text "clipping diodes in feedback path to\neliminate extremely large voltages"
+		(exclude_from_sim no)
+		(at 214.376 145.542 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "28fe9533-e110-49c8-9b10-226fb7522c3b")
+	)
 	(text "<- DC block to ground"
 		(exclude_from_sim no)
 		(at 191.262 110.49 0)
@@ -3140,7 +3150,7 @@
 		)
 		(uuid "321e9ba4-6719-4125-ad5c-97c4793cdf90")
 	)
-	(text "scale from 10Vpp to 1Vpp\nfilter noise"
+	(text "scale from 10Vpp to 1Vpp\n+ filter noise"
 		(exclude_from_sim no)
 		(at 68.072 52.578 0)
 		(effects
@@ -3149,6 +3159,16 @@
 			)
 		)
 		(uuid "36ee9b48-1d59-4c2a-a336-50777602d7b6")
+	)
+	(text "REMEMBER TO SCALE AUDIO BACK UP"
+		(exclude_from_sim no)
+		(at 252.222 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3818a1fe-0a49-4150-845d-f2efbfb9f10b")
 	)
 	(text "provide 14/15 V_{DD}"
 		(exclude_from_sim no)
@@ -3180,11 +3200,27 @@
 		)
 		(uuid "a983a6fe-4eb0-4388-9b10-1bc847f63cd5")
 	)
+	(text "buffer after block+bias"
+		(exclude_from_sim no)
+		(at 191.262 86.614 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dd125f01-26fd-4e70-ad16-cec2618bea57")
+	)
 	(junction
 		(at 165.1 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0fe531c8-3d1b-4615-88c6-4a6dca45c57a")
+	)
+	(junction
+		(at 201.93 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10568ee2-ffe8-45aa-9698-d26bd10ac2c3")
 	)
 	(junction
 		(at 146.05 26.67)
@@ -3199,16 +3235,16 @@
 		(uuid "1d79dce0-055f-45fb-848f-63e97d6fb167")
 	)
 	(junction
+		(at 201.93 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "338a01df-74c7-4142-b9dd-9af9c1a628a8")
+	)
+	(junction
 		(at 85.09 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3be37d69-7c4b-4443-8af2-88913ca40754")
-	)
-	(junction
-		(at 246.38 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "460700e3-1fea-46a2-9b08-6dc43bcd81b6")
 	)
 	(junction
 		(at 74.93 69.85)
@@ -3217,16 +3253,16 @@
 		(uuid "4fb83ac2-26d6-4edc-a271-e5197a3c2dab")
 	)
 	(junction
-		(at 193.04 26.67)
+		(at 237.49 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5eb70e84-a2c1-4161-a55d-03372eca5882")
+		(uuid "51508d70-7d41-40ca-9535-0bd25b7db956")
 	)
 	(junction
-		(at 199.39 31.75)
+		(at 251.46 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "667f89f7-df70-467f-a033-bfc6f7155b57")
+		(uuid "5c2bc394-faa5-43be-9448-cf4ca165c669")
 	)
 	(junction
 		(at 147.32 101.6)
@@ -3337,6 +3373,12 @@
 		(uuid "c9e75714-7e29-489c-ab60-3442dcc52dea")
 	)
 	(junction
+		(at 229.87 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4e2a3c7-61af-4c4d-9f90-9586b52c28f0")
+	)
+	(junction
 		(at 139.7 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3347,12 +3389,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f66be06b-4aaf-490b-9260-b9a17611bc92")
-	)
-	(junction
-		(at 251.46 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "feca69e0-2169-4345-bbd6-f4a56af71a89")
 	)
 	(junction
 		(at 40.64 74.93)
@@ -3392,13 +3428,13 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 76.2) (xy 243.84 60.96)
+			(xy 201.93 36.83) (xy 204.47 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c7b0c87-22a1-4dc7-8e1b-cfa8c99d9e0c")
+		(uuid "0ce703ec-df16-4c19-80f4-bbb0d281b4d7")
 	)
 	(wire
 		(pts
@@ -3409,6 +3445,16 @@
 			(type default)
 		)
 		(uuid "0e290e9b-5208-4bee-96a2-33ab095622cf")
+	)
+	(wire
+		(pts
+			(xy 245.11 43.18) (xy 245.11 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eac6131-8ec3-4fb8-8ca5-f1fc4f18ce06")
 	)
 	(wire
 		(pts
@@ -3452,7 +3498,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 78.74) (xy 246.38 80.01)
+			(xy 229.87 55.88) (xy 229.87 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3472,7 +3518,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 73.66) (xy 246.38 78.74)
+			(xy 229.87 50.8) (xy 229.87 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3562,6 +3608,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 60.96) (xy 237.49 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28ac27eb-1612-461f-a105-237b5d990b99")
+	)
+	(wire
+		(pts
 			(xy 160.02 39.37) (xy 156.21 39.37)
 		)
 		(stroke
@@ -3602,7 +3658,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 73.66) (xy 246.38 73.66)
+			(xy 228.6 50.8) (xy 229.87 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3632,13 +3688,23 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 26.67) (xy 193.04 26.67)
+			(xy 191.77 26.67) (xy 201.93 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "33d87f9d-94b8-42cd-91a3-881fb9c6f213")
+	)
+	(wire
+		(pts
+			(xy 251.46 46.99) (xy 251.46 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3422979f-d1b5-48b9-8b27-491258bb69b1")
 	)
 	(wire
 		(pts
@@ -3792,17 +3858,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 76.2) (xy 243.84 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "498f6aac-b401-4588-8fdc-eb2f7f56ad83")
-	)
-	(wire
-		(pts
-			(xy 199.39 31.75) (xy 199.39 36.83)
+			(xy 201.93 31.75) (xy 201.93 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3819,6 +3875,16 @@
 			(type default)
 		)
 		(uuid "4f496698-18a4-4f3c-ba2c-75973e4fd53a")
+	)
+	(wire
+		(pts
+			(xy 201.93 36.83) (xy 201.93 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51185f88-2d76-4c44-ab00-a4b3293a38c8")
 	)
 	(wire
 		(pts
@@ -3862,6 +3928,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 55.88) (xy 251.46 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55131b8a-2fe5-489a-aa22-02ea3fac40ea")
+	)
+	(wire
+		(pts
 			(xy 147.32 101.6) (xy 149.86 101.6)
 		)
 		(stroke
@@ -3892,7 +3968,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 31.75) (xy 199.39 31.75)
+			(xy 204.47 31.75) (xy 201.93 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3919,6 +3995,16 @@
 			(type default)
 		)
 		(uuid "5d394f5e-0db7-4fcc-849c-09eeaac132c2")
+	)
+	(wire
+		(pts
+			(xy 257.81 43.18) (xy 255.27 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d53726f-cc15-424b-b7f3-9e741c52b460")
 	)
 	(wire
 		(pts
@@ -3992,13 +4078,13 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 53.34) (xy 251.46 57.15)
+			(xy 257.81 41.91) (xy 257.81 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b9200d2-8b0b-475c-9884-7b1db8d1f865")
+		(uuid "6e976da3-4269-4601-a32b-99f8fdcd78bf")
 	)
 	(wire
 		(pts
@@ -4009,16 +4095,6 @@
 			(type default)
 		)
 		(uuid "6f068f7f-5965-43c4-af22-a71d484c4e44")
-	)
-	(wire
-		(pts
-			(xy 199.39 26.67) (xy 193.04 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f3f9569-d010-4e3e-b97d-67f519c42ace")
 	)
 	(wire
 		(pts
@@ -4052,7 +4128,17 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 31.75) (xy 199.39 26.67)
+			(xy 237.49 62.23) (xy 229.87 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "787825dd-15cf-4a6d-88cc-5a4688e98634")
+	)
+	(wire
+		(pts
+			(xy 201.93 31.75) (xy 201.93 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4119,16 +4205,6 @@
 			(type default)
 		)
 		(uuid "82f3b974-ecdf-4200-8974-87885b1b2478")
-	)
-	(wire
-		(pts
-			(xy 251.46 57.15) (xy 251.46 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8451214e-6119-498d-8838-84f0fc04a101")
 	)
 	(wire
 		(pts
@@ -4322,16 +4398,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 36.83) (xy 201.93 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8d54807-6586-4dbc-b159-4e1ad89c02d2")
-	)
-	(wire
-		(pts
 			(xy 85.09 92.71) (xy 85.09 93.98)
 		)
 		(stroke
@@ -4442,7 +4508,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 57.15) (xy 237.49 58.42)
+			(xy 245.11 43.18) (xy 247.65 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4452,7 +4518,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 34.29) (xy 201.93 34.29)
+			(xy 193.04 34.29) (xy 204.47 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4502,7 +4568,17 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 78.74) (xy 241.3 78.74)
+			(xy 241.3 57.15) (xy 242.57 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc78f045-7efb-4c3f-8a47-e73f9275382d")
+	)
+	(wire
+		(pts
+			(xy 228.6 55.88) (xy 229.87 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4652,16 +4728,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 53.34) (xy 243.84 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8b67652-7b18-4d71-8d8d-0c7d3343c8e2")
-	)
-	(wire
-		(pts
 			(xy 179.07 41.91) (xy 179.07 46.99)
 		)
 		(stroke
@@ -4682,6 +4748,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 57.15) (xy 251.46 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e046cc72-5fee-41f6-8d1e-718f059260b2")
+	)
+	(wire
+		(pts
 			(xy 120.65 77.47) (xy 120.65 78.74)
 		)
 		(stroke
@@ -4699,16 +4775,6 @@
 			(type default)
 		)
 		(uuid "e1ed820e-74a4-4d77-9f01-8671992d7af3")
-	)
-	(wire
-		(pts
-			(xy 237.49 48.26) (xy 237.49 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2f4f61c-9815-4147-a6ec-4e0d4e8c4651")
 	)
 	(wire
 		(pts
@@ -4752,13 +4818,13 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 26.67) (xy 193.04 27.94)
+			(xy 228.6 53.34) (xy 237.49 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ec9764ea-82a1-4612-ae99-5735e749fb38")
+		(uuid "ec7900b7-f96d-4e93-8e26-08b103546a91")
 	)
 	(wire
 		(pts
@@ -4862,15 +4928,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer_Trim")
-		(at 237.49 53.34 0)
+		(at 251.46 43.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "03eb8d73-b00d-48ed-b5ba-6e6225a4b516")
-		(property "Reference" "RV5"
-			(at 232.156 53.34 90)
+		(property "Reference" "DryWetCV"
+			(at 251.46 37.846 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4878,7 +4944,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 234.696 53.34 90)
+			(at 251.46 40.386 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4886,7 +4952,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 53.34 0)
+			(at 251.46 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4895,7 +4961,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 53.34 0)
+			(at 251.46 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4904,7 +4970,7 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer"
-			(at 237.49 53.34 0)
+			(at 251.46 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4924,7 +4990,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "RV5")
+					(reference "DryWetCV")
 					(unit 1)
 				)
 			)
@@ -5454,7 +5520,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack2_SwitchT")
-		(at 207.01 34.29 0)
+		(at 209.55 34.29 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5463,7 +5529,7 @@
 		(dnp no)
 		(uuid "169d8f97-9d56-4850-aba6-a94d3a21ad17")
 		(property "Reference" "J6"
-			(at 207.645 25.4 0)
+			(at 210.185 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5471,7 +5537,7 @@
 			)
 		)
 		(property "Value" "Rate"
-			(at 207.645 27.94 0)
+			(at 210.185 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5479,7 +5545,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 34.29 0)
+			(at 209.55 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5488,7 +5554,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 34.29 0)
+			(at 209.55 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5497,7 +5563,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-			(at 207.01 34.29 0)
+			(at 209.55 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5591,7 +5657,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack2_SwitchT")
-		(at 137.16 137.16 0)
+		(at 261.62 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5600,7 +5666,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ac25b58-6e6a-434d-b245-248c2d666bfc")
 		(property "Reference" "J8"
-			(at 136.525 128.27 0)
+			(at 260.985 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5608,7 +5674,7 @@
 			)
 		)
 		(property "Value" "EffectDryWet"
-			(at 136.525 130.81 0)
+			(at 260.985 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5616,7 +5682,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 137.16 0)
+			(at 261.62 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5625,7 +5691,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 137.16 0)
+			(at 261.62 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5634,7 +5700,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-			(at 137.16 137.16 0)
+			(at 261.62 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5824,6 +5890,72 @@
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 237.49 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33cc5b51-bbf6-40ae-8ce6-956a95538b55")
+		(property "Reference" "#PWR054"
+			(at 237.49 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0faef82-4565-4070-859d-1325156c4a6c")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -7472,7 +7604,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack2_SwitchT")
-		(at 168.91 135.89 0)
+		(at 261.62 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7481,7 +7613,7 @@
 		(fields_autoplaced yes)
 		(uuid "66991322-f50b-48c7-aabd-f070c9942b02")
 		(property "Reference" "J7"
-			(at 168.275 127 0)
+			(at 260.985 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7489,7 +7621,7 @@
 			)
 		)
 		(property "Value" "Feedback"
-			(at 168.275 129.54 0)
+			(at 260.985 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7497,7 +7629,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 135.89 0)
+			(at 261.62 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7506,7 +7638,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 135.89 0)
+			(at 261.62 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7515,7 +7647,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-			(at 168.91 135.89 0)
+			(at 261.62 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7922,7 +8054,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 247.65 60.96 90)
+		(at 246.38 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7930,7 +8062,7 @@
 		(dnp no)
 		(uuid "7b5dad12-eb8f-4a19-96d2-b6fbeb7a259a")
 		(property "Reference" "R35"
-			(at 247.65 56.642 90)
+			(at 246.38 52.832 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7938,7 +8070,7 @@
 			)
 		)
 		(property "Value" "330k"
-			(at 247.65 58.674 90)
+			(at 246.38 54.864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7946,7 +8078,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 62.738 90)
+			(at 246.38 58.928 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7955,7 +8087,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 60.96 0)
+			(at 246.38 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7964,7 +8096,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 247.65 60.96 0)
+			(at 246.38 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8187,72 +8319,6 @@
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 246.38 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86530fc4-b81a-4e05-be90-aa371808aa67")
-		(property "Reference" "#PWR045"
-			(at 246.38 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 246.38 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1319c96a-2997-46da-88ad-040abadf5827")
-		)
-		(instances
-			(project "modularFeedbackProcessor"
-				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -8912,7 +8978,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack2_SwitchT")
-		(at 236.22 76.2 0)
+		(at 223.52 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8920,7 +8986,7 @@
 		(dnp no)
 		(uuid "a320ad0d-14b4-490d-ac59-e46cc1553333")
 		(property "Reference" "J2"
-			(at 234.442 68.072 0)
+			(at 221.742 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8928,7 +8994,7 @@
 			)
 		)
 		(property "Value" "DryWet"
-			(at 234.95 70.612 0)
+			(at 222.25 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8936,7 +9002,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 76.2 0)
+			(at 223.52 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8945,7 +9011,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 76.2 0)
+			(at 223.52 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8954,7 +9020,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-			(at 236.22 76.2 0)
+			(at 223.52 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9180,7 +9246,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 247.65 53.34 90)
+		(at 251.46 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9188,7 +9254,7 @@
 		(dnp no)
 		(uuid "b2bf6668-d5bd-4ae6-b91b-653bb67fd207")
 		(property "Reference" "R34"
-			(at 247.65 49.022 90)
+			(at 255.778 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9196,7 +9262,7 @@
 			)
 		)
 		(property "Value" "330k"
-			(at 247.65 51.054 90)
+			(at 253.746 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9204,7 +9270,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 55.118 90)
+			(at 249.682 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9213,7 +9279,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 53.34 0)
+			(at 251.46 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9222,7 +9288,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 247.65 53.34 0)
+			(at 251.46 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9247,7 +9313,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack2_SwitchT")
-		(at 208.28 130.81 0)
+		(at 243.84 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9256,7 +9322,7 @@
 		(fields_autoplaced yes)
 		(uuid "b31c0b37-82a5-44e2-af0a-2bca86618ad2")
 		(property "Reference" "J5"
-			(at 207.645 121.92 0)
+			(at 243.205 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9264,7 +9330,7 @@
 			)
 		)
 		(property "Value" "EffectRouteIn"
-			(at 207.645 124.46 0)
+			(at 243.205 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9272,7 +9338,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 130.81 0)
+			(at 243.84 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9281,7 +9347,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 130.81 0)
+			(at 243.84 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9290,7 +9356,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-			(at 208.28 130.81 0)
+			(at 243.84 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9311,6 +9377,76 @@
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 237.49 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b51654b6-86ed-41ba-b916-8175a2e4bbb1")
+		(property "Reference" "DryWetCVLvl"
+			(at 232.664 56.642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 234.696 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trim-potentiometer"
+			(at 237.49 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d3b2471-0a6b-4e0d-a3c2-7170fdd42ce8")
+		)
+		(pin "3"
+			(uuid "287ecce0-632d-4223-8866-cbd2df17705b")
+		)
+		(pin "2"
+			(uuid "19d63858-c1c0-4027-b49a-0c2fc7a3c82b")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "DryWetCVLvl")
 					(unit 1)
 				)
 			)
@@ -9928,7 +10064,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 27.94 0)
+		(at 201.93 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9937,7 +10073,7 @@
 		(fields_autoplaced yes)
 		(uuid "d03be318-3653-4888-b975-bdf6d5b395fb")
 		(property "Reference" "#PWR051"
-			(at 193.04 34.29 0)
+			(at 201.93 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9946,7 +10082,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 33.02 0)
+			(at 201.93 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9954,7 +10090,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 27.94 0)
+			(at 201.93 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9963,7 +10099,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 27.94 0)
+			(at 201.93 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9972,7 +10108,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 27.94 0)
+			(at 201.93 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9994,7 +10130,7 @@
 	)
 	(symbol
 		(lib_id "Analog:LF398_DIP8")
-		(at 255.27 30.48 0)
+		(at 304.8 15.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10003,7 +10139,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5af6c73-3f8a-4844-ae7d-cbaba4ad9c35")
 		(property "Reference" "U8"
-			(at 267.97 24.0598 0)
+			(at 317.5 8.8198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10011,7 +10147,7 @@
 			)
 		)
 		(property "Value" "LF398_DIP8"
-			(at 267.97 26.5998 0)
+			(at 317.5 11.3598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10019,7 +10155,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 255.27 30.48 0)
+			(at 304.8 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10028,7 +10164,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lf398-n.pdf"
-			(at 255.27 30.48 0)
+			(at 304.8 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10037,7 +10173,7 @@
 			)
 		)
 		(property "Description" "Sample And Hold Unity Gain Follower, DIP-8"
-			(at 255.27 30.48 0)
+			(at 304.8 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10216,16 +10352,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 237.49 58.42 0)
+		(at 245.11 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dc006cd7-9638-4ae9-9722-a7cc7ff035a5")
 		(property "Reference" "#PWR026"
-			(at 237.49 64.77 0)
+			(at 245.11 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10234,7 +10369,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 237.49 63.5 0)
+			(at 245.11 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10242,7 +10377,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 58.42 0)
+			(at 245.11 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10251,7 +10386,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 58.42 0)
+			(at 245.11 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10260,7 +10395,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 237.49 58.42 0)
+			(at 245.11 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10641,7 +10776,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack2_SwitchT")
-		(at 228.6 96.52 0)
+		(at 252.73 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10650,7 +10785,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec860768-6fd7-4e45-8ad4-8ad4c701f26d")
 		(property "Reference" "J3"
-			(at 227.965 87.63 0)
+			(at 252.095 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10658,7 +10793,7 @@
 			)
 		)
 		(property "Value" "Output"
-			(at 227.965 90.17 0)
+			(at 252.095 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10666,7 +10801,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 96.52 0)
+			(at 252.73 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10675,7 +10810,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 96.52 0)
+			(at 252.73 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10684,7 +10819,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-			(at 228.6 96.52 0)
+			(at 252.73 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10712,7 +10847,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 237.49 48.26 0)
+		(at 257.81 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10721,7 +10856,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef2ec9d2-e2ef-4bd4-bf97-d4eaf0dd103a")
 		(property "Reference" "#PWR023"
-			(at 237.49 52.07 0)
+			(at 257.81 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10730,15 +10865,16 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 237.49 43.18 0)
+			(at 260.35 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 48.26 0)
+			(at 257.81 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10747,7 +10883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 48.26 0)
+			(at 257.81 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10756,7 +10892,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 237.49 48.26 0)
+			(at 257.81 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10778,7 +10914,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack2_SwitchT")
-		(at 228.6 115.57 0)
+		(at 243.84 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10787,7 +10923,7 @@
 		(fields_autoplaced yes)
 		(uuid "f25e1a9d-6e07-4389-accf-de0b34051aed")
 		(property "Reference" "J4"
-			(at 227.965 106.68 0)
+			(at 243.205 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10795,7 +10931,7 @@
 			)
 		)
 		(property "Value" "EffectRouteOut"
-			(at 227.965 109.22 0)
+			(at 243.205 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10803,7 +10939,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 115.57 0)
+			(at 243.84 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10812,7 +10948,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 115.57 0)
+			(at 243.84 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10821,7 +10957,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-			(at 228.6 115.57 0)
+			(at 243.84 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
