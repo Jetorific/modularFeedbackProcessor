@@ -2743,6 +2743,12 @@
 		(uuid "3be37d69-7c4b-4443-8af2-88913ca40754")
 	)
 	(junction
+		(at 220.98 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "460700e3-1fea-46a2-9b08-6dc43bcd81b6")
+	)
+	(junction
 		(at 74.93 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2845,6 +2851,12 @@
 		(uuid "f66be06b-4aaf-490b-9260-b9a17611bc92")
 	)
 	(junction
+		(at 226.06 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "feca69e0-2169-4345-bbd6-f4a56af71a89")
+	)
+	(junction
 		(at 40.64 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2859,6 +2871,26 @@
 			(type default)
 		)
 		(uuid "053b5d93-b3e1-4df9-87e0-8510add94d99")
+	)
+	(wire
+		(pts
+			(xy 226.06 55.88) (xy 233.68 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0573f88d-44d4-466a-a690-08e30e2baf75")
+	)
+	(wire
+		(pts
+			(xy 218.44 74.93) (xy 218.44 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c7b0c87-22a1-4dc7-8e1b-cfa8c99d9e0c")
 	)
 	(wire
 		(pts
@@ -2902,6 +2934,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 77.47) (xy 220.98 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18c920ef-1f6d-430b-b12f-608c121d6cf3")
+	)
+	(wire
+		(pts
 			(xy 156.21 49.53) (xy 156.21 50.8)
 		)
 		(stroke
@@ -2909,6 +2951,16 @@
 			(type default)
 		)
 		(uuid "1af0d4ae-f235-4367-95fc-e1aa518a6bc6")
+	)
+	(wire
+		(pts
+			(xy 220.98 72.39) (xy 220.98 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b75adc5-a29a-44c3-a39b-572a70be637e")
 	)
 	(wire
 		(pts
@@ -3019,6 +3071,16 @@
 			(type default)
 		)
 		(uuid "2c5979c9-d3ba-4c2b-993a-742d4a0a1512")
+	)
+	(wire
+		(pts
+			(xy 215.9 72.39) (xy 220.98 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30f775bf-37e2-4790-9d73-86de8849d753")
 	)
 	(wire
 		(pts
@@ -3152,6 +3214,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 74.93) (xy 218.44 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "498f6aac-b401-4588-8fdc-eb2f7f56ad83")
+	)
+	(wire
+		(pts
 			(xy 113.03 41.91) (xy 113.03 39.37)
 		)
 		(stroke
@@ -3272,6 +3344,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 52.07) (xy 226.06 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b9200d2-8b0b-475c-9884-7b1db8d1f865")
+	)
+	(wire
+		(pts
 			(xy 24.13 82.55) (xy 27.94 82.55)
 		)
 		(stroke
@@ -3369,6 +3451,16 @@
 			(type default)
 		)
 		(uuid "82b50e1f-61c4-4cd9-98c4-a55e6baf6425")
+	)
+	(wire
+		(pts
+			(xy 226.06 55.88) (xy 226.06 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8451214e-6119-498d-8838-84f0fc04a101")
 	)
 	(wire
 		(pts
@@ -3632,6 +3724,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 55.88) (xy 212.09 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ba62f5-25cc-4894-9898-9f66ee67fec4")
+	)
+	(wire
+		(pts
 			(xy 149.86 96.52) (xy 149.86 91.44)
 		)
 		(stroke
@@ -3659,6 +3761,16 @@
 			(type default)
 		)
 		(uuid "bc63c78a-a80e-4670-9e0c-4ce5ac46bf80")
+	)
+	(wire
+		(pts
+			(xy 220.98 77.47) (xy 215.9 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "becada8c-bfd4-4a7c-861e-e9e7761acd65")
 	)
 	(wire
 		(pts
@@ -3772,6 +3884,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 52.07) (xy 218.44 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b67652-7b18-4d71-8d8d-0c7d3343c8e2")
+	)
+	(wire
+		(pts
 			(xy 120.65 77.47) (xy 120.65 78.74)
 		)
 		(stroke
@@ -3789,6 +3911,16 @@
 			(type default)
 		)
 		(uuid "e1ed820e-74a4-4d77-9f01-8671992d7af3")
+	)
+	(wire
+		(pts
+			(xy 212.09 46.99) (xy 212.09 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2f4f61c-9815-4147-a6ec-4e0d4e8c4651")
 	)
 	(wire
 		(pts
@@ -3909,6 +4041,76 @@
 			(justify left bottom)
 		)
 		(uuid "cc77bbcb-b5ac-4789-b8c3-d64dae9c30ec")
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 212.09 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03eb8d73-b00d-48ed-b5ba-6e6225a4b516")
+		(property "Reference" "RV5"
+			(at 206.756 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 209.296 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trim-potentiometer"
+			(at 212.09 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64481d64-0387-49aa-bc99-7e0b1e1030da")
+		)
+		(pin "3"
+			(uuid "3b69536b-7bd1-4e12-887f-0aeacd104436")
+		)
+		(pin "2"
+			(uuid "80be5973-1020-4bd4-bcc4-60d5467796ac")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "RV5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -6011,6 +6213,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 222.25 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b5dad12-eb8f-4a19-96d2-b6fbeb7a259a")
+		(property "Reference" "R35"
+			(at 222.25 55.372 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330k"
+			(at 222.25 57.404 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 61.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 222.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b7066c1-bcda-4166-b4cf-69ed9c6628b2")
+		)
+		(pin "1"
+			(uuid "ddd8ce7a-64d3-4d6c-9093-5776d9d49eed")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 147.32 107.95 0)
 		(unit 1)
@@ -6144,6 +6413,72 @@
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86530fc4-b81a-4e05-be90-aa371808aa67")
+		(property "Reference" "#PWR045"
+			(at 220.98 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1319c96a-2997-46da-88ad-040abadf5827")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -6627,6 +6962,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 210.82 74.93 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a320ad0d-14b4-490d-ac59-e46cc1553333")
+		(property "Reference" "J2"
+			(at 210.82 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack2_SwitchT"
+			(at 211.074 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 210.82 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "cf7019a8-4516-4c78-9e08-e09a9f34a6af")
+		)
+		(pin "S"
+			(uuid "0fa866ca-3140-4e78-b3f2-9923cb2aa13e")
+		)
+		(pin "TN"
+			(uuid "e9c63ec7-6f03-4125-9257-6160351d57dd")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 132.08 64.77 0)
 		(unit 1)
@@ -6753,6 +7159,73 @@
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 222.25 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2bf6668-d5bd-4ae6-b91b-653bb67fd207")
+		(property "Reference" "R34"
+			(at 222.25 47.752 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330k"
+			(at 222.25 49.784 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 53.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 222.25 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28fe0cb0-3715-4f05-b430-b15bb6fbffa8")
+		)
+		(pin "1"
+			(uuid "b5139940-c7fb-491c-8365-8a55daa01d96")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -7151,6 +7624,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 212.09 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc006cd7-9638-4ae9-9722-a7cc7ff035a5")
+		(property "Reference" "#PWR026"
+			(at 212.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30c1052c-0ca7-4e7f-ae2e-fcd612fa9041")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Audio:AudioJack2_SwitchT")
 		(at 19.05 80.01 0)
 		(unit 1)
@@ -7289,6 +7828,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 212.09 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef2ec9d2-e2ef-4bd4-bf97-d4eaf0dd103a")
+		(property "Reference" "#PWR023"
+			(at 212.09 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 212.09 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 212.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f48db6be-410a-4a5a-80f3-53b197408ad0")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 132.08 95.25 0)
 		(mirror y)
@@ -7409,7 +8014,7 @@
 		)
 	)
 	(sheet
-		(at 63.5 130.81)
+		(at 233.68 53.34)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7425,7 +8030,7 @@
 		)
 		(uuid "f007901d-977b-400e-bf63-0855814cf5f3")
 		(property "Sheetname" "Linked Mixer"
-			(at 63.5 130.0984 0)
+			(at 233.68 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7434,7 +8039,7 @@
 			)
 		)
 		(property "Sheetfile" "linkedMixer.kicad_sch"
-			(at 63.5 144.0946 0)
+			(at 233.68 66.6246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7443,7 +8048,7 @@
 			)
 		)
 		(pin "V_{ctrl}" input
-			(at 63.5 133.35 180)
+			(at 233.68 55.88 180)
 			(uuid "3bde50cd-dc18-4bdb-9024-998d8f766220")
 			(effects
 				(font
@@ -7453,7 +8058,7 @@
 			)
 		)
 		(pin "V_{in1}" input
-			(at 63.5 137.16 180)
+			(at 233.68 59.69 180)
 			(uuid "fe384ccb-c877-4415-ade0-ab0e3793f41b")
 			(effects
 				(font
@@ -7463,7 +8068,7 @@
 			)
 		)
 		(pin "V_{in2}" input
-			(at 63.5 140.97 180)
+			(at 233.68 63.5 180)
 			(uuid "12296ca9-0ada-418c-a8a5-5a7255ffae24")
 			(effects
 				(font
@@ -7473,7 +8078,7 @@
 			)
 		)
 		(pin "V_{out}" input
-			(at 76.2 137.16 0)
+			(at 246.38 59.69 0)
 			(uuid "99118c67-0bc4-442b-9519-ae9ad39159e7")
 			(effects
 				(font
