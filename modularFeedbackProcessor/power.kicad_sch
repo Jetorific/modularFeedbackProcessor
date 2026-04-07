@@ -1142,6 +1142,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 39.37) (xy 76.2 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fbb3286-5c02-4be2-a186-7ce4b762349b")
+	)
+	(wire
+		(pts
 			(xy 50.8 39.37) (xy 50.8 40.64)
 		)
 		(stroke
@@ -1149,6 +1159,16 @@
 			(type default)
 		)
 		(uuid "3f6a4aae-fd5d-4e54-8836-8252d17d6dd4")
+	)
+	(wire
+		(pts
+			(xy 76.2 55.88) (xy 76.2 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c35ca9f-26bf-4750-ab6e-d30b2bfc56b2")
 	)
 	(wire
 		(pts
@@ -1597,6 +1617,244 @@
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7/6b5a59da-34b5-470f-ab62-81725600bb5b"
 					(reference "U6")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-12V")
+		(at 76.2 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8689d955-ac2a-4163-a512-83561da436e0")
+		(property "Reference" "#PWR047"
+			(at 76.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 76.2 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 76.2 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cff85e2-3054-4da4-ba0a-acfbd2872636")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7/6b5a59da-34b5-470f-ab62-81725600bb5b"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 76.2 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98f27ab8-1262-4186-9ac0-a7640520d797")
+		(property "Reference" "#PWR048"
+			(at 76.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 76.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 76.2 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04835ccb-445d-4a3d-a4b3-a00f083cbff0")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7/6b5a59da-34b5-470f-ab62-81725600bb5b"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 78.74 48.26 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1a06ad5-40ed-4d93-9e8b-3f35b12c5543")
+		(property "Reference" "U9"
+			(at 77.47 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL074"
+			(at 77.47 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 80.01 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 78.74 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "044f0cf1-1074-458d-aa74-fe4198ff3bdb")
+		)
+		(pin "2"
+			(uuid "69b33cc5-38b0-4427-8ef1-19ee2068a4d7")
+		)
+		(pin "3"
+			(uuid "883f5f56-3c95-4185-a037-f38c628dba13")
+		)
+		(pin "1"
+			(uuid "e31bf178-343b-4026-a4ca-6b07b102bd80")
+		)
+		(pin "10"
+			(uuid "13668e9b-a9e8-4915-b0db-46f8b9484b04")
+		)
+		(pin "9"
+			(uuid "24c9a437-162f-4f58-9c15-2bb4a6072044")
+		)
+		(pin "4"
+			(uuid "4d64513b-5b90-4cb9-ab68-ef8fa0891730")
+		)
+		(pin "11"
+			(uuid "5ecf23ba-e016-4967-afb6-72bbe730eaff")
+		)
+		(pin "6"
+			(uuid "306e3818-de0f-4317-9a73-85ade5359051")
+		)
+		(pin "8"
+			(uuid "2c1772d9-2537-4025-affa-098b1c5b174c")
+		)
+		(pin "7"
+			(uuid "b2499e3d-d4fc-4663-9891-8b2a908634dc")
+		)
+		(pin "13"
+			(uuid "19916370-8778-48b4-a17c-4dfbe56b0d85")
+		)
+		(pin "12"
+			(uuid "0655a07e-4dbf-4669-880c-e4575d82931f")
+		)
+		(pin "14"
+			(uuid "e37b2d1f-9d26-4ede-8e9b-4344679a2903")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7/6b5a59da-34b5-470f-ab62-81725600bb5b"
+					(reference "U9")
 					(unit 5)
 				)
 			)
