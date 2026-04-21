@@ -437,7 +437,7 @@
         "uuid": "a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
       }
     ],
-    "used_designators": "RV1,DryWetCVLvl1,J11,DryWetCV1,Q6,D7-8,#PWR5-6,#PWR45-46,#PWR55-61,FeedbackCV1,U10,ClockCVLvl1,R1,R12,R33,R41-47",
+    "used_designators": "Q6,Q12-20,RV1,RV5-7,DryWetCVLvl1,J11-12,DryWetCV1,D7-10,#PWR5-6,#PWR19,#PWR21,#PWR45-46,#PWR55-87,FeedbackCV1,C13-17,U10-12,FeedbackCVLvl1,ClockCVLvl1,R1,R11-12,R33,R41-73",
     "variants": []
   },
   "sheets": [
@@ -451,7 +451,11 @@
     ],
     [
       "f007901d-977b-400e-bf63-0855814cf5f3",
-      "Linked Mixer"
+      "DryWet Mixer"
+    ],
+    [
+      "9d6c2e45-67d2-4a7a-99f5-01fd8f90c950",
+      "Effects Mixer"
     ]
   ],
   "text_variables": {},
