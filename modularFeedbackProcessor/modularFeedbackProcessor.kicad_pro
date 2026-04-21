@@ -437,17 +437,13 @@
         "uuid": "a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
       }
     ],
-    "used_designators": "Q6,Q12-20,RV1,RV5-7,DryWetCVLvl1,J11-12,DryWetCV1,D7-10,#PWR5-6,#PWR19,#PWR21,#PWR45-46,#PWR55-87,FeedbackCV1,C13-17,U10-12,FeedbackCVLvl1,ClockCVLvl1,R1,R11-12,R33,R41-73",
+    "used_designators": "Q6,Q12-20,RV1,RV5-7,DryWetCVLvl1,J11-12,DryWetCV1,D7-12,#PWR5-6,#PWR18-22,#PWR27,#PWR45-48,#PWR55-90,FeedbackCV1,C13-17,U3,U10-12,FeedbackCVLvl1,ClockCVLvl1,R1,R11-12,R33,R41-78",
     "variants": []
   },
   "sheets": [
     [
       "a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7",
       "modularFeedbackProcessor"
-    ],
-    [
-      "6b5a59da-34b5-470f-ab62-81725600bb5b",
-      "Power"
     ],
     [
       "f007901d-977b-400e-bf63-0855814cf5f3",
