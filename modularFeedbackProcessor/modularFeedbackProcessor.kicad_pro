@@ -354,19 +354,19 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -379,12 +379,42 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -437,8 +467,13 @@
         "uuid": "a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
       }
     ],
-    "used_designators": "Q6,Q12-20,RV1,RV5-7,DryWetCVLvl1,J11-12,DryWetCV1,D7-12,#PWR5-6,#PWR18-22,#PWR27,#PWR45-48,#PWR55-90,FeedbackCV1,SW1,C13-17,U3,U10-12,FeedbackCVLvl1,ClockCVLvl1,R1,R11-12,R33,R41-78",
-    "variants": []
+    "used_designators": "",
+    "variants": [
+      {
+        "description": "This variant will be used to allow for separate submodule testing, and will be our V1 PCB.",
+        "name": "Testing"
+      }
+    ]
   },
   "sheets": [
     [

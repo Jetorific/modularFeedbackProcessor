@@ -6406,6 +6406,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 185.42) (xy 36.83 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a91ebea6-e03f-486e-ba3d-fbcb3e89c208")
+	)
+	(wire
+		(pts
 			(xy 243.84 67.31) (xy 248.92 67.31)
 		)
 		(stroke
@@ -7385,7 +7395,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03eb8d73-b00d-48ed-b5ba-6e6225a4b516")
-		(property "Reference" "DryWetCV"
+		(property "Reference" "DryWetCV1"
 			(at 196.85 59.182 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7450,8 +7460,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "DryWetCV")
+					(reference "DryWetCV1")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -7467,7 +7480,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05df94e1-c0e3-4682-b0ec-30bae6392105")
-		(property "Reference" "R5"
+		(property "Reference" "R10"
 			(at 100.838 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7531,8 +7544,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R5")
+					(reference "R10")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -7549,7 +7569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07b8e3ee-7cf9-4726-8697-110da3f8918e")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR029"
 			(at 166.37 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -7609,7 +7629,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR086")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -7627,7 +7647,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "087ba1c6-df4f-48d3-b353-304ec6000867")
-		(property "Reference" "U7"
+		(property "Reference" "U5"
 			(at 107.95 120.396 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7731,8 +7751,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "U7")
+					(reference "U5")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -7748,7 +7771,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a0a7e48-8d82-43ac-b941-ddc3f42d3fdd")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR044"
 			(at 237.49 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7808,7 +7831,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR062")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -7826,7 +7849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c8c86e1-623a-4a42-82e1-7b1ad25fae75")
-		(property "Reference" "C7"
+		(property "Reference" "C5"
 			(at 185.42 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7846,7 +7869,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 181.61 100.0252 0)
 			(hide yes)
 			(show_name no)
@@ -7888,8 +7911,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "C7")
+					(reference "C5")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
+						)
+					)
 				)
 			)
 		)
@@ -7906,7 +7936,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d5b67e9-e75d-43ec-a9b2-08b8d8f3bf31")
-		(property "Reference" "Q1"
+		(property "Reference" "Q2"
 			(at 153.67 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8004,8 +8034,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "Q1")
+					(reference "Q2")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -8022,7 +8055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0eb4aa94-1de0-497e-897f-ef2c9928de9e")
-		(property "Reference" "U6"
+		(property "Reference" "U1"
 			(at 25.4 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8122,8 +8155,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "U6")
+					(reference "U1")
 					(unit 5)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -8140,7 +8176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0edac8e8-8529-4e11-8b97-4630ce54a370")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR08"
 			(at 49.53 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -8200,7 +8236,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR047")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8218,7 +8254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1374b769-888b-44fa-aeec-2339599de522")
-		(property "Reference" "D4"
+		(property "Reference" "D7"
 			(at 180.34 41.9099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8304,8 +8340,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "D4")
+					(reference "D7")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -8322,7 +8361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13824e0c-384e-4928-9174-c8f0c014e2f8")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR030"
 			(at 166.37 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8382,7 +8421,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR087")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -8399,7 +8438,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13d3fd40-20c9-46c3-b106-d9fdcb210ab0")
-		(property "Reference" "R43"
+		(property "Reference" "R7"
 			(at 86.36 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8461,8 +8500,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R43")
+					(reference "R7")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -8581,6 +8627,9 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "U3")
 					(unit 5)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -8597,7 +8646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14e937ab-c4be-4054-bbaf-2d71befdc649")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR032"
 			(at 177.8 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8657,7 +8706,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR049")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -8675,7 +8724,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "169d8f97-9d56-4850-aba6-a94d3a21ad17")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 224.155 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8740,8 +8789,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -8757,7 +8809,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17fecfb5-eae7-47db-9480-3f8cbd7854bc")
-		(property "Reference" "R42"
+		(property "Reference" "R2"
 			(at 51.308 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8819,8 +8871,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R42")
+					(reference "R2")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -8837,7 +8896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c62ad4f-12c0-43da-a4ba-214d4804b7bc")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR09"
 			(at 52.07 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -8897,7 +8956,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR055")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8914,7 +8973,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e1e6381-23ed-4c7c-b4fc-990734afb7de")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR023"
 			(at 124.46 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8974,7 +9033,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR013")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8991,7 +9050,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e566fa7-cd5a-4829-8f22-6f20e90d3410")
-		(property "Reference" "R74"
+		(property "Reference" "R33"
 			(at 228.6 92.456 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9053,8 +9112,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R74")
+					(reference "R33")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -9070,7 +9136,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f218edf-ef44-4516-9fe3-75bb18ebb74c")
-		(property "Reference" "R75"
+		(property "Reference" "R38"
 			(at 265.43 70.866 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9132,8 +9198,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R75")
+					(reference "R38")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -9150,7 +9223,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f641fa9-bcbf-4599-9838-0c411d26a362")
-		(property "Reference" "D9"
+		(property "Reference" "D6"
 			(at 173.99 133.3499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9236,8 +9309,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "D9")
+					(reference "D6")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -9254,7 +9330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20b472f5-b417-4026-a6e8-253e8c17a371")
-		(property "Reference" "U6"
+		(property "Reference" "U1"
 			(at 203.708 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9352,8 +9428,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "U6")
+					(reference "U1")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -9370,7 +9449,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21b847f4-b6a3-4580-aaef-a015dff9c5a0")
-		(property "Reference" "U10"
+		(property "Reference" "U4"
 			(at 76.2 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9468,8 +9547,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "U10")
+					(reference "U4")
 					(unit 4)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -9486,7 +9568,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "223d1190-5618-474c-898c-6ab14e0dccf5")
-		(property "Reference" "J12"
+		(property "Reference" "J8"
 			(at 258.318 117.602 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9551,8 +9633,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "J12")
+					(reference "J8")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -9569,7 +9654,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2500c6eb-702d-4aa8-ac79-772be5c68357")
-		(property "Reference" "EffectsDryWetCVLvl"
+		(property "Reference" "EffectsDryWetCVLvl1"
 			(at 247.396 129.032 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9634,8 +9719,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "EffectsDryWetCVLvl")
+					(reference "EffectsDryWetCVLvl1")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -9651,7 +9739,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "274d20d3-7cee-4e3b-be10-435b87937ebd")
-		(property "Reference" "R77"
+		(property "Reference" "R5"
 			(at 76.2 67.056 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9713,8 +9801,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R77")
+					(reference "R5")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -9730,7 +9821,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28e07312-2d36-474e-a86d-d457af329cee")
-		(property "Reference" "R33"
+		(property "Reference" "R4"
 			(at 58.674 77.724 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9794,8 +9885,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R33")
+					(reference "R4")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -9812,7 +9910,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e4d51d9-ba2c-4b29-84c6-71f8d0d782c4")
-		(property "Reference" "R70"
+		(property "Reference" "R22"
 			(at 171.45 144.018 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9874,8 +9972,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R70")
+					(reference "R22")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -9892,7 +9993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33cc5b51-bbf6-40ae-8ce6-956a95538b55")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR037"
 			(at 196.85 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -9952,7 +10053,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR054")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -9970,7 +10071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3426a6a4-bd77-497b-8e67-074091cb21de")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR025"
 			(at 134.62 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -10030,7 +10131,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR012")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -10047,7 +10148,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "35bb023b-b990-4a7a-9e2a-70f2276dacf7")
-		(property "Reference" "R6"
+		(property "Reference" "R16"
 			(at 132.08 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10111,8 +10212,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R6")
+					(reference "R16")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -10183,52 +10291,55 @@
 			)
 		)
 		(pin "7"
-			(uuid "c5d81029-b2c6-49d7-b657-4e5dd5d3ed1b")
+			(uuid "c5d81029-b2c6-49d7-b657-4e5dd5d3ed1c")
 		)
 		(pin "14"
-			(uuid "d2fceb3a-f29c-4489-bdb7-41651f4b846b")
+			(uuid "d2fceb3a-f29c-4489-bdb7-41651f4b846c")
 		)
 		(pin "4"
-			(uuid "f1555cf7-7649-48b7-99d8-77ed1209b0f5")
+			(uuid "f1555cf7-7649-48b7-99d8-77ed1209b0f6")
 		)
 		(pin "11"
-			(uuid "a1d303d7-b9a7-421a-91e1-f501cfca0935")
+			(uuid "a1d303d7-b9a7-421a-91e1-f501cfca0936")
 		)
 		(pin "2"
-			(uuid "ec9acdf2-43dd-4f17-8f33-8f2afe3a489c")
+			(uuid "ec9acdf2-43dd-4f17-8f33-8f2afe3a489d")
 		)
 		(pin "5"
-			(uuid "15e2e15f-8615-4552-b93f-315ca08fde8e")
+			(uuid "15e2e15f-8615-4552-b93f-315ca08fde8f")
 		)
 		(pin "3"
-			(uuid "4bb8faef-55b0-4819-8ec8-041f035cb2ac")
+			(uuid "4bb8faef-55b0-4819-8ec8-041f035cb2ad")
 		)
 		(pin "1"
-			(uuid "6b208621-8855-476d-ae0a-9aca334bb084")
+			(uuid "6b208621-8855-476d-ae0a-9aca334bb085")
 		)
 		(pin "10"
-			(uuid "2323f793-03eb-4463-8555-5e02e936aee7")
+			(uuid "2323f793-03eb-4463-8555-5e02e936aee8")
 		)
 		(pin "13"
-			(uuid "d61c46e0-c198-4474-83a3-78b579fb4069")
+			(uuid "d61c46e0-c198-4474-83a3-78b579fb406a")
 		)
 		(pin "12"
-			(uuid "30d914a7-c9cb-491b-9d97-536280916e00")
+			(uuid "30d914a7-c9cb-491b-9d97-536280916e01")
 		)
 		(pin "8"
-			(uuid "d4f172d9-5355-4274-81fd-574a7e759a23")
+			(uuid "d4f172d9-5355-4274-81fd-574a7e759a24")
 		)
 		(pin "9"
-			(uuid "d6ad2c6c-9668-4d3b-ad45-b3804af2273d")
+			(uuid "d6ad2c6c-9668-4d3b-ad45-b3804af2273e")
 		)
 		(pin "6"
-			(uuid "1bf567c8-96de-4fbf-9a0a-54aea4188c38")
+			(uuid "1bf567c8-96de-4fbf-9a0a-54aea4188c39")
 		)
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "U3")
 					(unit 3)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -10245,7 +10356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3aa7df24-bbb5-4fbb-90ff-4ed268056891")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR034"
 			(at 185.42 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -10305,7 +10416,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR019")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -10323,7 +10434,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b626302-210d-4e1f-a664-e64db8befa83")
-		(property "Reference" "ClockCV"
+		(property "Reference" "ClockCV1"
 			(at 193.04 22.352 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10388,8 +10499,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "ClockCV")
+					(reference "ClockCV1")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -10406,7 +10520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b9ac171-86e1-4190-b840-eddc2ae83160")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR028"
 			(at 161.29 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10466,7 +10580,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR015")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -10483,7 +10597,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3f4c19b9-d346-4163-9b80-0983496b9879")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR038"
 			(at 201.93 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -10543,7 +10657,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR090")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -10560,7 +10674,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3fef0783-fffb-44c7-bb59-94d300179184")
-		(property "Reference" "J11"
+		(property "Reference" "J2"
 			(at 17.272 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10625,8 +10739,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "J11")
+					(reference "J2")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -10643,7 +10760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4048ede4-6c06-4090-bd37-b521bc2d1f73")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR017"
 			(at 99.06 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10703,7 +10820,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR07")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10721,7 +10838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "410e1b18-6557-4821-aa8f-3ccf228302b6")
-		(property "Reference" "D1"
+		(property "Reference" "D4"
 			(at 156.21 80.0099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10807,8 +10924,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "D1")
+					(reference "D4")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -10824,7 +10944,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4417d580-a53f-4cfe-bd57-2d022f07b04a")
-		(property "Reference" "FeedbackCVLvl"
+		(property "Reference" "FeedbackCVLvl1"
 			(at 28.194 115.062 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10889,8 +11009,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "FeedbackCVLvl")
+					(reference "FeedbackCVLvl1")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -10907,7 +11030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4848d30f-593c-4360-94dd-79f3afe3b1a2")
-		(property "Reference" "D6"
+		(property "Reference" "D3"
 			(at 101.6 41.9099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10993,8 +11116,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "D6")
+					(reference "D3")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -11011,7 +11137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c7cfc65-da36-4175-80b4-32aad3aa0b99")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR019"
 			(at 111.76 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -11071,7 +11197,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR08")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -11143,52 +11269,55 @@
 			)
 		)
 		(pin "7"
-			(uuid "c5d81029-b2c6-49d7-b657-4e5dd5d3ed1b")
+			(uuid "c5d81029-b2c6-49d7-b657-4e5dd5d3ed1d")
 		)
 		(pin "14"
-			(uuid "d2fceb3a-f29c-4489-bdb7-41651f4b846b")
+			(uuid "d2fceb3a-f29c-4489-bdb7-41651f4b846d")
 		)
 		(pin "4"
-			(uuid "f1555cf7-7649-48b7-99d8-77ed1209b0f5")
+			(uuid "f1555cf7-7649-48b7-99d8-77ed1209b0f7")
 		)
 		(pin "11"
-			(uuid "a1d303d7-b9a7-421a-91e1-f501cfca0935")
+			(uuid "a1d303d7-b9a7-421a-91e1-f501cfca0937")
 		)
 		(pin "2"
-			(uuid "ec9acdf2-43dd-4f17-8f33-8f2afe3a489c")
+			(uuid "ec9acdf2-43dd-4f17-8f33-8f2afe3a489e")
 		)
 		(pin "5"
-			(uuid "15e2e15f-8615-4552-b93f-315ca08fde8e")
+			(uuid "15e2e15f-8615-4552-b93f-315ca08fde90")
 		)
 		(pin "3"
-			(uuid "4bb8faef-55b0-4819-8ec8-041f035cb2ac")
+			(uuid "4bb8faef-55b0-4819-8ec8-041f035cb2ae")
 		)
 		(pin "1"
-			(uuid "6b208621-8855-476d-ae0a-9aca334bb084")
+			(uuid "6b208621-8855-476d-ae0a-9aca334bb086")
 		)
 		(pin "10"
-			(uuid "2323f793-03eb-4463-8555-5e02e936aee7")
+			(uuid "2323f793-03eb-4463-8555-5e02e936aee9")
 		)
 		(pin "13"
-			(uuid "d61c46e0-c198-4474-83a3-78b579fb4069")
+			(uuid "d61c46e0-c198-4474-83a3-78b579fb406b")
 		)
 		(pin "12"
-			(uuid "30d914a7-c9cb-491b-9d97-536280916e00")
+			(uuid "30d914a7-c9cb-491b-9d97-536280916e02")
 		)
 		(pin "8"
-			(uuid "d4f172d9-5355-4274-81fd-574a7e759a23")
+			(uuid "d4f172d9-5355-4274-81fd-574a7e759a25")
 		)
 		(pin "9"
-			(uuid "d6ad2c6c-9668-4d3b-ad45-b3804af2273d")
+			(uuid "d6ad2c6c-9668-4d3b-ad45-b3804af2273f")
 		)
 		(pin "6"
-			(uuid "1bf567c8-96de-4fbf-9a0a-54aea4188c38")
+			(uuid "1bf567c8-96de-4fbf-9a0a-54aea4188c3a")
 		)
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "U3")
 					(unit 4)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -11205,7 +11334,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f47d566-0745-4458-aef3-aaeab5e5bd44")
-		(property "Reference" "ClockCVLvl"
+		(property "Reference" "ClockCVLvl1"
 			(at 211.328 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11270,8 +11399,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "ClockCVLvl")
+					(reference "ClockCVLvl1")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -11288,7 +11420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "506b71dd-dc43-407a-b5df-e5e6c6332f88")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR018"
 			(at 99.06 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -11348,7 +11480,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR09")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -11366,7 +11498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5224ac62-e0e2-4618-bcbf-6a42fbc10e15")
-		(property "Reference" "U9"
+		(property "Reference" "U2"
 			(at 50.8 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11422,22 +11554,22 @@
 			)
 		)
 		(pin "5"
-			(uuid "044f0cf1-1074-458d-aa74-fe4198ff3bdb")
+			(uuid "044f0cf1-1074-458d-aa74-fe4198ff3bdd")
 		)
 		(pin "2"
-			(uuid "69b33cc5-38b0-4427-8ef1-19ee2068a4d7")
+			(uuid "69b33cc5-38b0-4427-8ef1-19ee2068a4d9")
 		)
 		(pin "3"
-			(uuid "883f5f56-3c95-4185-a037-f38c628dba13")
+			(uuid "883f5f56-3c95-4185-a037-f38c628dba15")
 		)
 		(pin "1"
-			(uuid "e31bf178-343b-4026-a4ca-6b07b102bd80")
+			(uuid "e31bf178-343b-4026-a4ca-6b07b102bd82")
 		)
 		(pin "10"
-			(uuid "13668e9b-a9e8-4915-b0db-46f8b9484b04")
+			(uuid "13668e9b-a9e8-4915-b0db-46f8b9484b06")
 		)
 		(pin "9"
-			(uuid "24c9a437-162f-4f58-9c15-2bb4a6072044")
+			(uuid "24c9a437-162f-4f58-9c15-2bb4a6072046")
 		)
 		(pin "4"
 			(uuid "3bdab4e5-8601-4c3d-81cd-d794ef695426")
@@ -11446,28 +11578,31 @@
 			(uuid "2bd13bd8-3895-4463-86d2-e77158ed6b0d")
 		)
 		(pin "6"
-			(uuid "306e3818-de0f-4317-9a73-85ade5359051")
+			(uuid "306e3818-de0f-4317-9a73-85ade5359053")
 		)
 		(pin "8"
-			(uuid "2c1772d9-2537-4025-affa-098b1c5b174c")
+			(uuid "2c1772d9-2537-4025-affa-098b1c5b174e")
 		)
 		(pin "7"
-			(uuid "b2499e3d-d4fc-4663-9891-8b2a908634dc")
+			(uuid "b2499e3d-d4fc-4663-9891-8b2a908634de")
 		)
 		(pin "13"
-			(uuid "19916370-8778-48b4-a17c-4dfbe56b0d85")
+			(uuid "19916370-8778-48b4-a17c-4dfbe56b0d86")
 		)
 		(pin "12"
-			(uuid "0655a07e-4dbf-4669-880c-e4575d82931f")
+			(uuid "0655a07e-4dbf-4669-880c-e4575d829320")
 		)
 		(pin "14"
-			(uuid "e37b2d1f-9d26-4ede-8e9b-4344679a2903")
+			(uuid "e37b2d1f-9d26-4ede-8e9b-4344679a2904")
 		)
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "U9")
+					(reference "U2")
 					(unit 5)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -11483,7 +11618,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53150ae9-5585-4176-817d-eaa57a88fe41")
-		(property "Reference" "R45"
+		(property "Reference" "R12"
 			(at 118.364 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11547,8 +11682,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R45")
+					(reference "R12")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -11565,7 +11707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5468a108-e11c-46a4-9162-f55227d9d7c0")
-		(property "Reference" "U1"
+		(property "Reference" "U6"
 			(at 124.46 88.8999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11647,8 +11789,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "U1")
+					(reference "U6")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -11665,7 +11810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5505f3ab-cba5-4884-8820-c5d03c9c8297")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR07"
 			(at 49.53 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -11725,7 +11870,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR048")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -11743,7 +11888,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "556b5c3d-9305-40cb-ac16-4ae8f6e9db2f")
-		(property "Reference" "U9"
+		(property "Reference" "U2"
 			(at 37.084 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11797,52 +11942,55 @@
 			)
 		)
 		(pin "5"
-			(uuid "044f0cf1-1074-458d-aa74-fe4198ff3bdc")
+			(uuid "044f0cf1-1074-458d-aa74-fe4198ff3bde")
 		)
 		(pin "2"
-			(uuid "69b33cc5-38b0-4427-8ef1-19ee2068a4d8")
+			(uuid "69b33cc5-38b0-4427-8ef1-19ee2068a4da")
 		)
 		(pin "3"
-			(uuid "883f5f56-3c95-4185-a037-f38c628dba14")
+			(uuid "883f5f56-3c95-4185-a037-f38c628dba16")
 		)
 		(pin "1"
-			(uuid "e31bf178-343b-4026-a4ca-6b07b102bd81")
+			(uuid "e31bf178-343b-4026-a4ca-6b07b102bd83")
 		)
 		(pin "10"
-			(uuid "13668e9b-a9e8-4915-b0db-46f8b9484b05")
+			(uuid "13668e9b-a9e8-4915-b0db-46f8b9484b07")
 		)
 		(pin "9"
-			(uuid "24c9a437-162f-4f58-9c15-2bb4a6072045")
+			(uuid "24c9a437-162f-4f58-9c15-2bb4a6072047")
 		)
 		(pin "4"
-			(uuid "fecf966e-7511-4ef4-a93a-76d389b4d248")
+			(uuid "fecf966e-7511-4ef4-a93a-76d389b4d249")
 		)
 		(pin "11"
-			(uuid "acbc6dc8-a889-4982-a1c7-b09154d5d841")
+			(uuid "acbc6dc8-a889-4982-a1c7-b09154d5d842")
 		)
 		(pin "6"
-			(uuid "306e3818-de0f-4317-9a73-85ade5359052")
+			(uuid "306e3818-de0f-4317-9a73-85ade5359054")
 		)
 		(pin "8"
-			(uuid "2c1772d9-2537-4025-affa-098b1c5b174d")
+			(uuid "2c1772d9-2537-4025-affa-098b1c5b174f")
 		)
 		(pin "7"
-			(uuid "b2499e3d-d4fc-4663-9891-8b2a908634dd")
+			(uuid "b2499e3d-d4fc-4663-9891-8b2a908634df")
 		)
 		(pin "13"
-			(uuid "19916370-8778-48b4-a17c-4dfbe56b0d86")
+			(uuid "19916370-8778-48b4-a17c-4dfbe56b0d87")
 		)
 		(pin "12"
-			(uuid "0655a07e-4dbf-4669-880c-e4575d829320")
+			(uuid "0655a07e-4dbf-4669-880c-e4575d829321")
 		)
 		(pin "14"
-			(uuid "e37b2d1f-9d26-4ede-8e9b-4344679a2904")
+			(uuid "e37b2d1f-9d26-4ede-8e9b-4344679a2905")
 		)
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "U9")
+					(reference "U2")
 					(unit 4)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -11859,7 +12007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55a826d3-c212-4450-a411-303136a9d411")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR024"
 			(at 129.54 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11919,7 +12067,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR01")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -11937,7 +12085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56725b3d-a0a4-4195-8102-749809e148eb")
-		(property "Reference" "D3"
+		(property "Reference" "D8"
 			(at 180.34 49.5299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12023,8 +12171,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "D3")
+					(reference "D8")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -12040,7 +12191,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "578403dc-3939-4df7-b687-bbb2b599aa18")
-		(property "Reference" "R36"
+		(property "Reference" "R29"
 			(at 198.12 37.592 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12102,8 +12253,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R36")
+					(reference "R29")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -12119,7 +12277,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59473bb3-b812-4e1c-b1d5-e7404b7026e3")
-		(property "Reference" "R47"
+		(property "Reference" "R13"
 			(at 122.174 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12183,8 +12341,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R47")
+					(reference "R13")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -12201,7 +12366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ba0a27c-5ac0-427d-a69b-749dac4ae6bc")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR020"
 			(at 119.38 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -12261,7 +12426,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR011")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -12279,7 +12444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5dd32330-a41a-4b77-94fc-28cba4c5deaf")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR036"
 			(at 191.77 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -12339,7 +12504,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR025")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -12356,7 +12521,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f57b37d-f158-4659-9992-d0bb782a1dfb")
-		(property "Reference" "R46"
+		(property "Reference" "R14"
 			(at 125.984 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12420,8 +12585,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R46")
+					(reference "R14")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -12438,7 +12610,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6160522d-b7e2-4754-bba7-7aa37a063ec5")
-		(property "Reference" "C4"
+		(property "Reference" "C1"
 			(at 88.9 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12460,7 +12632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 91.7448 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -12502,8 +12674,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "C4")
+					(reference "C1")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+						)
+					)
 				)
 			)
 		)
@@ -12520,7 +12699,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "650e7dfb-d8d6-4a30-8854-3158cc37d6b3")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR043"
 			(at 234.95 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -12580,7 +12759,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR083")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -12597,7 +12776,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "68681d74-bf15-4239-9191-7ab85e6db4d5")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR013"
 			(at 91.44 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -12657,7 +12836,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR059")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -12674,7 +12853,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "68c3abf1-7150-4c39-811b-9f2c1311994d")
-		(property "Reference" "R9"
+		(property "Reference" "R17"
 			(at 140.97 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12736,8 +12915,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R9")
+					(reference "R17")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -12754,7 +12940,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6bf82862-9cd6-4750-b9b1-bbb15f09d365")
-		(property "Reference" "R2"
+		(property "Reference" "R20"
 			(at 163.83 44.196 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12816,8 +13002,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R2")
+					(reference "R20")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -12834,7 +13027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e907c39-cdbc-46e9-bfc9-d19e8dc01b5e")
-		(property "Reference" "U2"
+		(property "Reference" "U7"
 			(at 144.78 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12938,8 +13131,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "U2")
+					(reference "U7")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -12956,7 +13152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71529e78-9b1a-4bdf-8108-bd77b78ae5f2")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR046"
 			(at 243.84 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -13016,7 +13212,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR020")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -13034,7 +13230,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "747bcfa4-b417-495f-bfbb-9fa73c6bd5da")
-		(property "Reference" "EffectsDryWetCV"
+		(property "Reference" "EffectsDryWetCV1"
 			(at 228.6 110.236 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13099,8 +13295,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "EffectsDryWetCV")
+					(reference "EffectsDryWetCV1")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -13117,7 +13316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "759ee52a-c9d8-4255-9654-c7a70c5741fa")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR010"
 			(at 53.34 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -13178,7 +13377,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR058")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -13195,7 +13394,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75eb1c76-4447-4f7d-bc86-c6e5da016015")
-		(property "Reference" "R37"
+		(property "Reference" "R28"
 			(at 188.722 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13257,7 +13456,92 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R37")
+					(reference "R28")
+					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 36.83 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75fe0c3a-7d7a-4b06-ad3d-38fe6927dfa0")
+		(property "Reference" "#PWR087"
+			(at 36.83 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 36.83 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 36.83 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2fc158f0-6d15-40d4-a29f-32b62bb4350e")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -13274,7 +13558,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "79fd5067-7c37-4164-9190-8858a3e6aa4e")
-		(property "Reference" "R78"
+		(property "Reference" "R37"
 			(at 252.73 63.246 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13336,8 +13620,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R78")
+					(reference "R37")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -13353,7 +13644,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ad3e883-0c89-492c-9adf-eb8c2a4e3f62")
-		(property "Reference" "R3"
+		(property "Reference" "R19"
 			(at 163.83 35.306 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13415,8 +13706,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R3")
+					(reference "R19")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -13433,7 +13731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ae91fc7-cf7f-446a-a1cf-8c36343b88cb")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR021"
 			(at 120.65 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -13493,7 +13791,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR06")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -13510,7 +13808,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b5dad12-eb8f-4a19-96d2-b6fbeb7a259a")
-		(property "Reference" "R35"
+		(property "Reference" "R32"
 			(at 209.55 64.262 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13572,8 +13870,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R35")
+					(reference "R32")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -13590,7 +13895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7be141cb-8623-4c7d-9b92-18900f48b986")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 165.1 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13612,7 +13917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 162.2552 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -13654,8 +13959,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+						)
+					)
 				)
 			)
 		)
@@ -13672,7 +13984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c68e435-e8cc-41a1-b928-7be822d12da4")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR022"
 			(at 120.65 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -13732,7 +14044,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR05")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -13750,7 +14062,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "817ce515-63e6-4c29-bc64-0972f442f51d")
-		(property "Reference" "R69"
+		(property "Reference" "R34"
 			(at 224.282 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13812,8 +14124,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R69")
+					(reference "R34")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -13829,7 +14148,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "86a6d3db-d939-429e-abb8-8df73b1eb3cf")
-		(property "Reference" "R4"
+		(property "Reference" "R11"
 			(at 100.584 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13893,8 +14212,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R4")
+					(reference "R11")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -13911,7 +14237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a401fa4-13b7-4fa3-a3fa-954cac35dac9")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR01"
 			(at 24.13 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -13971,7 +14297,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR027")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -13989,7 +14315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b82e535-e2b8-4303-88f8-8bd205911d12")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR027"
 			(at 160.02 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -14049,7 +14375,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR04")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -14067,7 +14393,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8cfe9e07-f2bb-42cf-b426-c8abc439a443")
-		(property "Reference" "U9"
+		(property "Reference" "U2"
 			(at 62.484 126.746 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14121,52 +14447,55 @@
 			)
 		)
 		(pin "5"
-			(uuid "044f0cf1-1074-458d-aa74-fe4198ff3bdd")
+			(uuid "044f0cf1-1074-458d-aa74-fe4198ff3bdf")
 		)
 		(pin "2"
-			(uuid "69b33cc5-38b0-4427-8ef1-19ee2068a4d9")
+			(uuid "69b33cc5-38b0-4427-8ef1-19ee2068a4db")
 		)
 		(pin "3"
-			(uuid "883f5f56-3c95-4185-a037-f38c628dba15")
+			(uuid "883f5f56-3c95-4185-a037-f38c628dba17")
 		)
 		(pin "1"
-			(uuid "e31bf178-343b-4026-a4ca-6b07b102bd82")
+			(uuid "e31bf178-343b-4026-a4ca-6b07b102bd84")
 		)
 		(pin "10"
-			(uuid "13668e9b-a9e8-4915-b0db-46f8b9484b06")
+			(uuid "13668e9b-a9e8-4915-b0db-46f8b9484b08")
 		)
 		(pin "9"
-			(uuid "24c9a437-162f-4f58-9c15-2bb4a6072046")
+			(uuid "24c9a437-162f-4f58-9c15-2bb4a6072048")
 		)
 		(pin "4"
-			(uuid "fecf966e-7511-4ef4-a93a-76d389b4d249")
+			(uuid "fecf966e-7511-4ef4-a93a-76d389b4d24a")
 		)
 		(pin "11"
-			(uuid "acbc6dc8-a889-4982-a1c7-b09154d5d842")
+			(uuid "acbc6dc8-a889-4982-a1c7-b09154d5d843")
 		)
 		(pin "6"
-			(uuid "306e3818-de0f-4317-9a73-85ade5359053")
+			(uuid "306e3818-de0f-4317-9a73-85ade5359055")
 		)
 		(pin "8"
-			(uuid "2c1772d9-2537-4025-affa-098b1c5b174e")
+			(uuid "2c1772d9-2537-4025-affa-098b1c5b1750")
 		)
 		(pin "7"
-			(uuid "b2499e3d-d4fc-4663-9891-8b2a908634de")
+			(uuid "b2499e3d-d4fc-4663-9891-8b2a908634e0")
 		)
 		(pin "13"
-			(uuid "19916370-8778-48b4-a17c-4dfbe56b0d87")
+			(uuid "19916370-8778-48b4-a17c-4dfbe56b0d88")
 		)
 		(pin "12"
-			(uuid "0655a07e-4dbf-4669-880c-e4575d829321")
+			(uuid "0655a07e-4dbf-4669-880c-e4575d829322")
 		)
 		(pin "14"
-			(uuid "e37b2d1f-9d26-4ede-8e9b-4344679a2905")
+			(uuid "e37b2d1f-9d26-4ede-8e9b-4344679a2906")
 		)
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "U9")
+					(reference "U2")
 					(unit 3)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -14183,7 +14512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f640c6a-6734-4c76-b9f2-6729a28b6b3f")
-		(property "Reference" "J9"
+		(property "Reference" "J3"
 			(at 79.375 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14248,7 +14577,88 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "J9")
+					(reference "J3")
+					(unit 1)
+					(variant
+						(name "Testing")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-12V")
+		(at 36.83 186.69 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92bbdc81-61fe-4203-9b6a-4af3cf071f12")
+		(property "Reference" "#PWR086"
+			(at 36.83 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-12V"
+			(at 36.83 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 36.83 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ad1699a-46d3-41c0-a7a1-7ffd6e155a0b")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -14266,7 +14676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92c3950d-a7a5-45cb-8aaf-507431134905")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR04"
 			(at 33.02 127 0)
 			(hide yes)
 			(show_name no)
@@ -14326,7 +14736,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR056")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -14344,7 +14754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95aec79d-d6e4-46fe-8d41-e68be68336af")
-		(property "Reference" "R10"
+		(property "Reference" "R27"
 			(at 194.31 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14408,8 +14818,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R10")
+					(reference "R27")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -14426,7 +14843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ab6ba88-f206-4437-82e8-114c1590ad08")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR02"
 			(at 24.13 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -14486,7 +14903,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR018")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -14504,7 +14921,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c1d3d0e-e1b8-4219-934e-9fb16928433c")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 120.142 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14526,7 +14943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 122.2248 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -14568,8 +14985,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+						)
+					)
 				)
 			)
 		)
@@ -14585,7 +15009,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d365920-6966-450e-834e-906298b22663")
-		(property "Reference" "C5"
+		(property "Reference" "C3"
 			(at 126.238 79.502 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14605,7 +15029,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 133.35 76.5048 0)
 			(hide yes)
 			(show_name no)
@@ -14647,8 +15071,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "C5")
+					(reference "C3")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+						)
+					)
 				)
 			)
 		)
@@ -14664,7 +15095,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9dddb759-c872-4164-ad42-406669f93435")
-		(property "Reference" "InputGain"
+		(property "Reference" "InputGain1"
 			(at 42.672 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14729,8 +15160,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "InputGain")
+					(reference "InputGain1")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -14746,7 +15180,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e4ef280-210c-41ef-a726-7a6ec180ed2a")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR05"
 			(at 40.64 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -14806,7 +15240,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR057")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -14878,52 +15312,55 @@
 			)
 		)
 		(pin "7"
-			(uuid "c5d81029-b2c6-49d7-b657-4e5dd5d3ed1b")
+			(uuid "c5d81029-b2c6-49d7-b657-4e5dd5d3ed1e")
 		)
 		(pin "14"
-			(uuid "d2fceb3a-f29c-4489-bdb7-41651f4b846b")
+			(uuid "d2fceb3a-f29c-4489-bdb7-41651f4b846e")
 		)
 		(pin "4"
-			(uuid "f1555cf7-7649-48b7-99d8-77ed1209b0f5")
+			(uuid "f1555cf7-7649-48b7-99d8-77ed1209b0f8")
 		)
 		(pin "11"
-			(uuid "a1d303d7-b9a7-421a-91e1-f501cfca0935")
+			(uuid "a1d303d7-b9a7-421a-91e1-f501cfca0938")
 		)
 		(pin "2"
-			(uuid "ec9acdf2-43dd-4f17-8f33-8f2afe3a489c")
+			(uuid "ec9acdf2-43dd-4f17-8f33-8f2afe3a489f")
 		)
 		(pin "5"
-			(uuid "15e2e15f-8615-4552-b93f-315ca08fde8e")
+			(uuid "15e2e15f-8615-4552-b93f-315ca08fde91")
 		)
 		(pin "3"
-			(uuid "4bb8faef-55b0-4819-8ec8-041f035cb2ac")
+			(uuid "4bb8faef-55b0-4819-8ec8-041f035cb2af")
 		)
 		(pin "1"
-			(uuid "6b208621-8855-476d-ae0a-9aca334bb084")
+			(uuid "6b208621-8855-476d-ae0a-9aca334bb087")
 		)
 		(pin "10"
-			(uuid "2323f793-03eb-4463-8555-5e02e936aee7")
+			(uuid "2323f793-03eb-4463-8555-5e02e936aeea")
 		)
 		(pin "13"
-			(uuid "d61c46e0-c198-4474-83a3-78b579fb4069")
+			(uuid "d61c46e0-c198-4474-83a3-78b579fb406c")
 		)
 		(pin "12"
-			(uuid "30d914a7-c9cb-491b-9d97-536280916e00")
+			(uuid "30d914a7-c9cb-491b-9d97-536280916e03")
 		)
 		(pin "8"
-			(uuid "d4f172d9-5355-4274-81fd-574a7e759a23")
+			(uuid "d4f172d9-5355-4274-81fd-574a7e759a26")
 		)
 		(pin "9"
-			(uuid "d6ad2c6c-9668-4d3b-ad45-b3804af2273d")
+			(uuid "d6ad2c6c-9668-4d3b-ad45-b3804af22740")
 		)
 		(pin "6"
-			(uuid "1bf567c8-96de-4fbf-9a0a-54aea4188c38")
+			(uuid "1bf567c8-96de-4fbf-9a0a-54aea4188c3b")
 		)
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "U3")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -14939,7 +15376,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a320ad0d-14b4-490d-ac59-e46cc1553333")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 182.626 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15004,8 +15441,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -15121,6 +15561,9 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "RV1")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -15137,7 +15580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5d32ccb-e0d3-4d03-8011-9e1eaca5b35c")
-		(property "Reference" "R44"
+		(property "Reference" "R9"
 			(at 97.79 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15201,8 +15644,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R44")
+					(reference "R9")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -15219,7 +15669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7b31013-bbaa-4a55-9e40-c81bbb664bb5")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR026"
 			(at 146.05 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -15279,7 +15729,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR014")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -15296,7 +15746,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a953b1e4-e001-492c-97b6-e25fccca4501")
-		(property "Reference" "Q6"
+		(property "Reference" "Q1"
 			(at 83.058 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15364,8 +15814,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "Q6")
+					(reference "Q1")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -15382,7 +15835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aae71d36-0280-4a68-a7a2-3b9490dc90dc")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR015"
 			(at 99.06 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -15442,7 +15895,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR052")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -15459,7 +15912,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "abcefd4d-c76d-4289-90b2-a218b4bcd8ae")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR047"
 			(at 271.78 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -15519,7 +15972,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR061")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -15537,7 +15990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abf1f136-0452-4e1a-8a09-bf31182e91c8")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR041"
 			(at 217.17 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -15597,7 +16050,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR085")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -15615,7 +16068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad6cb716-4215-40da-9283-6515dbd3116c")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR03"
 			(at 27.94 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -15675,7 +16128,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR024")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -15692,7 +16145,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0ad7892-a884-43bb-b210-c47bb5c64616")
-		(property "Reference" "R12"
+		(property "Reference" "R3"
 			(at 58.674 70.866 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15756,8 +16209,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R12")
+					(reference "R3")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -15773,7 +16233,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2bf6668-d5bd-4ae6-b91b-653bb67fd207")
-		(property "Reference" "R34"
+		(property "Reference" "R31"
 			(at 209.55 56.642 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15835,8 +16295,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R34")
+					(reference "R31")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -15853,7 +16320,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b31c0b37-82a5-44e2-af0a-2bca86618ad2")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 226.822 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15918,8 +16385,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -15935,7 +16405,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b51654b6-86ed-41ba-b916-8175a2e4bbb1")
-		(property "Reference" "DryWetCVLvl"
+		(property "Reference" "DryWetCVLvl1"
 			(at 192.024 68.072 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16000,8 +16470,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "DryWetCVLvl")
+					(reference "DryWetCVLvl1")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -16018,7 +16491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7d6d30c-f2d4-4f03-a7de-5d69e01bdafc")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR014"
 			(at 92.71 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -16078,7 +16551,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR010")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -16096,7 +16569,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba2035f9-1055-4285-ae2a-0a27c9219ad2")
-		(property "Reference" "R68"
+		(property "Reference" "R35"
 			(at 233.68 125.222 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16158,8 +16631,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R68")
+					(reference "R35")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -16230,52 +16710,55 @@
 			)
 		)
 		(pin "7"
-			(uuid "c5d81029-b2c6-49d7-b657-4e5dd5d3ed1b")
+			(uuid "c5d81029-b2c6-49d7-b657-4e5dd5d3ed1f")
 		)
 		(pin "14"
-			(uuid "d2fceb3a-f29c-4489-bdb7-41651f4b846b")
+			(uuid "d2fceb3a-f29c-4489-bdb7-41651f4b846f")
 		)
 		(pin "4"
-			(uuid "f1555cf7-7649-48b7-99d8-77ed1209b0f5")
+			(uuid "f1555cf7-7649-48b7-99d8-77ed1209b0f9")
 		)
 		(pin "11"
-			(uuid "a1d303d7-b9a7-421a-91e1-f501cfca0935")
+			(uuid "a1d303d7-b9a7-421a-91e1-f501cfca0939")
 		)
 		(pin "2"
-			(uuid "ec9acdf2-43dd-4f17-8f33-8f2afe3a489c")
+			(uuid "ec9acdf2-43dd-4f17-8f33-8f2afe3a48a0")
 		)
 		(pin "5"
-			(uuid "15e2e15f-8615-4552-b93f-315ca08fde8e")
+			(uuid "15e2e15f-8615-4552-b93f-315ca08fde92")
 		)
 		(pin "3"
-			(uuid "4bb8faef-55b0-4819-8ec8-041f035cb2ac")
+			(uuid "4bb8faef-55b0-4819-8ec8-041f035cb2b0")
 		)
 		(pin "1"
-			(uuid "6b208621-8855-476d-ae0a-9aca334bb084")
+			(uuid "6b208621-8855-476d-ae0a-9aca334bb088")
 		)
 		(pin "10"
-			(uuid "2323f793-03eb-4463-8555-5e02e936aee7")
+			(uuid "2323f793-03eb-4463-8555-5e02e936aeeb")
 		)
 		(pin "13"
-			(uuid "d61c46e0-c198-4474-83a3-78b579fb4069")
+			(uuid "d61c46e0-c198-4474-83a3-78b579fb406d")
 		)
 		(pin "12"
-			(uuid "30d914a7-c9cb-491b-9d97-536280916e00")
+			(uuid "30d914a7-c9cb-491b-9d97-536280916e04")
 		)
 		(pin "8"
-			(uuid "d4f172d9-5355-4274-81fd-574a7e759a23")
+			(uuid "d4f172d9-5355-4274-81fd-574a7e759a27")
 		)
 		(pin "9"
-			(uuid "d6ad2c6c-9668-4d3b-ad45-b3804af2273d")
+			(uuid "d6ad2c6c-9668-4d3b-ad45-b3804af22741")
 		)
 		(pin "6"
-			(uuid "1bf567c8-96de-4fbf-9a0a-54aea4188c38")
+			(uuid "1bf567c8-96de-4fbf-9a0a-54aea4188c3c")
 		)
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "U3")
 					(unit 2)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -16291,7 +16774,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1088600-e76d-49cf-affa-921a34198908")
-		(property "Reference" "FeedbackCV"
+		(property "Reference" "FeedbackCV1"
 			(at 46.99 96.266 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16356,8 +16839,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "FeedbackCV")
+					(reference "FeedbackCV1")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -16374,7 +16860,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c11317e7-4b61-4006-a3c5-4c74f59cb67f")
-		(property "Reference" "R39"
+		(property "Reference" "R30"
 			(at 201.93 22.352 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16436,8 +16922,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R39")
+					(reference "R30")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -16454,7 +16947,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1acf066-d5fa-4d03-919b-9fac9414ca31")
-		(property "Reference" "U9"
+		(property "Reference" "U2"
 			(at 153.162 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16508,52 +17001,55 @@
 			)
 		)
 		(pin "5"
-			(uuid "044f0cf1-1074-458d-aa74-fe4198ff3bde")
+			(uuid "044f0cf1-1074-458d-aa74-fe4198ff3be0")
 		)
 		(pin "2"
-			(uuid "69b33cc5-38b0-4427-8ef1-19ee2068a4da")
+			(uuid "69b33cc5-38b0-4427-8ef1-19ee2068a4dc")
 		)
 		(pin "3"
-			(uuid "883f5f56-3c95-4185-a037-f38c628dba16")
+			(uuid "883f5f56-3c95-4185-a037-f38c628dba18")
 		)
 		(pin "1"
-			(uuid "e31bf178-343b-4026-a4ca-6b07b102bd83")
+			(uuid "e31bf178-343b-4026-a4ca-6b07b102bd85")
 		)
 		(pin "10"
-			(uuid "13668e9b-a9e8-4915-b0db-46f8b9484b07")
+			(uuid "13668e9b-a9e8-4915-b0db-46f8b9484b09")
 		)
 		(pin "9"
-			(uuid "24c9a437-162f-4f58-9c15-2bb4a6072047")
+			(uuid "24c9a437-162f-4f58-9c15-2bb4a6072049")
 		)
 		(pin "4"
-			(uuid "fecf966e-7511-4ef4-a93a-76d389b4d24a")
+			(uuid "fecf966e-7511-4ef4-a93a-76d389b4d24b")
 		)
 		(pin "11"
-			(uuid "acbc6dc8-a889-4982-a1c7-b09154d5d843")
+			(uuid "acbc6dc8-a889-4982-a1c7-b09154d5d844")
 		)
 		(pin "6"
-			(uuid "306e3818-de0f-4317-9a73-85ade5359054")
+			(uuid "306e3818-de0f-4317-9a73-85ade5359056")
 		)
 		(pin "8"
-			(uuid "2c1772d9-2537-4025-affa-098b1c5b174f")
+			(uuid "2c1772d9-2537-4025-affa-098b1c5b1751")
 		)
 		(pin "7"
-			(uuid "b2499e3d-d4fc-4663-9891-8b2a908634df")
+			(uuid "b2499e3d-d4fc-4663-9891-8b2a908634e1")
 		)
 		(pin "13"
-			(uuid "19916370-8778-48b4-a17c-4dfbe56b0d88")
+			(uuid "19916370-8778-48b4-a17c-4dfbe56b0d89")
 		)
 		(pin "12"
-			(uuid "0655a07e-4dbf-4669-880c-e4575d829322")
+			(uuid "0655a07e-4dbf-4669-880c-e4575d829323")
 		)
 		(pin "14"
-			(uuid "e37b2d1f-9d26-4ede-8e9b-4344679a2906")
+			(uuid "e37b2d1f-9d26-4ede-8e9b-4344679a2907")
 		)
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "U9")
+					(reference "U2")
 					(unit 2)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -16570,7 +17066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1d165e1-7d3a-42ef-ae40-f4db317a9731")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR033"
 			(at 177.8 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -16630,7 +17126,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR03")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -16648,7 +17144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c25909f5-b324-42b2-9b0d-8d317605656d")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR012"
 			(at 67.31 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -16708,7 +17204,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR046")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -16726,7 +17222,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c72eee9e-d214-4cec-a9e4-154329e4e5ab")
-		(property "Reference" "D10"
+		(property "Reference" "D5"
 			(at 173.99 123.1899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16812,8 +17308,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "D10")
+					(reference "D5")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -16830,7 +17329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8aef7c4-2ce5-4af9-9cf4-1d76d2f06d02")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR016"
 			(at 99.06 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -16890,7 +17389,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR053")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -16907,7 +17406,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce82b59d-09e3-4a90-a88d-5f2310476a8b")
-		(property "Reference" "R1"
+		(property "Reference" "R6"
 			(at 76.2 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16969,8 +17468,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R1")
+					(reference "R6")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -17053,6 +17559,9 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "SW1")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -17069,7 +17578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d03be318-3653-4888-b975-bdf6d5b395fb")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR040"
 			(at 215.9 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -17129,7 +17638,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR051")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -17146,7 +17655,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d182acc0-f179-4ea9-8c29-25ac93840ffa")
-		(property "Reference" "R76"
+		(property "Reference" "R36"
 			(at 238.76 68.326 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17208,8 +17717,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R76")
+					(reference "R36")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -17308,6 +17820,9 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "U8")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -17391,6 +17906,9 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "J10")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -17408,7 +17926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d76ee03b-74b2-4a13-9e5c-8afb5fecc121")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR042"
 			(at 222.25 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -17469,7 +17987,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR084")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -17486,7 +18004,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da2a205b-e7a5-4de9-8a95-7587f869f6be")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR031"
 			(at 173.99 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -17546,7 +18064,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR02")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -17564,7 +18082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da8248b9-3e17-4e48-9dfd-d07aa304a255")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR011"
 			(at 53.34 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -17624,7 +18142,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR060")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -17642,7 +18160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc0feb44-00a5-4a0d-9adf-a45aeba507a2")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR035"
 			(at 186.69 127 0)
 			(hide yes)
 			(show_name no)
@@ -17702,7 +18220,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR021")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -17787,6 +18305,9 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "J1")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -17803,7 +18324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de7b8674-7d29-4e58-8bf8-b76c89f6dd7b")
-		(property "Reference" "D5"
+		(property "Reference" "D2"
 			(at 101.6 34.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17889,8 +18410,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "D5")
+					(reference "D2")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -17906,7 +18430,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e02f642f-6c92-4862-b933-058a203898ea")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR039"
 			(at 207.01 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -17966,7 +18490,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR050")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -17983,7 +18507,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e21d190f-0f07-46d2-99c9-a9e4533edbc6")
-		(property "Reference" "R8"
+		(property "Reference" "R15"
 			(at 130.81 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18045,8 +18569,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R8")
+					(reference "R15")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -18062,7 +18593,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e613de80-9630-413b-9e2c-aa94819aefe7")
-		(property "Reference" "R40"
+		(property "Reference" "R8"
 			(at 93.98 34.798 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18124,8 +18655,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R40")
+					(reference "R8")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -18143,7 +18681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6ea185f-97fa-45c9-a19f-f6bfc4b8da92")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR045"
 			(at 242.57 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -18203,7 +18741,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR082")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -18220,7 +18758,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e82bda75-83b2-47f4-bb53-c6feaa667d63")
-		(property "Reference" "R73"
+		(property "Reference" "R23"
 			(at 181.61 115.062 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18282,8 +18820,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R73")
+					(reference "R23")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -18300,7 +18845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eac44fbe-3bc5-454c-88a1-3b54e54d62e2")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR06"
 			(at 46.99 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -18360,7 +18905,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR045")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -18378,7 +18923,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec860768-6fd7-4e45-8ad4-8ad4c701f26d")
-		(property "Reference" "J3"
+		(property "Reference" "J9"
 			(at 279.146 66.294 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18443,8 +18988,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "J3")
+					(reference "J9")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -18460,7 +19008,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f02f19a8-d15c-4638-954e-7cb2a01b5418")
-		(property "Reference" "D7"
+		(property "Reference" "D1"
 			(at 67.056 112.014 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18546,8 +19094,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "D7")
+					(reference "D1")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -18564,7 +19115,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f25e1a9d-6e07-4389-accf-de0b34051aed")
-		(property "Reference" "J4"
+		(property "Reference" "J7"
 			(at 245.364 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18629,8 +19180,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "J4")
+					(reference "J7")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -18647,7 +19201,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f29cd4fd-da83-42a7-8798-e982cb2b3306")
-		(property "Reference" "R71"
+		(property "Reference" "R25"
 			(at 181.61 144.018 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18709,8 +19263,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R71")
+					(reference "R25")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -18726,7 +19287,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2f5b422-e2a9-4819-b25d-47ab42fff6f8")
-		(property "Reference" "R72"
+		(property "Reference" "R21"
 			(at 171.45 115.062 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18788,8 +19349,11 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R72")
+					(reference "R21")
 					(unit 1)
+					(variant
+						(name "Testing")
+					)
 				)
 			)
 		)
@@ -18805,7 +19369,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f34ac746-f062-49c2-b6a4-b86c204f7cf9")
-		(property "Reference" "R38"
+		(property "Reference" "R26"
 			(at 184.15 22.352 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18867,8 +19431,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R38")
+					(reference "R26")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -18884,7 +19455,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5349e27-f18d-4535-a8bb-334f1338f354")
-		(property "Reference" "R11"
+		(property "Reference" "R24"
 			(at 181.61 124.714 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18946,8 +19517,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R11")
+					(reference "R24")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -18963,7 +19541,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb59242b-6cc4-4094-a008-8f13d8ead974")
-		(property "Reference" "R41"
+		(property "Reference" "R1"
 			(at 41.91 111.252 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19025,8 +19603,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R41")
+					(reference "R1")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
@@ -19043,7 +19628,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fccbe113-d197-4138-9607-b1dafa3652a5")
-		(property "Reference" "R7"
+		(property "Reference" "R18"
 			(at 143.51 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19107,8 +19692,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R7")
+					(reference "R18")
 					(unit 1)
+					(variant
+						(name "Testing")
+						(field
+							(name "Footprint")
+							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
+						)
+					)
 				)
 			)
 		)
