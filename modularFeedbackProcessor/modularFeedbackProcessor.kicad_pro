@@ -467,7 +467,7 @@
         "uuid": "a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R9",
     "variants": [
       {
         "description": "This variant will be used to allow for separate submodule testing, and will be our V1 PCB.",

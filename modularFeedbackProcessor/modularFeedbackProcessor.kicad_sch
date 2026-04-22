@@ -5376,16 +5376,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 124.46) (xy 95.25 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40630ae0-469e-42dd-8595-6929419c3e99")
-	)
-	(wire
-		(pts
 			(xy 151.13 74.93) (xy 153.67 74.93)
 		)
 		(stroke
@@ -6033,6 +6023,16 @@
 			(type default)
 		)
 		(uuid "84bac722-30e4-4802-b9a9-699d30ec9b66")
+	)
+	(wire
+		(pts
+			(xy 81.28 132.08) (xy 85.09 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "855fd9f7-765b-4c41-95c9-5cfe80270cb2")
 	)
 	(wire
 		(pts
@@ -6836,6 +6836,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 132.08) (xy 99.06 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c585efca-d648-4129-9e56-b056fa04e4dc")
+	)
+	(wire
+		(pts
 			(xy 179.07 91.44) (xy 179.07 99.06)
 		)
 		(stroke
@@ -6996,16 +7006,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 132.08) (xy 99.06 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6879785-88ca-467d-a2ea-c6a78523c0ce")
-	)
-	(wire
-		(pts
 			(xy 46.99 115.57) (xy 53.34 115.57)
 		)
 		(stroke
@@ -7156,7 +7156,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 104.14) (xy 95.25 116.84)
+			(xy 95.25 104.14) (xy 95.25 129.54)
 		)
 		(stroke
 			(width 0)
@@ -8794,6 +8794,85 @@
 					(variant
 						(name "Testing")
 					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 132.08 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "17081fd7-48a3-439f-a5da-5792c2f4f9be")
+		(property "Reference" "R9"
+			(at 88.9 128.016 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6.8k"
+			(at 88.9 129.794 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 130.302 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cf09a45e-97f3-414e-9d0a-28cecd0fd45e")
+		)
+		(pin "1"
+			(uuid "d1315c57-1787-4e38-87b9-aa062be5cacf")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "R9")
+					(unit 1)
 				)
 			)
 		)
@@ -15563,95 +15642,6 @@
 					(unit 1)
 					(variant
 						(name "Testing")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 95.25 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5d32ccb-e0d3-4d03-8011-9e1eaca5b35c")
-		(property "Reference" "R9"
-			(at 97.79 119.3799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6.8k"
-			(at 97.79 121.9199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.472 120.65 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 95.25 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c35ce3a9-7d51-44b7-b84e-eba68910cba2")
-		)
-		(pin "1"
-			(uuid "58ad66a7-3fbd-44e4-8bb6-d1f9cdd0d836")
-		)
-		(instances
-			(project "modularFeedbackProcessor"
-				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R9")
-					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
 					)
 				)
 			)
