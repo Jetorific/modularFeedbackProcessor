@@ -8744,7 +8744,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Eurocad:PJ301M-12"
 			(at 223.52 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9667,7 +9667,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Eurocad:PJ301M-12"
 			(at 256.54 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -10773,7 +10773,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Eurocad:PJ301M-12"
 			(at 19.05 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -14611,7 +14611,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Eurocad:PJ301M-12"
 			(at 80.01 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -15475,7 +15475,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Eurocad:PJ301M-12"
 			(at 182.88 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -16330,7 +16330,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Eurocad:PJ301M-12"
 			(at 224.79 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -17818,92 +17818,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
-		(at 308.61 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5b54cc9-6876-4180-bce4-94fbaba7846a")
-		(property "Reference" "J10"
-			(at 307.975 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Double"
-			(at 307.975 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 308.61 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 308.61 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-			(at 308.61 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "64959ded-9840-403f-a673-a6833d1e7988")
-		)
-		(pin "S"
-			(uuid "8a556f9f-43db-4b03-ab3d-5de45ed07e16")
-		)
-		(pin "TN"
-			(uuid "e538e844-fffa-48a6-bd36-65f38368df99")
-		)
-		(instances
-			(project "modularFeedbackProcessor"
-				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "J10")
-					(unit 1)
-					(variant
-						(name "Testing")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 222.25 114.3 0)
 		(mirror y)
@@ -18248,7 +18162,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Eurocad:PJ301M-12"
 			(at 19.05 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -18933,7 +18847,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Eurocad:PJ301M-12"
 			(at 279.4 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -19125,7 +19039,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Eurocad:PJ301M-12"
 			(at 245.11 96.52 0)
 			(hide yes)
 			(show_name no)
