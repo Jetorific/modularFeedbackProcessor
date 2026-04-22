@@ -36,7 +36,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_not_connected|1320800|292100|781758f0-e27b-40fa-b962-fe51c979efa7|00000000-0000-0000-0000-000000000000|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|",
+        "don't need to connect PHPLS"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -409,6 +414,24 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Specifications",
+          "name": "Specifications",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -467,7 +490,7 @@
         "uuid": "a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
       }
     ],
-    "used_designators": "R9",
+    "used_designators": "U12,RV8,J10,#PWR88-100,R9,R18,R79-82",
     "variants": [
       {
         "description": "This variant will be used to allow for separate submodule testing, and will be our V1 PCB.",

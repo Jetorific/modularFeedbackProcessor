@@ -4722,7 +4722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 78.232 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -4819,7 +4819,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 156.21 128.778 90)
 			(hide yes)
 			(show_name no)
@@ -4918,7 +4918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 70.612 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -5018,7 +5018,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_T73XW_Horizontal"
 			(at 100.33 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5195,7 +5195,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 76.708 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -5295,7 +5295,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 82.55 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5388,7 +5388,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 90.17 61.468 90)
 			(hide yes)
 			(show_name no)
@@ -5486,7 +5486,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 81.28 159.385 0)
 			(hide yes)
 			(show_name no)
@@ -5866,7 +5866,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 111.252 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -5963,7 +5963,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 64.77 113.538 90)
 			(hide yes)
 			(show_name no)
@@ -6063,7 +6063,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 76.708 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -6242,7 +6242,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 156.21 136.398 90)
 			(hide yes)
 			(show_name no)
@@ -6340,7 +6340,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 50.8 58.7248 0)
 			(hide yes)
 			(show_name no)
@@ -6441,7 +6441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 77.47 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -6537,7 +6537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 87.63 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6714,7 +6714,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 137.922 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -6811,7 +6811,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 29.21 36.068 90)
 			(hide yes)
 			(show_name no)
@@ -6909,7 +6909,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 101.6 159.385 0)
 			(hide yes)
 			(show_name no)
@@ -7041,7 +7041,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 101.6 108.585 0)
 			(hide yes)
 			(show_name no)
@@ -7257,7 +7257,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_T73XW_Horizontal"
 			(at 39.37 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -7352,7 +7352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 121.412 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -7452,7 +7452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 111.252 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -7632,7 +7632,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 55.88 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7761,7 +7761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 105.41 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7966,7 +7966,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 58.42 161.5948 0)
 			(hide yes)
 			(show_name no)
@@ -8145,7 +8145,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 64.77 164.338 90)
 			(hide yes)
 			(show_name no)
@@ -8245,7 +8245,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 100.33 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -8338,7 +8338,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 171.45 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8628,7 +8628,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 81.28 108.585 0)
 			(hide yes)
 			(show_name no)
@@ -8844,7 +8844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 119.38 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -9103,7 +9103,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 123.952 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -9201,7 +9201,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 53.34 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9329,7 +9329,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_T73XW_Horizontal"
 			(at 100.33 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -9424,7 +9424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 105.41 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -9516,7 +9516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 58.42 110.7948 0)
 			(hide yes)
 			(show_name no)
@@ -9618,7 +9618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 248.92 36.195 0)
 			(hide yes)
 			(show_name no)
@@ -9749,7 +9749,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 172.72 131.318 90)
 			(hide yes)
 			(show_name no)
@@ -9846,7 +9846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 121.92 161.5948 0)
 			(hide yes)
 			(show_name no)
@@ -10029,7 +10029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 82.55 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10123,7 +10123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 70.612 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -10304,7 +10304,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 78.232 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -10401,7 +10401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 121.92 110.7948 0)
 			(hide yes)
 			(show_name no)
@@ -10583,7 +10583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 121.412 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -10681,7 +10681,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 80.01 61.468 90)
 			(hide yes)
 			(show_name no)
@@ -10782,7 +10782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 123.19 62.23 0)
 			(hide yes)
 			(show_name no)
