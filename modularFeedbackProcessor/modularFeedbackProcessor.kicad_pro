@@ -764,7 +764,7 @@
         "uuid": "a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
       }
     ],
-    "used_designators": "R61-80,D9,Q11-19,C15-17,C20-21,C31-34,RV15-17,TP18-23,U9-10",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -773,12 +773,12 @@
       "modularFeedbackProcessor"
     ],
     [
-      "aeb70f58-5093-4151-81a4-80226f104118",
-      "DryWet Mixer"
+      "09ee29ff-2c57-432b-855a-cf75b19eb38a",
+      "Mixer1"
     ],
     [
-      "a6a044fe-d807-417f-af65-28f548becfef",
-      "Effects DryWet Mixer"
+      "8ef88900-4834-46ba-889e-9d0b0c8d1f73",
+      "Mixer2"
     ]
   ],
   "text_variables": {},

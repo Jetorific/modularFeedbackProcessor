@@ -26215,100 +26215,15 @@
 			)
 		)
 	)
-	(group "Mixer"
-		(uuid "6f421553-7bfe-4170-8e6b-0a0ac1db088d")
+	(group "Mixer1"
+		(uuid "a68a2e8b-1ca1-462c-b89f-8602704e84b4")
 		(lib_id "MFP:Mixer")
-		(members "a6a044fe-d807-417f-af65-28f548becfef")
+		(members "09ee29ff-2c57-432b-855a-cf75b19eb38a")
 	)
-	(group "Mixer"
-		(uuid "d10cfced-a31c-420f-93f9-fc72e6d0e3f2")
+	(group "Mixer2"
+		(uuid "c146ac14-d95e-4e07-b06c-7b09d83c5314")
 		(lib_id "MFP:Mixer")
-		(members "aeb70f58-5093-4151-81a4-80226f104118")
-	)
-	(sheet
-		(at 200.66 128.27)
-		(size 12.7 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "a6a044fe-d807-417f-af65-28f548becfef")
-		(property "Sheetname" "Effects DryWet Mixer"
-			(at 199.39 127.508 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Mixer.kicad_sch"
-			(at 200.66 139.0146 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "V_{in1}" input
-			(at 213.36 133.35 0)
-			(uuid "4a2d37c7-0c77-4598-93da-5941e9bc84a2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "V_{ctrl}" input
-			(at 213.36 129.54 0)
-			(uuid "9c6f1f60-10d6-42f4-a421-cd142458034a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "V_{in2}" input
-			(at 213.36 137.16 0)
-			(uuid "284ac8a5-7f91-4a14-aa87-012ee1732880")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "V_{out}" input
-			(at 200.66 129.54 180)
-			(uuid "ef60c0ce-499b-42a7-98b5-54338e5dcb4d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "modularFeedbackProcessor"
-				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(page "3")
-				)
-			)
-		)
+		(members "8ef88900-4834-46ba-889e-9d0b0c8d1f73")
 	)
 	(sheet
 		(at 219.71 71.12)
@@ -26325,8 +26240,8 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "aeb70f58-5093-4151-81a4-80226f104118")
-		(property "Sheetname" "DryWet Mixer"
+		(uuid "09ee29ff-2c57-432b-855a-cf75b19eb38a")
+		(property "Sheetname" "Mixer1"
 			(at 219.71 70.4084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26348,9 +26263,9 @@
 				(justify left top)
 			)
 		)
-		(pin "V_{in1}" input
-			(at 219.71 76.2 180)
-			(uuid "a3408558-2897-4316-940d-5ef27bab99e2")
+		(pin "V_{ctrl}" input
+			(at 219.71 72.39 180)
+			(uuid "2a6f6d89-3f2b-4101-8a23-55422ce35f8d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26358,9 +26273,9 @@
 				(justify left)
 			)
 		)
-		(pin "V_{ctrl}" input
-			(at 219.71 72.39 180)
-			(uuid "01a82068-94a1-41c8-a2fa-96c4e329305b")
+		(pin "V_{in1}" input
+			(at 219.71 76.2 180)
+			(uuid "64f24063-d18f-4750-881f-0a96ca2bb0c8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26370,7 +26285,7 @@
 		)
 		(pin "V_{in2}" input
 			(at 219.71 80.01 180)
-			(uuid "0a4536e7-413f-4d4b-9cca-2710932d5c9f")
+			(uuid "dcb6683d-a86a-48ab-9f3e-9092658c015a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26380,7 +26295,7 @@
 		)
 		(pin "V_{out}" input
 			(at 232.41 72.39 0)
-			(uuid "5f4fb744-bf71-4aca-a9bc-62cef2a8af1d")
+			(uuid "ad51fbe9-5c74-46ec-b4ee-b4c62b8f0065")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26392,6 +26307,92 @@
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 128.27)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8ef88900-4834-46ba-889e-9d0b0c8d1f73")
+		(property "Sheetname" "Mixer2"
+			(at 200.66 127.5584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Mixer.kicad_sch"
+			(at 200.66 139.0146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_{ctrl}" input
+			(at 213.36 129.54 0)
+			(uuid "3c969ad3-d755-4ab2-9478-2ce9bb186179")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_{in1}" input
+			(at 213.36 133.35 0)
+			(uuid "82b520c8-99a5-4a28-bf01-c56569a1c9d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_{in2}" input
+			(at 213.36 137.16 0)
+			(uuid "4e4de5cd-684f-473a-bdad-f4473a335961")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_{out}" input
+			(at 200.66 129.54 180)
+			(uuid "7414bb8a-5b21-4767-8249-611c0558bc21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(page "3")
 				)
 			)
 		)
