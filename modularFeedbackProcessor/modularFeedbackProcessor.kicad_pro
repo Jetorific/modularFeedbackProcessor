@@ -62,10 +62,6 @@
       ],
       "drc_exclusions": [
         [
-          "missing_tuning_profile|0|0|00000000-0000-0000-0000-000000000000|00000000-0000-0000-0000-000000000000",
-          "dont need to worry too much about the tuning profile (I think)"
-        ],
-        [
           "silk_over_copper|81230340|133351545|c8382528-751c-4172-9257-741dfb5800f7|b427bdc1-33b3-4bce-8b53-dc26c2326622",
           ""
         ],
@@ -119,10 +115,6 @@
         ],
         [
           "silk_overlap|86750000|96070000|15487572-0265-4249-9f5e-be03149fd1aa|42bc3689-4c85-42f0-9c79-61e28f8acbbb",
-          ""
-        ],
-        [
-          "silk_overlap|86800000|44070000|025f954e-fd6a-4e13-bf95-bb71a13130f5|f5939f7f-c8fc-431b-a4c0-ef2544d4377d",
           ""
         ],
         [
@@ -340,35 +332,35 @@
   "erc": {
     "erc_exclusions": [
       [
-        "pin_not_connected|1193800|990600|4b264e3c-c6a0-4da8-b26a-cffb37c97811|00000000-0000-0000-0000-000000000000|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|",
+        "pin_not_connected|1193800|990600|4b264e3c-c6a0-4da8-b26a-cffb37c97811|00000000-0000-0000-0000-000000000000|||",
         "only using OUT1"
       ],
       [
-        "pin_not_connected|1320800|292100|781758f0-e27b-40fa-b962-fe51c979efa7|00000000-0000-0000-0000-000000000000|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|",
+        "pin_not_connected|1320800|292100|781758f0-e27b-40fa-b962-fe51c979efa7|00000000-0000-0000-0000-000000000000|||",
         "don't need to connect PHPLS"
       ],
       [
-        "pin_not_connected|1409700|1714500|3c68aa99-0ee9-4918-832a-1feccf4ba96f|00000000-0000-0000-0000-000000000000|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|",
+        "pin_not_connected|1409700|1714500|3c68aa99-0ee9-4918-832a-1feccf4ba96f|00000000-0000-0000-0000-000000000000|||",
         "can leave output disconnected here"
       ],
       [
-        "pin_not_connected|1409700|1892300|3fe9b3f0-f04e-467a-9ca5-65df2920dd0c|00000000-0000-0000-0000-000000000000|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|",
+        "pin_not_connected|1409700|1892300|3fe9b3f0-f04e-467a-9ca5-65df2920dd0c|00000000-0000-0000-0000-000000000000|||",
         "can leave output disconnected here"
       ],
       [
-        "pin_not_connected|1549400|1765300|83933efe-8137-46c0-9b41-16689a8a1c1f|00000000-0000-0000-0000-000000000000|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|",
+        "pin_not_connected|1549400|1765300|83933efe-8137-46c0-9b41-16689a8a1c1f|00000000-0000-0000-0000-000000000000|||",
         "can leave output disconnected here"
       ],
       [
-        "pin_not_connected|1574800|317500|16e0183c-2c8e-44c0-9397-56c585221200|00000000-0000-0000-0000-000000000000|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|",
+        "pin_not_connected|1574800|317500|16e0183c-2c8e-44c0-9397-56c585221200|00000000-0000-0000-0000-000000000000|||",
         "don't need the zener diode"
       ],
       [
-        "pin_not_connected|1574800|368300|1499fc5e-4301-43af-bab4-7b83cfd5edf5|00000000-0000-0000-0000-000000000000|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|",
+        "pin_not_connected|1574800|368300|1499fc5e-4301-43af-bab4-7b83cfd5edf5|00000000-0000-0000-0000-000000000000|||",
         "no phase comp II"
       ],
       [
-        "pin_not_connected|1574800|444500|a2b8c76e-cab1-4c42-870d-4f08491eeab0|00000000-0000-0000-0000-000000000000|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|",
+        "pin_not_connected|1574800|444500|a2b8c76e-cab1-4c42-870d-4f08491eeab0|00000000-0000-0000-0000-000000000000|||",
         "not demodulating nothin"
       ]
     ],
@@ -858,7 +850,7 @@
         "uuid": "a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U11",
     "variants": []
   },
   "sheets": [
