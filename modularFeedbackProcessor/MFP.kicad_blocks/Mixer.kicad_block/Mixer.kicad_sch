@@ -1,0 +1,94 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "2e7b600d-ef2e-47e5-ba4a-bb35962009df")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 219.71 71.12)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "aeb70f58-5093-4151-81a4-80226f104118")
+		(property "Sheetname" "DryWet Mixer"
+			(at 219.71 70.4084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Mixer.kicad_sch"
+			(at 219.71 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_{in1}" input
+			(at 219.71 76.2 180)
+			(uuid "a3408558-2897-4316-940d-5ef27bab99e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_{ctrl}" input
+			(at 219.71 72.39 180)
+			(uuid "01a82068-94a1-41c8-a2fa-96c4e329305b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_{in2}" input
+			(at 219.71 80.01 180)
+			(uuid "0a4536e7-413f-4d4b-9cca-2710932d5c9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_{out}" input
+			(at 232.41 72.39 0)
+			(uuid "5f4fb744-bf71-4aca-a9bc-62cef2a8af1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(page "2")
+				)
+			)
+		)
+	)
+)

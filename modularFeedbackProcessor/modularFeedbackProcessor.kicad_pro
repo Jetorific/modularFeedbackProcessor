@@ -513,22 +513,37 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.0,
+        "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.1,
         "line_style": 0,
         "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_drill": 0.3,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "tuning_profile": "0.25 mm",
+        "via_diameter": 0.2,
+        "via_drill": 0.6,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.0,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.1,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.3,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "tuning_profile": "0.25 mm",
+        "via_diameter": 0.2,
+        "via_drill": 0.6
       }
     ],
     "meta": {
@@ -536,7 +551,24 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "+12V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "-12V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -732,7 +764,7 @@
         "uuid": "a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
       }
     ],
-    "used_designators": "TP1-23,U1-10,SW1,RV1-17,R1-83,#PWR1-121,Q1-19,D1-12,C1-36,J1-10",
+    "used_designators": "R61-80,D9,Q11-19,C15-17,C20-21,C31-34,RV15-17,TP18-23,U9-10",
     "variants": []
   },
   "sheets": [
@@ -741,12 +773,12 @@
       "modularFeedbackProcessor"
     ],
     [
-      "f007901d-977b-400e-bf63-0855814cf5f3",
+      "aeb70f58-5093-4151-81a4-80226f104118",
       "DryWet Mixer"
     ],
     [
-      "9d6c2e45-67d2-4a7a-99f5-01fd8f90c950",
-      "Effects Mixer"
+      "a6a044fe-d807-417f-af65-28f548becfef",
+      "Effects DryWet Mixer"
     ]
   ],
   "text_variables": {},
