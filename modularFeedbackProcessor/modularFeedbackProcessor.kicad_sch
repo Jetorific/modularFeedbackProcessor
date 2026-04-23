@@ -5558,12 +5558,6 @@
 		(uuid "59e45ed6-e00d-4fb5-b824-e1d901da9fb0")
 	)
 	(junction
-		(at 207.01 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c499d73-9d75-40a1-a231-5654543b803d")
-	)
-	(junction
 		(at 27.94 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5999,7 +5993,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 76.2) (xy 219.71 76.2)
+			(xy 167.64 76.2) (xy 219.71 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6616,16 +6610,6 @@
 			(type default)
 		)
 		(uuid "3286a529-8361-424d-b1bb-85fa48651f62")
-	)
-	(wire
-		(pts
-			(xy 167.64 76.2) (xy 207.01 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "328916df-727d-44cd-bafb-70b7564ac8e0")
 	)
 	(wire
 		(pts
@@ -9116,16 +9100,6 @@
 			(type default)
 		)
 		(uuid "d93c0618-dfcd-4f89-a71c-25be41925e3d")
-	)
-	(wire
-		(pts
-			(xy 207.01 73.66) (xy 207.01 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da7cffda-3123-4721-ad7c-c7b6d663e865")
 	)
 	(wire
 		(pts
@@ -25083,85 +25057,6 @@
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_4ms_Connector:TestPoint_Small")
-		(at 207.01 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa926b3c-0953-4dc9-a458-153d5d09ff12")
-		(property "Reference" "TP10"
-			(at 208.28 72.3899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DWV1"
-			(at 208.28 74.9299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_4ms_TestPoint:TestPoint_Pad_06"
-			(at 212.09 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 207.01 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9e752ca0-5b4e-4be8-83f3-2adc1b12594a")
-		)
-		(instances
-			(project "modularFeedbackProcessor"
-				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "TP10")
 					(unit 1)
 				)
 			)
