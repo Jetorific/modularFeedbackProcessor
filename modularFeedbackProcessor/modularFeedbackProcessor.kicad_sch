@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Modular Feedback Processor")
-		(date "2026-03-16")
-		(rev "v0.1")
+		(date "2026-04-23")
+		(rev "v1")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:LM13700"
@@ -1545,34 +1545,16 @@
 			)
 			(symbol "AudioJack2_SwitchT_1_1"
 				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
-					(name ""
+					(name "T"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1583,14 +1565,32 @@
 				(pin passive line
 					(at 5.08 -2.54 180)
 					(length 2.54)
-					(name ""
+					(name "TN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "TN"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1739,6 +1739,385 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Polarized_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_0_1"
+				(rectangle
+					(start -1.524 0.6858)
+					(end 1.524 0.3048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.524 -0.3048)
+					(end 1.524 -0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.8542)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.8542)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3560,6 +3939,252 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_4ms_Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_4ms_Connector:TestPoint_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_SPDT"
 			(pin_names
 				(offset 0)
@@ -4600,6 +5225,16 @@
 		)
 		(uuid "12eddb1e-f3e8-4693-a278-a6853145fd6c")
 	)
+	(text "unused OTA"
+		(exclude_from_sim no)
+		(at 161.036 167.894 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "22ff4be0-47d5-41d4-a2a1-f39ab71784ec")
+	)
 	(text "clipping diodes in feedback path\nto limit voltages to ~2.18Vpp"
 		(exclude_from_sim no)
 		(at 180.34 153.67 0)
@@ -4609,6 +5244,16 @@
 			)
 		)
 		(uuid "28fe9533-e110-49c8-9b10-226fb7522c3b")
+	)
+	(text "decoupling"
+		(exclude_from_sim no)
+		(at 134.874 174.244 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "2e183bee-31d1-4814-90b4-f4117ddf83c1")
 	)
 	(text "DC block\nto ground"
 		(exclude_from_sim no)
@@ -4630,6 +5275,26 @@
 		)
 		(uuid "3818a1fe-0a49-4150-845d-f2efbfb9f10b")
 	)
+	(text "decoupling"
+		(exclude_from_sim no)
+		(at 170.434 25.146 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "52f3ce16-c58d-4fa8-9975-06e5d0ef4fd6")
+	)
+	(text "<- to show working power"
+		(exclude_from_sim no)
+		(at 62.484 145.034 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "69b64bce-2926-4053-b539-de7b9ed1ba46")
+	)
 	(text "provide 14/15 V_{DD}"
 		(exclude_from_sim no)
 		(at 87.884 66.294 0)
@@ -4649,6 +5314,16 @@
 			)
 		)
 		(uuid "7dbfac18-e546-4930-bce3-3bae32b301da")
+	)
+	(text "decoupling"
+		(exclude_from_sim no)
+		(at 124.968 85.598 90)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "90bdca20-4591-4067-8201-9d030a383adf")
 	)
 	(text "safety resistor"
 		(exclude_from_sim no)
@@ -4701,6 +5376,24 @@
 		(uuid "dd125f01-26fd-4e70-ad16-cec2618bea57")
 	)
 	(junction
+		(at 26.67 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0001613b-5762-4c6b-8b64-be6bc22f09be")
+	)
+	(junction
+		(at 130.81 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03d349c5-3e26-420f-8cc8-9ca9858973e2")
+	)
+	(junction
+		(at 125.73 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07479975-fcca-4126-82cb-f1a710ce1a7e")
+	)
+	(junction
 		(at 71.12 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4743,10 +5436,22 @@
 		(uuid "18006a17-a47f-490c-8304-530d88d1f62d")
 	)
 	(junction
+		(at 199.39 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18318da8-42d1-49ac-b0be-87d18a5ab1b7")
+	)
+	(junction
 		(at 87.63 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d79dce0-055f-45fb-848f-63e97d6fb167")
+	)
+	(junction
+		(at 171.45 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20fdec2b-2cc2-437b-8018-1706017e6adb")
 	)
 	(junction
 		(at 25.4 114.3)
@@ -4773,10 +5478,22 @@
 		(uuid "2ce326aa-4861-42c7-97eb-90dbd9c2443d")
 	)
 	(junction
+		(at 119.38 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f609f2c-7164-4c11-86c9-76800fbcbdce")
+	)
+	(junction
 		(at 215.9 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "338a01df-74c7-4142-b9dd-9af9c1a628a8")
+	)
+	(junction
+		(at 87.63 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35dd41ce-e5fd-4352-b3f6-029f56256a13")
 	)
 	(junction
 		(at 176.53 139.7)
@@ -4803,16 +5520,22 @@
 		(uuid "3bf6471f-7fe3-43e8-bdb6-bc5eac5f1432")
 	)
 	(junction
-		(at 124.46 132.08)
+		(at 62.23 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4218c955-0f57-4045-a899-6b8730914e59")
+		(uuid "478144da-9550-401b-9e5e-408b93789025")
 	)
 	(junction
 		(at 193.04 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b195098-eef3-47f7-89d6-6d3bd81d0f3f")
+	)
+	(junction
+		(at 46.99 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4de28d64-4513-4c10-8baa-71aef0197668")
 	)
 	(junction
 		(at 121.92 187.96)
@@ -4839,10 +5562,28 @@
 		(uuid "54d46e99-d979-420b-8266-37aa874948d2")
 	)
 	(junction
+		(at 68.58 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "574ce92e-b73c-4cd2-b60c-ff9f62660c32")
+	)
+	(junction
+		(at 116.84 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59e45ed6-e00d-4fb5-b824-e1d901da9fb0")
+	)
+	(junction
 		(at 27.94 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f7d11f8-75d3-40e2-994b-92047e20512a")
+	)
+	(junction
+		(at 151.13 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73b5747c-411c-4540-bcee-800aae05d0a6")
 	)
 	(junction
 		(at 250.19 128.27)
@@ -4857,10 +5598,28 @@
 		(uuid "75b9109e-6528-4196-be18-d5aea6175a7c")
 	)
 	(junction
+		(at 33.02 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "761980aa-b744-4849-968e-06020e8b2561")
+	)
+	(junction
+		(at 93.98 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7eca23e8-82fc-4c8f-97c7-2e5d87682bbd")
+	)
+	(junction
 		(at 217.17 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f4bc3f5-e13a-46e3-89bd-d95962eb5e4f")
+	)
+	(junction
+		(at 170.18 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "821f21c9-9b9b-48f0-8159-ff4ee72ff3f8")
 	)
 	(junction
 		(at 99.06 83.82)
@@ -4869,16 +5628,40 @@
 		(uuid "82a8a310-281a-448d-8221-01c19030603d")
 	)
 	(junction
+		(at 121.92 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84c31764-4240-42da-86e0-6d75f362bdbe")
+	)
+	(junction
 		(at 177.8 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85954d06-8660-4d37-8675-c646431a5637")
 	)
 	(junction
+		(at 233.68 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87a7c4f1-495a-44a3-ae38-613a469c4b5c")
+	)
+	(junction
 		(at 170.18 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b7ce7ff-0712-4f41-939d-81d1e5bef760")
+	)
+	(junction
+		(at 151.13 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cd37be1-1380-4a5a-a616-bd0b82c8f32b")
+	)
+	(junction
+		(at 20.32 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8eec49ed-a619-466e-a498-6edc446bf01f")
 	)
 	(junction
 		(at 135.89 67.31)
@@ -4911,6 +5694,12 @@
 		(uuid "964e299f-e2e6-4767-ace6-d374e8970a04")
 	)
 	(junction
+		(at 134.62 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "970a7663-8a3c-42bb-80f0-cb3e240f58aa")
+	)
+	(junction
 		(at 99.06 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4935,6 +5724,12 @@
 		(uuid "a71bcf8d-ea2e-42fa-8f30-b39669cf79bf")
 	)
 	(junction
+		(at 207.01 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a97b9bf2-e002-438a-ab23-e11f37335979")
+	)
+	(junction
 		(at 213.36 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4945,6 +5740,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "adaeb6f2-b3a0-425b-b0da-3abbdf4e32fe")
+	)
+	(junction
+		(at 46.99 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae1ec705-bce1-4337-aa22-5b9e003bf849")
 	)
 	(junction
 		(at 134.62 77.47)
@@ -4977,6 +5778,18 @@
 		(uuid "b28058b3-c01f-4711-b399-50ab16a49390")
 	)
 	(junction
+		(at 171.45 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4fb9691-d7b1-496a-82e5-3cde5a14dfa3")
+	)
+	(junction
+		(at 124.46 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8e019ce-453a-4aee-a445-b152c9fafe8b")
+	)
+	(junction
 		(at 109.22 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5001,10 +5814,22 @@
 		(uuid "c880871b-d678-4eed-9db7-49c99f85afba")
 	)
 	(junction
+		(at 81.28 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c892592b-14fd-4dd2-ad99-90a237dd3c67")
+	)
+	(junction
 		(at 116.84 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9e75714-7e29-489c-ab60-3442dcc52dea")
+	)
+	(junction
+		(at 40.64 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb3b5f29-7cfb-48d4-8966-ddbbeccfbc1b")
 	)
 	(junction
 		(at 109.22 177.8)
@@ -5013,10 +5838,22 @@
 		(uuid "cd411278-a27c-47e4-8661-368793fe0a37")
 	)
 	(junction
+		(at 124.46 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce7c2739-993b-4a57-8e77-88713c862166")
+	)
+	(junction
 		(at 121.92 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d49b3bff-61ef-4f61-8867-4fe02b4f28ae")
+	)
+	(junction
+		(at 68.58 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5466ce3-06f9-420c-b066-b18a98ac48c6")
 	)
 	(junction
 		(at 62.23 81.28)
@@ -5055,6 +5892,12 @@
 		(uuid "e2cf0524-f2f8-43d8-b8fd-47fff061caee")
 	)
 	(junction
+		(at 26.67 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4d77e3b-1c50-4763-9673-f3695809d075")
+	)
+	(junction
 		(at 189.23 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5073,6 +5916,24 @@
 		(uuid "edfa2842-b454-47dd-8e2e-d53ec32c4337")
 	)
 	(junction
+		(at 176.53 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f09e2470-1b02-42b6-9e87-fcca9d45aad6")
+	)
+	(junction
+		(at 124.46 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f44c70f2-0abc-409e-bebf-613f245927cc")
+	)
+	(junction
+		(at 128.27 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7902184-ecc7-41e1-a446-83bd447e5dff")
+	)
+	(junction
 		(at 228.6 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5083,6 +5944,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd1ac2b2-2a47-44cc-acdb-e3e2e8757edf")
+	)
+	(wire
+		(pts
+			(xy 151.13 78.74) (xy 151.13 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00247c59-ca02-4cdd-8b2f-698a13cb0e6c")
 	)
 	(wire
 		(pts
@@ -5136,6 +6007,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 144.78) (xy 33.02 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07718664-e711-4a59-bee8-d3ce67791728")
+	)
+	(wire
+		(pts
 			(xy 116.84 99.06) (xy 116.84 101.6)
 		)
 		(stroke
@@ -5156,6 +6037,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 80.01) (xy 217.17 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd4fffd-a5e4-4af5-bb4b-badee9f160eb")
+	)
+	(wire
+		(pts
 			(xy 214.63 68.58) (xy 213.36 68.58)
 		)
 		(stroke
@@ -5163,6 +6054,16 @@
 			(type default)
 		)
 		(uuid "0c4ff41e-8af4-45d4-a6f3-88ea04c856e8")
+	)
+	(wire
+		(pts
+			(xy 62.23 176.53) (xy 62.23 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c842cc2-14cc-4d0a-bcb4-f1bb01b7b6b4")
 	)
 	(wire
 		(pts
@@ -5306,6 +6207,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 176.53) (xy 20.32 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15dd39e5-b51a-4b2c-9258-719772a79979")
+	)
+	(wire
+		(pts
 			(xy 91.44 110.49) (xy 91.44 111.76)
 		)
 		(stroke
@@ -5396,16 +6307,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 185.42) (xy 24.13 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c6630e9-f9af-4fd7-8770-aa10e9a2f88e")
-	)
-	(wire
-		(pts
 			(xy 106.68 100.33) (xy 114.3 100.33)
 		)
 		(stroke
@@ -5486,6 +6387,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 176.53) (xy 171.45 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2076dbdb-fb11-4e36-9318-ac0b74946c95")
+	)
+	(wire
+		(pts
 			(xy 80.01 110.49) (xy 81.28 110.49)
 		)
 		(stroke
@@ -5503,6 +6414,16 @@
 			(type default)
 		)
 		(uuid "227a861e-594c-4f6d-9656-073c17150058")
+	)
+	(wire
+		(pts
+			(xy 87.63 73.66) (xy 87.63 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "237ad448-2638-4821-96c6-f6e5659e37bd")
 	)
 	(wire
 		(pts
@@ -5656,7 +6577,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 138.43) (xy 147.32 138.43)
+			(xy 162.56 138.43) (xy 151.13 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5683,6 +6604,16 @@
 			(type default)
 		)
 		(uuid "30f775bf-37e2-4790-9d73-86de8849d753")
+	)
+	(wire
+		(pts
+			(xy 170.18 34.29) (xy 170.18 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31092a6e-568d-44e7-9bbd-1b8e7b734ec4")
 	)
 	(wire
 		(pts
@@ -5716,7 +6647,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 76.2) (xy 219.71 76.2)
+			(xy 167.64 76.2) (xy 207.01 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5736,7 +6667,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 168.91) (xy 49.53 170.18)
+			(xy 26.67 167.64) (xy 26.67 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5816,16 +6747,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 168.91) (xy 24.13 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36790c1c-64cd-4b40-bd7d-8956743e286a")
-	)
-	(wire
-		(pts
 			(xy 109.22 175.26) (xy 106.68 175.26)
 		)
 		(stroke
@@ -5833,6 +6754,16 @@
 			(type default)
 		)
 		(uuid "38e9f284-95c6-4442-8ece-2a5b9c3fe89b")
+	)
+	(wire
+		(pts
+			(xy 138.43 175.26) (xy 138.43 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b30821c-9a60-4bca-9865-f8c3f1f4fb58")
 	)
 	(wire
 		(pts
@@ -5873,6 +6804,16 @@
 			(type default)
 		)
 		(uuid "3d6b221f-d057-437c-ab0b-81a6693e7776")
+	)
+	(wire
+		(pts
+			(xy 81.28 132.08) (xy 81.28 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e03b560-b8cb-42f7-9ded-dbd8b5068679")
 	)
 	(wire
 		(pts
@@ -5923,6 +6864,16 @@
 			(type default)
 		)
 		(uuid "3ee6abc4-5f7c-44f4-9ad5-e1802518a9c4")
+	)
+	(wire
+		(pts
+			(xy 62.23 167.64) (xy 68.58 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f17f309-f68d-4b0d-a2e0-f2f537b4b12a")
 	)
 	(wire
 		(pts
@@ -5986,6 +6937,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 176.53) (xy 20.32 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "428a42c4-dc2a-44ce-b4b4-d2648a1cd403")
+	)
+	(wire
+		(pts
 			(xy 24.13 69.85) (xy 27.94 69.85)
 		)
 		(stroke
@@ -6003,6 +6964,16 @@
 			(type default)
 		)
 		(uuid "458f8e88-0e2e-4c6f-9bed-714310a2d74a")
+	)
+	(wire
+		(pts
+			(xy 171.45 179.07) (xy 171.45 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "460e03e0-d0be-4f0a-835e-2eeb7130ab4d")
 	)
 	(wire
 		(pts
@@ -6026,6 +6997,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 179.07) (xy 154.94 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48baefae-b369-44d9-aacf-ea202c5e907a")
+	)
+	(wire
+		(pts
 			(xy 163.83 116.84) (xy 157.48 116.84)
 		)
 		(stroke
@@ -6046,6 +7027,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 144.78) (xy 43.18 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b7b0c67-7c0a-449f-93cf-8bffa7d511d5")
+	)
+	(wire
+		(pts
 			(xy 215.9 31.75) (xy 215.9 36.83)
 		)
 		(stroke
@@ -6053,6 +7044,16 @@
 			(type default)
 		)
 		(uuid "4cbaf235-4080-4b81-a9ed-a5100c752a7d")
+	)
+	(wire
+		(pts
+			(xy 40.64 167.64) (xy 46.99 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e38320c-5e53-4487-924f-65c5befce44a")
 	)
 	(wire
 		(pts
@@ -6086,6 +7087,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 179.07) (xy 153.67 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5015e9ec-64db-4371-bd70-8d064f347237")
+	)
+	(wire
+		(pts
 			(xy 185.42 139.7) (xy 185.42 140.97)
 		)
 		(stroke
@@ -6093,6 +7104,16 @@
 			(type default)
 		)
 		(uuid "50256e11-3472-42ce-ab54-228bb3b25a14")
+	)
+	(wire
+		(pts
+			(xy 152.4 186.69) (xy 152.4 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50999f14-6a39-47d4-8a3f-7f73e0626d66")
 	)
 	(wire
 		(pts
@@ -6266,7 +7287,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 74.93) (xy 151.13 86.36)
+			(xy 151.13 74.93) (xy 151.13 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6306,6 +7327,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 153.67) (xy 43.18 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c1195cc-5fa9-4c16-abc0-6df8f083c60c")
+	)
+	(wire
+		(pts
 			(xy 162.56 129.54) (xy 176.53 129.54)
 		)
 		(stroke
@@ -6316,6 +7347,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 154.94) (xy 33.02 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dcae9f9-5f5f-4958-b1a8-ea6852e196f0")
+	)
+	(wire
+		(pts
 			(xy 240.03 93.98) (xy 237.49 93.98)
 		)
 		(stroke
@@ -6323,6 +7364,16 @@
 			(type default)
 		)
 		(uuid "5de92c9a-e601-4080-82d0-b762bc910b99")
+	)
+	(wire
+		(pts
+			(xy 62.23 185.42) (xy 68.58 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e367101-762b-4ab9-92d1-0f592cd94ab4")
 	)
 	(wire
 		(pts
@@ -6356,6 +7407,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 182.88) (xy 130.81 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "629e8be1-03ce-4180-bfa6-fed8940520c6")
+	)
+	(wire
+		(pts
 			(xy 215.9 96.52) (xy 215.9 124.46)
 		)
 		(stroke
@@ -6363,6 +7424,16 @@
 			(type default)
 		)
 		(uuid "630ac037-de9e-4411-ab8c-422ce0ab81e4")
+	)
+	(wire
+		(pts
+			(xy 33.02 153.67) (xy 33.02 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ce7f6a-2628-4e82-b65a-ea2da29e0395")
 	)
 	(wire
 		(pts
@@ -6466,6 +7537,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 167.64) (xy 68.58 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c14217f-81d5-46cd-8a81-4d2c52910286")
+	)
+	(wire
+		(pts
 			(xy 157.48 87.63) (xy 157.48 93.98)
 		)
 		(stroke
@@ -6496,6 +7577,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 88.9) (xy 176.53 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f325118-2d68-4225-83c5-8ecd29ab8d57")
+	)
+	(wire
+		(pts
 			(xy 99.06 83.82) (xy 99.06 85.09)
 		)
 		(stroke
@@ -6503,6 +7594,16 @@
 			(type default)
 		)
 		(uuid "70b448aa-bd8f-4e2c-b686-e142855cb412")
+	)
+	(wire
+		(pts
+			(xy 176.53 91.44) (xy 184.15 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "718653bc-0ebe-4291-abce-39508ec910a3")
 	)
 	(wire
 		(pts
@@ -6536,6 +7637,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 175.26) (xy 40.64 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c9df8c-a6eb-4a15-b040-6c8ee9fcd5c6")
+	)
+	(wire
+		(pts
 			(xy 106.68 175.26) (xy 106.68 173.99)
 		)
 		(stroke
@@ -6543,6 +7654,16 @@
 			(type default)
 		)
 		(uuid "77e19fb8-3267-42c8-a417-475a04ec9e21")
+	)
+	(wire
+		(pts
+			(xy 17.78 176.53) (xy 20.32 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7828dfc6-b5cf-4207-ab41-68dcc6040a7e")
 	)
 	(wire
 		(pts
@@ -6623,6 +7744,16 @@
 			(type default)
 		)
 		(uuid "7dcd4af5-183f-444b-ab77-3c530165893a")
+	)
+	(wire
+		(pts
+			(xy 40.64 176.53) (xy 40.64 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f341f7e-bc5e-46db-80ab-60d6397cb08c")
 	)
 	(wire
 		(pts
@@ -6716,13 +7847,43 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 26.67) (xy 180.34 26.67)
+			(xy 33.02 135.89) (xy 33.02 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "871dc85e-5ff9-43ea-a110-e6a000f78cbd")
+	)
+	(wire
+		(pts
+			(xy 38.1 176.53) (xy 40.64 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88ae057d-9500-4735-b904-808a47b16f33")
+	)
+	(wire
+		(pts
+			(xy 160.02 26.67) (xy 170.18 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "896972f1-b61e-4b96-9a28-9d807aa0ea08")
+	)
+	(wire
+		(pts
+			(xy 233.68 72.39) (xy 234.95 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a6da524-bdbe-4fbc-a139-7b48bf4f5469")
 	)
 	(wire
 		(pts
@@ -6786,6 +7947,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 179.07) (xy 171.45 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ecc1ade-16c5-4694-827f-1a7fa5896cc8")
+	)
+	(wire
+		(pts
 			(xy 24.13 109.22) (xy 25.4 109.22)
 		)
 		(stroke
@@ -6803,6 +7974,16 @@
 			(type default)
 		)
 		(uuid "8fa2a4fd-d860-4fe9-8fad-a49c16acd661")
+	)
+	(wire
+		(pts
+			(xy 121.92 101.6) (xy 121.92 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90480521-1c33-4dae-be1a-cbc8846f02d6")
 	)
 	(wire
 		(pts
@@ -6826,6 +8007,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 144.78) (xy 22.86 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9214d2c8-c25e-4aab-b318-56add23d9458")
+	)
+	(wire
+		(pts
 			(xy 124.46 132.08) (xy 132.08 132.08)
 		)
 		(stroke
@@ -6846,6 +8037,26 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 132.08) (xy 99.06 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "937ebac0-e7a0-4d14-8488-450ffadc2e29")
+	)
+	(wire
+		(pts
+			(xy 128.27 88.9) (xy 134.62 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9391b8ae-170c-4825-886c-878b2532822e")
+	)
+	(wire
+		(pts
 			(xy 146.05 67.31) (xy 146.05 66.04)
 		)
 		(stroke
@@ -6853,6 +8064,16 @@
 			(type default)
 		)
 		(uuid "941eb915-c489-453d-a635-02c47db1ef86")
+	)
+	(wire
+		(pts
+			(xy 124.46 175.26) (xy 138.43 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94599662-b5f0-4c86-a1ef-825d9d346cd2")
 	)
 	(wire
 		(pts
@@ -6873,6 +8094,16 @@
 			(type default)
 		)
 		(uuid "9504140f-1a9f-43d0-9ce6-ed3b1aac2cb3")
+	)
+	(wire
+		(pts
+			(xy 171.45 176.53) (xy 171.45 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96019e1b-0f7b-4ebb-aa26-3e44d04f5b9a")
 	)
 	(wire
 		(pts
@@ -6906,6 +8137,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 167.64) (xy 46.99 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a0322ef-b1f9-49ea-93ef-77d7a6da704b")
+	)
+	(wire
+		(pts
 			(xy 46.99 114.3) (xy 46.99 115.57)
 		)
 		(stroke
@@ -6913,6 +8154,26 @@
 			(type default)
 		)
 		(uuid "9a83e5e5-ddca-44a1-ab10-2db8fbdf4413")
+	)
+	(wire
+		(pts
+			(xy 151.13 138.43) (xy 147.32 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d18dcb7-1e34-415f-8026-7430cc0f5fa3")
+	)
+	(wire
+		(pts
+			(xy 124.46 189.23) (xy 130.81 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d7f5fa2-7c72-47a4-925e-50aea73a0f3e")
 	)
 	(wire
 		(pts
@@ -6966,6 +8227,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 173.99) (xy 171.45 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f8bd1e3-9d20-46e2-a3fb-a39a666c9c69")
+	)
+	(wire
+		(pts
 			(xy 232.41 96.52) (xy 240.03 96.52)
 		)
 		(stroke
@@ -6986,7 +8257,17 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 185.42) (xy 49.53 186.69)
+			(xy 62.23 175.26) (xy 62.23 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1915f0c-914d-4670-8bfc-ca4e05f75be5")
+	)
+	(wire
+		(pts
+			(xy 26.67 184.15) (xy 26.67 185.42)
 		)
 		(stroke
 			(width 0)
@@ -6996,7 +8277,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 101.6) (xy 127 101.6)
+			(xy 116.84 101.6) (xy 121.92 101.6)
 		)
 		(stroke
 			(width 0)
@@ -7016,7 +8297,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 86.36) (xy 134.62 87.63)
+			(xy 151.13 138.43) (xy 151.13 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a49c704c-0a94-46cd-89ea-61cd9dc11f2a")
+	)
+	(wire
+		(pts
+			(xy 134.62 86.36) (xy 134.62 88.9)
 		)
 		(stroke
 			(width 0)
@@ -7096,7 +8387,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 185.42) (xy 36.83 186.69)
+			(xy 46.99 184.15) (xy 46.99 185.42)
 		)
 		(stroke
 			(width 0)
@@ -7186,13 +8477,23 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 77.47) (xy 114.3 77.47)
+			(xy 83.82 77.47) (xy 87.63 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ad960a42-bf71-4102-9676-ca78600fbe3d")
+	)
+	(wire
+		(pts
+			(xy 125.73 182.88) (xy 130.81 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adc5d797-2395-401c-ad31-674e23ee0ae4")
 	)
 	(wire
 		(pts
@@ -7316,6 +8617,26 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 182.88) (xy 130.81 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5f13342-9ee8-46d8-95c9-ddffe8d061fa")
+	)
+	(wire
+		(pts
+			(xy 20.32 185.42) (xy 26.67 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b616a131-b60f-4e78-b713-7e10f53ab4cc")
+	)
+	(wire
+		(pts
 			(xy 215.9 96.52) (xy 224.79 96.52)
 		)
 		(stroke
@@ -7346,6 +8667,36 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 135.89) (xy 22.86 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f982a8-5ba0-4a11-802d-e9b854055ac5")
+	)
+	(wire
+		(pts
+			(xy 93.98 132.08) (xy 93.98 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b701b51a-9671-4f90-8a00-4aca0defb4a8")
+	)
+	(wire
+		(pts
+			(xy 171.45 173.99) (xy 171.45 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d9c46e-cb8b-4de7-87b7-2832275f2406")
+	)
+	(wire
+		(pts
 			(xy 234.95 115.57) (xy 234.95 116.84)
 		)
 		(stroke
@@ -7363,6 +8714,16 @@
 			(type default)
 		)
 		(uuid "b8f9618f-fbfa-4d40-a943-84416d85ed29")
+	)
+	(wire
+		(pts
+			(xy 151.13 186.69) (xy 152.4 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8f97bb1-5dbb-4153-80a3-c44c8aeb8077")
 	)
 	(wire
 		(pts
@@ -7386,6 +8747,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 81.28) (xy 128.27 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba34f5c8-47f7-45e6-be67-4be9573122ee")
+	)
+	(wire
+		(pts
 			(xy 168.91 96.52) (xy 168.91 91.44)
 		)
 		(stroke
@@ -7393,6 +8764,16 @@
 			(type default)
 		)
 		(uuid "bab15bae-c836-40be-9637-9ec6804e56c4")
+	)
+	(wire
+		(pts
+			(xy 152.4 168.91) (xy 152.4 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bac8a020-ccc6-42ec-8c5c-1b924b4233f2")
 	)
 	(wire
 		(pts
@@ -7416,7 +8797,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 72.39) (xy 234.95 72.39)
+			(xy 232.41 72.39) (xy 233.68 72.39)
 		)
 		(stroke
 			(width 0)
@@ -7486,6 +8867,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 154.94) (xy 33.02 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee84975-7a48-424f-a77a-4730301e45a9")
+	)
+	(wire
+		(pts
 			(xy 125.73 184.15) (xy 125.73 182.88)
 		)
 		(stroke
@@ -7496,7 +8887,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 91.44) (xy 184.15 91.44)
+			(xy 168.91 91.44) (xy 176.53 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7556,7 +8947,17 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 132.08) (xy 99.06 132.08)
+			(xy 116.84 34.29) (xy 116.84 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ee22e5-deec-4481-b0bf-f078110a4552")
+	)
+	(wire
+		(pts
+			(xy 92.71 132.08) (xy 93.98 132.08)
 		)
 		(stroke
 			(width 0)
@@ -7576,6 +8977,36 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 181.61) (xy 138.43 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c811c3d7-96cd-4c0e-a8cb-0a659d8ba5e2")
+	)
+	(wire
+		(pts
+			(xy 130.81 182.88) (xy 130.81 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca120462-e535-4811-a6fc-e39a8a9000d2")
+	)
+	(wire
+		(pts
+			(xy 22.86 153.67) (xy 22.86 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb1195c0-8791-4285-b029-840e71772ccc")
+	)
+	(wire
+		(pts
 			(xy 44.45 62.23) (xy 44.45 69.85)
 		)
 		(stroke
@@ -7583,6 +9014,16 @@
 			(type default)
 		)
 		(uuid "cc5ddee1-6049-4b8e-9dfe-19346545ac39")
+	)
+	(wire
+		(pts
+			(xy 20.32 167.64) (xy 26.67 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdb5eae3-4f74-4caa-b70a-ee1287e35bdb")
 	)
 	(wire
 		(pts
@@ -7606,13 +9047,13 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 80.01) (xy 217.17 96.52)
+			(xy 128.27 176.53) (xy 130.81 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cfc4891b-43c8-4415-b74c-d481ae5e0cf1")
+		(uuid "cfc6d007-7a45-4ec7-a802-ffe6f3727f97")
 	)
 	(wire
 		(pts
@@ -7676,6 +9117,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 101.6) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3af2ca4-dbb4-4f62-ac75-007214c1dd22")
+	)
+	(wire
+		(pts
 			(xy 160.02 26.67) (xy 160.02 29.21)
 		)
 		(stroke
@@ -7696,6 +9147,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 135.89) (xy 43.18 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5384b8d-608a-44fe-8b30-c3e549909ade")
+	)
+	(wire
+		(pts
 			(xy 215.9 124.46) (xy 215.9 133.35)
 		)
 		(stroke
@@ -7703,6 +9164,16 @@
 			(type default)
 		)
 		(uuid "d59faa1b-1bc3-4778-8cec-8f65b58225e6")
+	)
+	(wire
+		(pts
+			(xy 151.13 78.74) (xy 153.67 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5a56776-a119-4701-a1f7-8f3745273516")
 	)
 	(wire
 		(pts
@@ -7736,6 +9207,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 176.53) (xy 62.23 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d87518ee-c02a-4c17-b55b-42e255f8db09")
+	)
+	(wire
+		(pts
 			(xy 190.5 41.91) (xy 190.5 46.99)
 		)
 		(stroke
@@ -7743,6 +9224,26 @@
 			(type default)
 		)
 		(uuid "d93c0618-dfcd-4f89-a71c-25be41925e3d")
+	)
+	(wire
+		(pts
+			(xy 207.01 76.2) (xy 219.71 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d98ac68c-29b2-45fb-be9f-feda7189053d")
+	)
+	(wire
+		(pts
+			(xy 207.01 73.66) (xy 207.01 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da7cffda-3123-4721-ad7c-c7b6d663e865")
 	)
 	(wire
 		(pts
@@ -7766,6 +9267,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 26.67) (xy 180.34 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "decc4ac9-a0df-4bde-b78f-f6f6f31dcf85")
+	)
+	(wire
+		(pts
 			(xy 176.53 138.43) (xy 176.53 139.7)
 		)
 		(stroke
@@ -7783,6 +9294,16 @@
 			(type default)
 		)
 		(uuid "deffdb85-b470-457b-a5e0-e3937fb85e61")
+	)
+	(wire
+		(pts
+			(xy 33.02 156.21) (xy 33.02 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfe943e4-d6f1-43d8-aa00-37df285da66f")
 	)
 	(wire
 		(pts
@@ -7826,6 +9347,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 77.47) (xy 114.3 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1ffba10-0673-4fc1-98ba-119f14292827")
+	)
+	(wire
+		(pts
 			(xy 157.48 46.99) (xy 177.8 46.99)
 		)
 		(stroke
@@ -7856,6 +9387,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 72.39) (xy 233.68 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e450428b-a22f-446c-a8d6-b892e6490ec9")
+	)
+	(wire
+		(pts
 			(xy 60.96 74.93) (xy 62.23 74.93)
 		)
 		(stroke
@@ -7863,6 +9404,16 @@
 			(type default)
 		)
 		(uuid "e4b04ab3-1ded-4251-9b06-ca392bf983d5")
+	)
+	(wire
+		(pts
+			(xy 40.64 185.42) (xy 46.99 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5778e71-3805-460f-bde0-9218629ac790")
 	)
 	(wire
 		(pts
@@ -7883,6 +9434,16 @@
 			(type default)
 		)
 		(uuid "e5f35280-95c3-454b-a077-8c3c9febbc30")
+	)
+	(wire
+		(pts
+			(xy 151.13 168.91) (xy 152.4 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e61577d3-de94-4106-a1dc-84a4ee2836c3")
 	)
 	(wire
 		(pts
@@ -7963,6 +9524,16 @@
 			(type default)
 		)
 		(uuid "ec7900b7-f96d-4e93-8e26-08b103546a91")
+	)
+	(wire
+		(pts
+			(xy 68.58 184.15) (xy 68.58 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eef66f60-5e40-4d1a-8770-60b8b7d5a913")
 	)
 	(wire
 		(pts
@@ -8096,6 +9667,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 129.54) (xy 199.39 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6e44a9e-80f8-435b-9460-076835d66b1b")
+	)
+	(wire
+		(pts
 			(xy 214.63 68.58) (xy 214.63 72.39)
 		)
 		(stroke
@@ -8205,8 +9786,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03eb8d73-b00d-48ed-b5ba-6e6225a4b516")
-		(property "Reference" "DryWetCV1"
-			(at 196.85 59.182 90)
+		(property "Reference" "RV8"
+			(at 197.612 60.706 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8216,7 +9797,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 199.136 60.198 90)
+			(at 199.644 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8258,6 +9839,17 @@
 				)
 			)
 		)
+		(property "Parameter" "Dry/Wet CV"
+			(at 195.326 60.198 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+					(italic yes)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "64481d64-0387-49aa-bc99-7e0b1e1030da")
 		)
@@ -8270,11 +9862,85 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "DryWetCV1")
+					(reference "RV8")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 176.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "05292084-014b-4b6a-a15c-87ed83292fcd")
+		(property "Reference" "#PWR0112"
+			(at 38.1 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9403c127-f8b8-493c-a4a7-60a7388d38dc")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "#PWR0112")
+					(unit 1)
 				)
 			)
 		)
@@ -8356,13 +10022,6 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "R10")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
 				)
 			)
 		)
@@ -8378,7 +10037,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07b8e3ee-7cf9-4726-8697-110da3f8918e")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR043"
 			(at 166.37 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -8438,7 +10097,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR029")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -8456,7 +10115,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "087ba1c6-df4f-48d3-b353-304ec6000867")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 107.95 120.396 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8476,7 +10135,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
 			(at 114.3 128.905 0)
 			(hide yes)
 			(show_name no)
@@ -8560,11 +10219,499 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM13700")
+		(at 66.04 176.53 0)
+		(mirror y)
+		(unit 5)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "087ba1c6-df4f-48d3-b353-304ec6000867")
+		(property "Reference" "U4"
+			(at 69.85 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LM13700"
+			(at 69.85 177.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
+			(at 73.66 175.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm13700.pdf"
+			(at 73.66 175.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16"
+			(at 66.04 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "3c68aa99-0ee9-4918-832a-1feccf4ba96f")
+		)
+		(pin "16"
+			(uuid "5064ea1e-67c1-4adf-a11b-59209bcbcce8")
+		)
+		(pin "1"
+			(uuid "76550818-7238-43e6-acb0-996b686003de")
+		)
+		(pin "2"
+			(uuid "dd2d114c-1076-4529-a241-d0e59123253c")
+		)
+		(pin "10"
+			(uuid "f0fd91d4-a9e1-4299-ab42-b477270902fd")
+		)
+		(pin "11"
+			(uuid "43bc2345-68a5-4a8e-aaa4-da3ab35e3daf")
+		)
+		(pin "3"
+			(uuid "102663fe-2f2b-426e-b61e-84201a3bff38")
+		)
+		(pin "12"
+			(uuid "c3753182-8fec-476a-8e12-0a3ad12cd990")
+		)
+		(pin "13"
+			(uuid "c04b2893-8197-4090-9516-f98d9fffc427")
+		)
+		(pin "14"
+			(uuid "294ebdba-e316-48c6-8e60-4f363631e139")
+		)
+		(pin "15"
+			(uuid "6d6456e2-be4d-445d-84c1-3eede13c1c13")
+		)
+		(pin "4"
+			(uuid "4e176277-3ef6-44c3-be3f-e547b8c35472")
+		)
+		(pin "5"
+			(uuid "83933efe-8137-46c0-9b41-16689a8a1c1f")
+		)
+		(pin "7"
+			(uuid "eb3addad-be63-4b3a-9671-b808cc40525a")
+		)
+		(pin "8"
+			(uuid "3fe9b3f0-f04e-467a-9ca5-65df2920dd0c")
+		)
+		(pin "6"
+			(uuid "eadd95fe-ea8e-4df0-9593-41f045c5a7cc")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "U4")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM13700")
+		(at 143.51 168.91 0)
+		(mirror y)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "087ba1c6-df4f-48d3-b353-304ec6000867")
+		(property "Reference" "U4"
+			(at 145.796 160.782 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM13700"
+			(at 145.796 163.322 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
+			(at 151.13 168.275 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm13700.pdf"
+			(at 151.13 168.275 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16"
+			(at 143.51 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "3c68aa99-0ee9-4918-832a-1feccf4ba96f")
+		)
+		(pin "16"
+			(uuid "5064ea1e-67c1-4adf-a11b-59209bcbcce8")
+		)
+		(pin "1"
+			(uuid "76550818-7238-43e6-acb0-996b686003de")
+		)
+		(pin "2"
+			(uuid "dd2d114c-1076-4529-a241-d0e59123253c")
+		)
+		(pin "10"
+			(uuid "f0fd91d4-a9e1-4299-ab42-b477270902fd")
+		)
+		(pin "11"
+			(uuid "43bc2345-68a5-4a8e-aaa4-da3ab35e3daf")
+		)
+		(pin "3"
+			(uuid "102663fe-2f2b-426e-b61e-84201a3bff38")
+		)
+		(pin "12"
+			(uuid "c3753182-8fec-476a-8e12-0a3ad12cd990")
+		)
+		(pin "13"
+			(uuid "c04b2893-8197-4090-9516-f98d9fffc427")
+		)
+		(pin "14"
+			(uuid "294ebdba-e316-48c6-8e60-4f363631e139")
+		)
+		(pin "15"
+			(uuid "6d6456e2-be4d-445d-84c1-3eede13c1c13")
+		)
+		(pin "4"
+			(uuid "4e176277-3ef6-44c3-be3f-e547b8c35472")
+		)
+		(pin "5"
+			(uuid "83933efe-8137-46c0-9b41-16689a8a1c1f")
+		)
+		(pin "7"
+			(uuid "eb3addad-be63-4b3a-9671-b808cc40525a")
+		)
+		(pin "8"
+			(uuid "3fe9b3f0-f04e-467a-9ca5-65df2920dd0c")
+		)
+		(pin "6"
+			(uuid "eadd95fe-ea8e-4df0-9593-41f045c5a7cc")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "U4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM13700")
+		(at 143.51 186.69 0)
+		(mirror y)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "087ba1c6-df4f-48d3-b353-304ec6000867")
+		(property "Reference" "U4"
+			(at 144.018 190.754 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM13700"
+			(at 144.018 193.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
+			(at 151.13 186.055 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm13700.pdf"
+			(at 151.13 186.055 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16"
+			(at 143.51 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "3c68aa99-0ee9-4918-832a-1feccf4ba96f")
+		)
+		(pin "16"
+			(uuid "5064ea1e-67c1-4adf-a11b-59209bcbcce8")
+		)
+		(pin "1"
+			(uuid "76550818-7238-43e6-acb0-996b686003de")
+		)
+		(pin "2"
+			(uuid "dd2d114c-1076-4529-a241-d0e59123253c")
+		)
+		(pin "10"
+			(uuid "f0fd91d4-a9e1-4299-ab42-b477270902fd")
+		)
+		(pin "11"
+			(uuid "43bc2345-68a5-4a8e-aaa4-da3ab35e3daf")
+		)
+		(pin "3"
+			(uuid "102663fe-2f2b-426e-b61e-84201a3bff38")
+		)
+		(pin "12"
+			(uuid "c3753182-8fec-476a-8e12-0a3ad12cd990")
+		)
+		(pin "13"
+			(uuid "c04b2893-8197-4090-9516-f98d9fffc427")
+		)
+		(pin "14"
+			(uuid "294ebdba-e316-48c6-8e60-4f363631e139")
+		)
+		(pin "15"
+			(uuid "6d6456e2-be4d-445d-84c1-3eede13c1c13")
+		)
+		(pin "4"
+			(uuid "4e176277-3ef6-44c3-be3f-e547b8c35472")
+		)
+		(pin "5"
+			(uuid "83933efe-8137-46c0-9b41-16689a8a1c1f")
+		)
+		(pin "7"
+			(uuid "eb3addad-be63-4b3a-9671-b808cc40525a")
+		)
+		(pin "8"
+			(uuid "3fe9b3f0-f04e-467a-9ca5-65df2920dd0c")
+		)
+		(pin "6"
+			(uuid "eadd95fe-ea8e-4df0-9593-41f045c5a7cc")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "U4")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM13700")
+		(at 162.56 176.53 0)
+		(mirror y)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "087ba1c6-df4f-48d3-b353-304ec6000867")
+		(property "Reference" "U4"
+			(at 162.306 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM13700"
+			(at 162.306 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
+			(at 170.18 175.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm13700.pdf"
+			(at 170.18 175.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16"
+			(at 162.56 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "3c68aa99-0ee9-4918-832a-1feccf4ba96f")
+		)
+		(pin "16"
+			(uuid "5064ea1e-67c1-4adf-a11b-59209bcbcce8")
+		)
+		(pin "1"
+			(uuid "76550818-7238-43e6-acb0-996b686003de")
+		)
+		(pin "2"
+			(uuid "dd2d114c-1076-4529-a241-d0e59123253c")
+		)
+		(pin "10"
+			(uuid "f0fd91d4-a9e1-4299-ab42-b477270902fd")
+		)
+		(pin "11"
+			(uuid "43bc2345-68a5-4a8e-aaa4-da3ab35e3daf")
+		)
+		(pin "3"
+			(uuid "102663fe-2f2b-426e-b61e-84201a3bff38")
+		)
+		(pin "12"
+			(uuid "c3753182-8fec-476a-8e12-0a3ad12cd990")
+		)
+		(pin "13"
+			(uuid "c04b2893-8197-4090-9516-f98d9fffc427")
+		)
+		(pin "14"
+			(uuid "294ebdba-e316-48c6-8e60-4f363631e139")
+		)
+		(pin "15"
+			(uuid "6d6456e2-be4d-445d-84c1-3eede13c1c13")
+		)
+		(pin "4"
+			(uuid "4e176277-3ef6-44c3-be3f-e547b8c35472")
+		)
+		(pin "5"
+			(uuid "83933efe-8137-46c0-9b41-16689a8a1c1f")
+		)
+		(pin "7"
+			(uuid "eb3addad-be63-4b3a-9671-b808cc40525a")
+		)
+		(pin "8"
+			(uuid "3fe9b3f0-f04e-467a-9ca5-65df2920dd0c")
+		)
+		(pin "6"
+			(uuid "eadd95fe-ea8e-4df0-9593-41f045c5a7cc")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "U4")
+					(unit 3)
 				)
 			)
 		)
@@ -8580,7 +10727,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a0a7e48-8d82-43ac-b941-ddc3f42d3fdd")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR058"
 			(at 237.49 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -8640,7 +10787,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR044")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -8722,141 +10869,13 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "C5")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TL074")
-		(at 26.67 177.8 0)
-		(unit 5)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0eb4aa94-1de0-497e-897f-ef2c9928de9e")
-		(property "Reference" "U1"
-			(at 25.4 176.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TL074"
-			(at 25.4 179.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
-			(at 25.4 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 27.94 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 26.67 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "25d55f74-446d-4c2a-a0f8-51b095610855")
-		)
-		(pin "2"
-			(uuid "be119448-a67b-4a1c-8cac-1ae95e9b8ee5")
-		)
-		(pin "1"
-			(uuid "30e15c78-8eb5-4b10-ad6e-64eb4d2c889a")
-		)
-		(pin "5"
-			(uuid "cf23d327-6401-49bf-943f-e0bdd77b3e7d")
-		)
-		(pin "10"
-			(uuid "be46e83c-55eb-4729-bdf4-b6f6f8e9b2c8")
-		)
-		(pin "7"
-			(uuid "7ca5518a-8ecd-48c9-873e-67c8629821ba")
-		)
-		(pin "6"
-			(uuid "076b00a9-bd07-4e94-83cc-d66ee63d073c")
-		)
-		(pin "9"
-			(uuid "8b4a96e2-14f5-4fdc-9c64-b5cf1076e4cc")
-		)
-		(pin "13"
-			(uuid "99a2a8f1-ab45-4191-9209-3a283b82615e")
-		)
-		(pin "8"
-			(uuid "fb110522-870a-4cbc-9bba-136429f618fb")
-		)
-		(pin "11"
-			(uuid "3eb6628f-3aa5-47ef-9318-2364145f8614")
-		)
-		(pin "14"
-			(uuid "af6ee4f5-2fc8-4516-810e-79c2deee74e8")
-		)
-		(pin "4"
-			(uuid "eff0e4d1-b1cc-4c27-9eed-6fbdcfb55daa")
-		)
-		(pin "12"
-			(uuid "23cc9cb6-4896-4e66-93cb-6b0d7ec73354")
-		)
-		(instances
-			(project "modularFeedbackProcessor"
-				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "U1")
-					(unit 5)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:-12V")
-		(at 49.53 186.69 180)
+		(at 26.67 185.42 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8866,8 +10885,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0edac8e8-8529-4e11-8b97-4630ce54a370")
-		(property "Reference" "#PWR08"
-			(at 49.53 182.88 0)
+		(property "Reference" "#PWR010"
+			(at 26.67 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8878,7 +10897,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 49.53 191.77 0)
+			(at 26.67 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8888,7 +10907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 186.69 0)
+			(at 26.67 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8899,7 +10918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 186.69 0)
+			(at 26.67 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8910,7 +10929,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 49.53 186.69 0)
+			(at 26.67 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8926,7 +10945,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR08")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -8944,7 +10963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1374b769-888b-44fa-aeec-2339599de522")
-		(property "Reference" "D7"
+		(property "Reference" "D6"
 			(at 180.34 41.9099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9030,11 +11049,8 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "D7")
+					(reference "D6")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -9051,7 +11067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13824e0c-384e-4928-9174-c8f0c014e2f8")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR044"
 			(at 166.37 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -9111,7 +11127,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR030")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -9192,20 +11208,13 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "R7")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 39.37 177.8 0)
+		(at 49.53 176.53 0)
 		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9216,7 +11225,7 @@
 		(fields_autoplaced yes)
 		(uuid "141be652-73af-4cb6-8988-fd0e796ca4e7")
 		(property "Reference" "U3"
-			(at 38.1 176.5299 0)
+			(at 48.26 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9227,7 +11236,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 38.1 179.0699 0)
+			(at 48.26 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9238,7 +11247,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
-			(at 38.1 175.26 0)
+			(at 48.26 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9249,7 +11258,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 40.64 172.72 0)
+			(at 50.8 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9260,7 +11269,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 39.37 177.8 0)
+			(at 49.53 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9317,9 +11326,6 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "U3")
 					(unit 5)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -9336,7 +11342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14e937ab-c4be-4054-bbaf-2d71befdc649")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR046"
 			(at 177.8 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9396,7 +11402,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR032")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -9413,7 +11419,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15513d9a-6ced-4ae9-9482-d3c45d525a22")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR022"
 			(at 105.41 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -9473,7 +11479,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR094")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -9491,7 +11497,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "169d8f97-9d56-4850-aba6-a94d3a21ad17")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 224.155 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9544,23 +11550,20 @@
 				)
 			)
 		)
-		(pin "T"
+		(pin "3"
 			(uuid "9e7d109d-03e4-4ee6-a662-107e59be7ab3")
 		)
-		(pin "S"
+		(pin "2"
 			(uuid "ab452720-0f48-4dd2-8e24-40ae4998aec6")
 		)
-		(pin "TN"
+		(pin "1"
 			(uuid "be891ed3-9f46-478a-9e2e-fd9fe57c2b2c")
 		)
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -9576,7 +11579,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17081fd7-48a3-439f-a5da-5792c2f4f9be")
-		(property "Reference" "R9"
+		(property "Reference" "R8"
 			(at 88.9 128.016 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9638,7 +11641,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -9719,13 +11722,6 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "R2")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
 				)
 			)
 		)
@@ -9742,7 +11738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c5a8373-a230-425e-9a92-c12001ecccfe")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR021"
 			(at 102.87 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -9802,7 +11798,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR097")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -9819,7 +11815,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c62ad4f-12c0-43da-a4ba-214d4804b7bc")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 52.07 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -9879,7 +11875,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9896,7 +11892,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e1e6381-23ed-4c7c-b4fc-990734afb7de")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR029"
 			(at 124.46 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -9956,7 +11952,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR023")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -9973,7 +11969,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e566fa7-cd5a-4829-8f22-6f20e90d3410")
-		(property "Reference" "R33"
+		(property "Reference" "R35"
 			(at 228.6 92.456 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10035,15 +12031,8 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R33")
+					(reference "R35")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
 				)
 			)
 		)
@@ -10059,7 +12048,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f218edf-ef44-4516-9fe3-75bb18ebb74c")
-		(property "Reference" "R38"
+		(property "Reference" "R40"
 			(at 265.43 70.866 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10121,15 +12110,8 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R38")
+					(reference "R40")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
 				)
 			)
 		)
@@ -10146,7 +12128,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f641fa9-bcbf-4599-9838-0c411d26a362")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 173.99 133.3499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10232,11 +12214,8 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -10245,7 +12224,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 205.74 96.52 0)
 		(mirror x)
-		(unit 1)
+		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10253,7 +12232,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20b472f5-b417-4026-a6e8-253e8c17a371")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 207.518 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10351,11 +12330,86 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "U1")
+					(reference "U3")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 33.02 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "219bf8d6-6971-4d75-8eb7-6eaa95c5e334")
+		(property "Reference" "#PWR0118"
+			(at 33.02 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 33.02 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 33.02 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4967d955-88aa-4650-a758-9c4b5d999af9")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "#PWR0118")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -10372,7 +12426,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "223d1190-5618-474c-898c-6ab14e0dccf5")
-		(property "Reference" "J8"
+		(property "Reference" "J9"
 			(at 258.318 117.602 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10425,23 +12479,177 @@
 				)
 			)
 		)
-		(pin "T"
+		(pin "3"
 			(uuid "ef64eba0-eade-451f-9306-ae8fb9fa7d1b")
 		)
-		(pin "S"
+		(pin "2"
 			(uuid "3b99cfa3-2f9e-4533-a867-89bb0bb2666d")
 		)
-		(pin "TN"
+		(pin "1"
 			(uuid "decb7eee-e441-42bd-9597-3366d7b97956")
 		)
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "J8")
+					(reference "J9")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Connector:TestPoint_Small")
+		(at 87.63 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24dd7c0b-250a-455d-af72-8d1e9405c4d2")
+		(property "Reference" "TP3"
+			(at 88.9 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BBDIn"
+			(at 88.9 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_4ms_TestPoint:TestPoint_Pad_06"
+			(at 92.71 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 87.63 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f39c428b-4bc2-42fb-bea8-b29f19046862")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Connector:TestPoint_Small")
+		(at 116.84 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "24e373d6-6ee9-4814-b1cd-d804ca5624e5")
+		(property "Reference" "TP1"
+			(at 117.856 33.528 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Clock"
+			(at 117.856 35.306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_4ms_TestPoint:TestPoint_Pad_06"
+			(at 121.92 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 116.84 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5b238f2-66bb-4b4c-9dbc-2b9d8826cfdc")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "TP1")
+					(unit 1)
 				)
 			)
 		)
@@ -10458,7 +12666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2500c6eb-702d-4aa8-ac79-772be5c68357")
-		(property "Reference" "EffectsDryWetCVLvl1"
+		(property "Reference" "RV11"
 			(at 247.396 129.032 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10511,6 +12719,17 @@
 				)
 			)
 		)
+		(property "Parameter" "Effects Dry/Wet CV Level"
+			(at 248.92 129.032 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+					(italic yes)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7fad406d-47ae-480a-b70c-bfb0b213a519")
 		)
@@ -10523,11 +12742,8 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "EffectsDryWetCVLvl1")
+					(reference "RV11")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -10544,7 +12760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "272e9869-d738-45c9-9a3d-3c3b1632e898")
-		(property "Reference" "J10"
+		(property "Reference" "J4"
 			(at 113.4633 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10564,7 +12780,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4ms_Connector:Pins_2x08_2.54mm_TH_EuroPower"
+		(property "Footprint" "PCM_4ms_Connector:Pins_2x08_2.54mm_TH_EuroPower"
 			(at 125.73 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -10684,7 +12900,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "J10")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -10765,9 +12981,6 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "R5")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -10783,7 +12996,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27b5c51e-74cb-47e4-a6df-eb638a94addd")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR039"
 			(at 152.4 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -10843,7 +13056,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR089")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -10926,13 +13139,6 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "R4")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
 				)
 			)
 		)
@@ -10949,7 +13155,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e4d51d9-ba2c-4b29-84c6-71f8d0d782c4")
-		(property "Reference" "R22"
+		(property "Reference" "R24"
 			(at 171.45 144.018 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11011,11 +13217,8 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R22")
+					(reference "R24")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -11032,7 +13235,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33cc5b51-bbf6-40ae-8ce6-956a95538b55")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR051"
 			(at 196.85 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -11092,7 +13295,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR037")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -11100,7 +13303,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 87.63 0)
+		(at 134.62 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11110,8 +13313,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3426a6a4-bd77-497b-8e67-074091cb21de")
-		(property "Reference" "#PWR025"
-			(at 134.62 93.98 0)
+		(property "Reference" "#PWR035"
+			(at 134.62 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11122,7 +13325,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 92.71 0)
+			(at 134.62 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11132,7 +13335,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 87.63 0)
+			(at 134.62 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11143,7 +13346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 87.63 0)
+			(at 134.62 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11154,7 +13357,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 87.63 0)
+			(at 134.62 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11170,7 +13373,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR025")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -11188,7 +13391,7 @@
 		(dnp no)
 		(uuid "35bb023b-b990-4a7a-9e2a-70f2276dacf7")
 		(property "Reference" "R16"
-			(at 132.08 81.2799 0)
+			(at 139.954 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11199,7 +13402,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 132.08 83.8199 0)
+			(at 139.954 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11253,13 +13456,6 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "R16")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
 				)
 			)
 		)
@@ -11376,9 +13572,87 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "U3")
 					(unit 3)
-					(variant
-						(name "Testing")
-					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 33.02 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3916dbd7-12cf-4202-ba18-4025a4a9faf4")
+		(property "Reference" "R82"
+			(at 34.544 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 34.544 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 31.242 140.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 33.02 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ab974631-1e1c-4d16-99b5-218d1afa41ba")
+		)
+		(pin "1"
+			(uuid "5191a7ac-a84b-4ae0-a2c4-0278d195e735")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "R82")
+					(unit 1)
 				)
 			)
 		)
@@ -11395,7 +13669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3aa7df24-bbb5-4fbb-90ff-4ed268056891")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR048"
 			(at 185.42 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -11455,7 +13729,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR034")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -11473,7 +13747,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b626302-210d-4e1f-a664-e64db8befa83")
-		(property "Reference" "ClockCV1"
+		(property "Reference" "RV6"
 			(at 193.04 22.352 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11526,6 +13800,17 @@
 				)
 			)
 		)
+		(property "Parameter" "Clock CV"
+			(at 193.04 20.574 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+					(italic yes)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2aa3a372-a7c4-4d78-84e6-82590b8465fa")
 		)
@@ -11538,11 +13823,8 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "ClockCV1")
+					(reference "RV6")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -11559,7 +13841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b9ac171-86e1-4190-b840-eddc2ae83160")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR040"
 			(at 157.48 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -11619,7 +13901,85 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR028")
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Connector:TestPoint")
+		(at 121.92 104.14 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3ba2ea51-9b91-4be3-9d3f-a2b21db0d8a6")
+		(property "Reference" "TP2"
+			(at 123.698 105.156 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BBDOut"
+			(at 123.698 107.696 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_TestPoint:TestPoint_Pad_06"
+			(at 116.84 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 121.92 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a48973a0-debb-40db-8005-143159a155db")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -11636,7 +13996,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ee72d63-718a-4c3e-8880-6899a78cc823")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR036"
 			(at 137.16 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -11696,7 +14056,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR090")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -11713,7 +14073,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3f4c19b9-d346-4163-9b80-0983496b9879")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR052"
 			(at 201.93 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -11773,7 +14133,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR038")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -11791,7 +14151,7 @@
 		(dnp no)
 		(uuid "3fef0783-fffb-44c7-bb59-94d300179184")
 		(property "Reference" "J2"
-			(at 17.272 103.632 0)
+			(at 18.288 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11801,7 +14161,7 @@
 			)
 		)
 		(property "Value" "Feedback"
-			(at 17.78 106.172 0)
+			(at 18.796 106.172 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11843,13 +14203,13 @@
 				)
 			)
 		)
-		(pin "T"
+		(pin "3"
 			(uuid "38e1a727-3711-42e1-85fe-6c697e23904c")
 		)
-		(pin "S"
+		(pin "2"
 			(uuid "bf69d595-7a0b-4eb8-9781-eb630664e2d5")
 		)
-		(pin "TN"
+		(pin "1"
 			(uuid "d6d8351f-b573-4ecd-87d5-c515e60f0f62")
 		)
 		(instances
@@ -11857,9 +14217,6 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "J2")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -11876,7 +14233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4048ede4-6c06-4090-bd37-b521bc2d1f73")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR019"
 			(at 99.06 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -11936,7 +14293,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -11953,8 +14310,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4417d580-a53f-4cfe-bd57-2d022f07b04a")
-		(property "Reference" "FeedbackCVLvl1"
-			(at 28.194 115.062 90)
+		(property "Reference" "RV1"
+			(at 28.702 115.062 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11964,7 +14321,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 30.226 115.57 90)
+			(at 30.734 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12006,6 +14363,17 @@
 				)
 			)
 		)
+		(property "Parameter" "Feedback CV Level"
+			(at 26.67 115.062 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+					(italic yes)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ee4b2a90-c820-4278-b342-7e800e0c9865")
 		)
@@ -12018,11 +14386,85 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "FeedbackCVLvl1")
+					(reference "RV1")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.69 176.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "472a584a-e526-473e-b27c-8060e04bfd55")
+		(property "Reference" "#PWR0103"
+			(at 59.69 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "187e1bad-6604-456f-bef0-9ebdef558587")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "#PWR0103")
+					(unit 1)
 				)
 			)
 		)
@@ -12127,9 +14569,85 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "D3")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Connector:TestPoint_Small")
+		(at 151.13 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "498a1f84-d481-4119-ad7c-153c64a2062f")
+		(property "Reference" "TP8"
+			(at 152.4 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FBClip"
+			(at 152.4 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_4ms_TestPoint:TestPoint_Pad_06"
+			(at 156.21 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 151.13 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5dd93ebd-b6f0-4e80-831b-3596490b8486")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "TP8")
+					(unit 1)
 				)
 			)
 		)
@@ -12146,7 +14664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c4b7c08-00a0-409f-b0a1-29530eea25c3")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR024"
 			(at 106.68 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -12206,7 +14724,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR099")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -12224,7 +14742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c7cfc65-da36-4175-80b4-32aad3aa0b99")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR025"
 			(at 111.76 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -12284,7 +14802,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR019")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -12294,7 +14812,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 76.2 77.47 0)
 		(mirror x)
-		(unit 4)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12303,7 +14821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4eae56b3-9c18-4db9-8f27-6fe7154ddf0b")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 76.2 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12401,11 +14919,8 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "U3")
-					(unit 4)
-					(variant
-						(name "Testing")
-					)
+					(reference "U2")
+					(unit 1)
 				)
 			)
 		)
@@ -12422,7 +14937,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f47d566-0745-4458-aef3-aaeab5e5bd44")
-		(property "Reference" "ClockCVLvl1"
+		(property "Reference" "RV9"
 			(at 211.328 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12475,6 +14990,17 @@
 				)
 			)
 		)
+		(property "Parameter" "Clock CV Level"
+			(at 212.852 42.164 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+					(italic yes)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ec8882a1-ed1a-48d8-857f-f8d0eaf7b154")
 		)
@@ -12487,11 +15013,8 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "ClockCVLvl1")
+					(reference "RV9")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -12508,7 +15031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "506b71dd-dc43-407a-b5df-e5e6c6332f88")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 99.06 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -12568,7 +15091,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -12586,7 +15109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50cd85d2-7bd9-41da-ab20-c6b66bb2be95")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR031"
 			(at 124.46 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -12646,7 +15169,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR0100")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -12654,7 +15177,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 52.07 177.8 0)
+		(at 29.21 176.53 0)
 		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12665,7 +15188,7 @@
 		(fields_autoplaced yes)
 		(uuid "5224ac62-e0e2-4618-bcbf-6a42fbc10e15")
 		(property "Reference" "U2"
-			(at 50.8 176.5299 0)
+			(at 27.94 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12676,7 +15199,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 50.8 179.0699 0)
+			(at 27.94 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12687,7 +15210,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
-			(at 50.8 175.26 0)
+			(at 27.94 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12698,7 +15221,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 53.34 172.72 0)
+			(at 30.48 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12709,7 +15232,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 52.07 177.8 0)
+			(at 29.21 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12766,9 +15289,6 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "U2")
 					(unit 5)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -12850,13 +15370,6 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "R12")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
 				)
 			)
 		)
@@ -12871,10 +15384,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5468a108-e11c-46a4-9162-f55227d9d7c0")
-		(property "Reference" "U6"
-			(at 124.46 88.8999 90)
+		(property "Reference" "U5"
+			(at 124.206 92.964 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12885,7 +15397,7 @@
 			)
 		)
 		(property "Value" "V3205"
-			(at 124.46 91.4399 90)
+			(at 124.206 95.504 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12955,18 +15467,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "U6")
+					(reference "U5")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 49.53 168.91 0)
+		(at 26.67 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12976,8 +15485,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5505f3ab-cba5-4884-8820-c5d03c9c8297")
-		(property "Reference" "#PWR07"
-			(at 49.53 172.72 0)
+		(property "Reference" "#PWR09"
+			(at 26.67 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12988,7 +15497,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 49.53 163.83 0)
+			(at 26.67 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12998,7 +15507,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 168.91 0)
+			(at 26.67 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13009,7 +15518,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 168.91 0)
+			(at 26.67 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13020,7 +15529,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 49.53 168.91 0)
+			(at 26.67 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13036,7 +15545,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -13154,9 +15663,6 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "U2")
 					(unit 4)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -13173,7 +15679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55a826d3-c212-4450-a411-303136a9d411")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR034"
 			(at 129.54 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -13233,7 +15739,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR024")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -13251,7 +15757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56725b3d-a0a4-4195-8102-749809e148eb")
-		(property "Reference" "D8"
+		(property "Reference" "D7"
 			(at 180.34 49.5299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13337,11 +15843,8 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "D8")
+					(reference "D7")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -13357,7 +15860,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "578403dc-3939-4df7-b687-bbb2b599aa18")
-		(property "Reference" "R29"
+		(property "Reference" "R31"
 			(at 198.12 37.592 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13419,15 +15922,8 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R29")
+					(reference "R31")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
 				)
 			)
 		)
@@ -13509,13 +16005,6 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "R13")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
 				)
 			)
 		)
@@ -13532,7 +16021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ba0a27c-5ac0-427d-a69b-749dac4ae6bc")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR026"
 			(at 119.38 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -13592,7 +16081,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR020")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -13610,7 +16099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5dd32330-a41a-4b77-94fc-28cba4c5deaf")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR050"
 			(at 195.58 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -13670,7 +16159,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR036")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -13753,13 +16242,6 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "R14")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
 				)
 			)
 		)
@@ -13842,13 +16324,84 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "C1")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
-						)
-					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 171.45 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "633518b6-3451-4e01-b929-baf852bf91e1")
+		(property "Reference" "#PWR0106"
+			(at 171.45 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04ecf1a1-6437-484c-a431-8b98bae98d41")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "#PWR0106")
+					(unit 1)
 				)
 			)
 		)
@@ -13865,7 +16418,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "650e7dfb-d8d6-4a30-8854-3158cc37d6b3")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR057"
 			(at 234.95 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -13925,7 +16478,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR043")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -13942,7 +16495,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "68681d74-bf15-4239-9191-7ab85e6db4d5")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR015"
 			(at 91.44 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -14002,7 +16555,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR013")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -14083,13 +16636,87 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "R17")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 170.18 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6a7d1905-958b-451e-8dd8-38e94910bc80")
+		(property "Reference" "C26"
+			(at 170.942 28.194 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 170.942 32.766 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 171.1452 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 170.18 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ca5501b-395b-409d-b202-1fc9959f9256")
+		)
+		(pin "2"
+			(uuid "5c1ab135-77b0-4537-b4f7-2b799adef67e")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "C26")
+					(unit 1)
 				)
 			)
 		)
@@ -14106,7 +16733,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6bf82862-9cd6-4750-b9b1-bbb15f09d365")
-		(property "Reference" "R20"
+		(property "Reference" "R21"
 			(at 163.83 44.196 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14168,15 +16795,8 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R20")
+					(reference "R21")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
 				)
 			)
 		)
@@ -14187,13 +16807,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e907c39-cdbc-46e9-bfc9-d19e8dc01b5e")
-		(property "Reference" "U7"
+		(property "Reference" "U6"
 			(at 144.78 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14213,7 +16833,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
 			(at 144.78 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -14297,11 +16917,89 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "U7")
+					(reference "U6")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 22.86 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6e9d9386-fc3f-4487-ad3b-76b8371cb2f5")
+		(property "Reference" "R81"
+			(at 24.384 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15k"
+			(at 24.384 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 21.082 140.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 22.86 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6982c9f2-0b25-4f09-80ab-64067038ccc4")
+		)
+		(pin "1"
+			(uuid "e72df01e-d298-46dc-a0b8-75edc6ae6a4f")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "R81")
+					(unit 1)
 				)
 			)
 		)
@@ -14318,7 +17016,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6fffa99a-c146-47c8-b373-0a2001a385c1")
-		(property "Reference" "R79"
+		(property "Reference" "R19"
 			(at 143.002 109.728 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14382,7 +17080,84 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R79")
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7102fa06-ef08-47dc-9335-071ff1dda75e")
+		(property "Reference" "#PWR0120"
+			(at 33.02 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 160.274 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17bac66f-ffcb-4f98-8c99-2ee282f059f7")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -14400,7 +17175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71529e78-9b1a-4bdf-8108-bd77b78ae5f2")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR060"
 			(at 243.84 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -14460,7 +17235,88 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR046")
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 128.27 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "71ddb8a1-b7b2-4d90-8323-cfd0f31d1d86")
+		(property "Reference" "C27"
+			(at 129.032 82.804 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 129.032 87.376 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 129.2352 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 128.27 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "598cea73-27c2-411a-a88f-4eafb61bdb53")
+		)
+		(pin "2"
+			(uuid "27c8cd05-ed94-4ce4-b9a5-7b32c6ac6889")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -14478,8 +17334,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "747bcfa4-b417-495f-bfbb-9fa73c6bd5da")
-		(property "Reference" "EffectsDryWetCV1"
-			(at 228.6 110.236 90)
+		(property "Reference" "RV10"
+			(at 228.6 111.506 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14489,7 +17345,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 228.6 112.776 90)
+			(at 228.6 113.284 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14531,6 +17387,17 @@
 				)
 			)
 		)
+		(property "Parameter" "Effects Dry/Wet CV"
+			(at 228.854 109.474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+					(italic yes)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0452b44d-0262-4991-a1ff-129b25dba317")
 		)
@@ -14543,11 +17410,8 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "EffectsDryWetCV1")
+					(reference "RV10")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -14564,7 +17428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "759ee52a-c9d8-4255-9654-c7a70c5741fa")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR012"
 			(at 53.34 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -14625,7 +17489,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR010")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -14642,7 +17506,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75eb1c76-4447-4f7d-bc86-c6e5da016015")
-		(property "Reference" "R28"
+		(property "Reference" "R29"
 			(at 188.722 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14704,22 +17568,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R28")
+					(reference "R29")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 36.83 170.18 0)
+		(at 46.99 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14729,8 +17586,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75fe0c3a-7d7a-4b06-ad3d-38fe6927dfa0")
-		(property "Reference" "#PWR087"
-			(at 36.83 173.99 0)
+		(property "Reference" "#PWR05"
+			(at 46.99 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14741,7 +17598,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 36.83 165.1 0)
+			(at 46.99 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14751,7 +17608,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 170.18 0)
+			(at 46.99 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14762,7 +17619,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 170.18 0)
+			(at 46.99 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14773,7 +17630,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 36.83 170.18 0)
+			(at 46.99 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14789,7 +17646,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR087")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -14806,7 +17663,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "79fd5067-7c37-4164-9190-8858a3e6aa4e")
-		(property "Reference" "R37"
+		(property "Reference" "R39"
 			(at 252.73 63.246 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14868,15 +17725,8 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R37")
+					(reference "R39")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
 				)
 			)
 		)
@@ -14892,7 +17742,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ad3e883-0c89-492c-9adf-eb8c2a4e3f62")
-		(property "Reference" "R19"
+		(property "Reference" "R20"
 			(at 163.83 35.306 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14954,15 +17804,8 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R19")
+					(reference "R20")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
 				)
 			)
 		)
@@ -14979,7 +17822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ae91fc7-cf7f-446a-a1cf-8c36343b88cb")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR027"
 			(at 120.65 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -15039,7 +17882,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR021")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -15056,7 +17899,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b5dad12-eb8f-4a19-96d2-b6fbeb7a259a")
-		(property "Reference" "R32"
+		(property "Reference" "R34"
 			(at 209.55 64.262 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15118,15 +17961,89 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R32")
+					(reference "R34")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 20.32 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7b8b4224-e25b-4ad1-9df0-368c82678d4c")
+		(property "Reference" "C19"
+			(at 21.082 179.324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 21.082 183.896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 21.2852 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 20.32 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d39acb58-ff8d-47f5-bd73-e023ca0dc957")
+		)
+		(pin "2"
+			(uuid "93f73235-1644-4729-844e-13694c9c7ba8")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "C19")
+					(unit 1)
 				)
 			)
 		)
@@ -15208,13 +18125,6 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "C4")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
-						)
-					)
 				)
 			)
 		)
@@ -15231,7 +18141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c68e435-e8cc-41a1-b928-7be822d12da4")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR028"
 			(at 120.65 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -15291,7 +18201,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR022")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -15309,7 +18219,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "817ce515-63e6-4c29-bc64-0972f442f51d")
-		(property "Reference" "R34"
+		(property "Reference" "R36"
 			(at 224.282 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15371,15 +18281,8 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R34")
+					(reference "R36")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
 				)
 			)
 		)
@@ -15541,20 +18444,14 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "R11")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 24.13 168.91 0)
+		(lib_id "Device:LED")
+		(at 22.86 149.86 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15562,31 +18459,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a401fa4-13b7-4fa3-a3fa-954cac35dac9")
-		(property "Reference" "#PWR01"
-			(at 24.13 172.72 0)
-			(hide yes)
+		(uuid "8a1d8db6-7240-4fcc-8aa3-a7925750dc82")
+		(property "Reference" "D10"
+			(at 24.638 152.908 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "+12V"
-			(at 24.13 163.83 0)
+		(property "Value" "LED"
+			(at 24.638 150.368 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 24.13 168.91 0)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 22.86 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15597,7 +18494,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 168.91 0)
+			(at 22.86 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15607,8 +18504,19 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 24.13 168.91 0)
+		(property "Description" "Light emitting diode"
+			(at 22.86 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 22.86 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15619,12 +18527,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "73ee7b22-a470-46a1-a61f-dceee8d69287")
+			(uuid "9638b995-a0ab-434b-a72d-7835776d67e1")
+		)
+		(pin "2"
+			(uuid "fb0f4ec3-e88a-4aa0-ab3f-3fd50758f5fc")
 		)
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR01")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -15642,7 +18553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b82e535-e2b8-4303-88f8-8bd205911d12")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR041"
 			(at 160.02 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -15702,7 +18613,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR027")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -15820,9 +18731,6 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "U2")
 					(unit 3)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -15892,13 +18800,13 @@
 				)
 			)
 		)
-		(pin "T"
+		(pin "3"
 			(uuid "9c63a8fb-cb0b-41af-a6bc-eaf6f75ccd24")
 		)
-		(pin "S"
+		(pin "2"
 			(uuid "18f3b2e7-8c2f-40c4-8083-c6624e30b216")
 		)
-		(pin "TN"
+		(pin "1"
 			(uuid "7b438e7e-fb14-48d8-b885-0500e8ad04af")
 		)
 		(instances
@@ -15906,16 +18814,13 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "J3")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:-12V")
-		(at 36.83 186.69 180)
+		(at 46.99 185.42 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15925,8 +18830,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92bbdc81-61fe-4203-9b6a-4af3cf071f12")
-		(property "Reference" "#PWR086"
-			(at 36.83 182.88 0)
+		(property "Reference" "#PWR06"
+			(at 46.99 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15937,7 +18842,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 36.83 191.77 0)
+			(at 46.99 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15947,7 +18852,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 186.69 0)
+			(at 46.99 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15958,7 +18863,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 186.69 0)
+			(at 46.99 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15969,7 +18874,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 36.83 186.69 0)
+			(at 46.99 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15985,7 +18890,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR086")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -16080,7 +18985,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93928bae-27c1-4003-ae30-df95afe14076")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR038"
 			(at 152.4 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -16140,7 +19045,88 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR088")
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 43.18 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "93e95fb3-8102-4334-989e-c3346aadf4de")
+		(property "Reference" "R83"
+			(at 44.704 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15k"
+			(at 44.704 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 41.402 140.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 43.18 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a2f5dd79-ebff-47f2-95ee-149ce0b64786")
+		)
+		(pin "1"
+			(uuid "4c14a28c-abe9-49d9-bf0c-89152fed1c76")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "R83")
 					(unit 1)
 				)
 			)
@@ -16158,7 +19144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95aec79d-d6e4-46fe-8d41-e68be68336af")
-		(property "Reference" "R27"
+		(property "Reference" "R30"
 			(at 198.12 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16222,22 +19208,15 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R27")
+					(reference "R30")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:-12V")
-		(at 24.13 186.69 180)
+		(lib_id "power:GND")
+		(at 17.78 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16245,10 +19224,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ab6ba88-f206-4437-82e8-114c1590ad08")
-		(property "Reference" "#PWR02"
-			(at 24.13 182.88 0)
+		(uuid "9a27c7a6-c296-4c40-b227-4afd92289abf")
+		(property "Reference" "#PWR0114"
+			(at 17.78 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16258,8 +19236,8 @@
 				)
 			)
 		)
-		(property "Value" "-12V"
-			(at 24.13 191.77 0)
+		(property "Value" "GND"
+			(at 17.78 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16269,7 +19247,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 186.69 0)
+			(at 17.78 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16280,7 +19258,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 186.69 0)
+			(at 17.78 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16290,8 +19268,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 24.13 186.69 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 17.78 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16302,12 +19280,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "dd6bbf83-a5e7-4a97-8ed1-336e2f8d7b63")
+			(uuid "86d6320a-70da-42fa-a451-6d3a998f086b")
 		)
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR02")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -16391,13 +19369,6 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "C2")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
-						)
-					)
 				)
 			)
 		)
@@ -16414,7 +19385,7 @@
 		(dnp no)
 		(uuid "9d365920-6966-450e-834e-906298b22663")
 		(property "Reference" "C3"
-			(at 126.238 79.502 90)
+			(at 129.286 71.882 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16477,13 +19448,6 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "C3")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
-						)
-					)
 				)
 			)
 		)
@@ -16499,7 +19463,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d991426-72d8-4fa5-a847-9a3d2fd33d14")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR032"
 			(at 125.73 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -16559,7 +19523,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR093")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -16576,7 +19540,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9dddb759-c872-4164-ad42-406669f93435")
-		(property "Reference" "InputGain1"
+		(property "Reference" "RV2"
 			(at 42.672 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16629,6 +19593,17 @@
 				)
 			)
 		)
+		(property "Parameter" "Input Gain"
+			(at 40.64 75.438 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+					(italic yes)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6d534c82-bc8c-45e1-b07b-f8ba3f453d6d")
 		)
@@ -16641,11 +19616,8 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "InputGain1")
+					(reference "RV2")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -16661,7 +19633,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e4ef280-210c-41ef-a726-7a6ec180ed2a")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR07"
 			(at 40.64 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -16721,7 +19693,86 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR05")
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Connector:TestPoint_Small")
+		(at 93.98 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ff827a6-953e-4c55-8864-d5a8bdbbbf6b")
+		(property "Reference" "TP11"
+			(at 95.25 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FBI2"
+			(at 95.25 138.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_4ms_TestPoint:TestPoint_Pad_06"
+			(at 99.06 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 93.98 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb39e136-f22e-49fd-b954-6e28b82ebd7f")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -16839,9 +19890,6 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "U3")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -16857,7 +19905,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a320ad0d-14b4-490d-ac59-e46cc1553333")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 182.626 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16910,23 +19958,20 @@
 				)
 			)
 		)
-		(pin "T"
+		(pin "3"
 			(uuid "cf7019a8-4516-4c78-9e08-e09a9f34a6af")
 		)
-		(pin "S"
+		(pin "2"
 			(uuid "0fa866ca-3140-4e78-b3f2-9923cb2aa13e")
 		)
-		(pin "TN"
+		(pin "1"
 			(uuid "e9c63ec7-6f03-4125-9257-6160351d57dd")
 		)
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -16942,7 +19987,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a34ff59d-8431-4bf4-bc76-44810a1494d5")
-		(property "Reference" "RV1"
+		(property "Reference" "RV4"
 			(at 135.89 134.874 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17040,11 +20085,8 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "RV1")
+					(reference "RV4")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -17061,7 +20103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7b31013-bbaa-4a55-9e40-c81bbb664bb5")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR037"
 			(at 146.05 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -17121,7 +20163,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR026")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -17208,9 +20250,6 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "Q1")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -17227,7 +20266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aae71d36-0280-4a68-a7a2-3b9490dc90dc")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR017"
 			(at 99.06 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -17287,7 +20326,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR015")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -17304,7 +20343,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "abcefd4d-c76d-4289-90b2-a218b4bcd8ae")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR061"
 			(at 271.78 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -17364,7 +20403,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR047")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -17382,7 +20421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abf1f136-0452-4e1a-8a09-bf31182e91c8")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR055"
 			(at 217.17 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -17442,7 +20481,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR041")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -17527,6 +20566,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-12V")
+		(at 43.18 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b009b52b-207f-4f57-b190-9ca4b82e8296")
+		(property "Reference" "#PWR0119"
+			(at 43.18 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-12V"
+			(at 43.18 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 43.18 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2686d76d-4752-49a7-a651-89bd2fc7b9cd")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 57.15 74.93 90)
 		(unit 1)
@@ -17603,13 +20719,99 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "R3")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 33.02 149.86 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b20224b6-72ca-453b-9a97-965630cbc8ba")
+		(property "Reference" "D12"
+			(at 34.798 152.908 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 34.798 150.368 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 33.02 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 33.02 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 33.02 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f7a27e84-326d-4b82-b932-7a342333832d")
+		)
+		(pin "1"
+			(uuid "3ff22c1a-e890-4a33-b6bc-c30db5e847dd")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "D12")
+					(unit 1)
 				)
 			)
 		)
@@ -17625,7 +20827,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2bf6668-d5bd-4ae6-b91b-653bb67fd207")
-		(property "Reference" "R31"
+		(property "Reference" "R33"
 			(at 209.55 56.642 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17687,15 +20889,8 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R31")
+					(reference "R33")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
 				)
 			)
 		)
@@ -17712,7 +20907,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b31c0b37-82a5-44e2-af0a-2bca86618ad2")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 226.822 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17722,7 +20917,7 @@
 				)
 			)
 		)
-		(property "Value" "EffectRouteIn"
+		(property "Value" "EffectsRouteIn"
 			(at 227.076 143.764 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17765,23 +20960,20 @@
 				)
 			)
 		)
-		(pin "T"
+		(pin "1"
 			(uuid "43edb66c-ee6f-4408-900e-a96aef6941b2")
 		)
-		(pin "S"
+		(pin "2"
 			(uuid "385b278f-947c-48c4-a6d6-05aee47510a7")
 		)
-		(pin "TN"
+		(pin "3"
 			(uuid "6b0b92d6-3a4d-44dd-8d36-63dd37b234a4")
 		)
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -17797,8 +20989,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b51654b6-86ed-41ba-b916-8175a2e4bbb1")
-		(property "Reference" "DryWetCVLvl1"
-			(at 192.024 68.072 90)
+		(property "Reference" "RV7"
+			(at 193.04 68.072 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17808,7 +21000,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 194.056 68.58 90)
+			(at 194.564 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17850,6 +21042,17 @@
 				)
 			)
 		)
+		(property "Parameter" "Dry/Wet CV Level"
+			(at 191.262 67.564 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+					(italic yes)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3d3b2471-0a6b-4e0d-a3c2-7170fdd42ce8")
 		)
@@ -17862,11 +21065,8 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "DryWetCVLvl1")
+					(reference "RV7")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -17883,7 +21083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b52cd88d-609e-48a5-b2da-e40a9eb795a1")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR042"
 			(at 163.83 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -17943,7 +21143,166 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR091")
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 130.81 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b5a5bb8b-7453-42d1-8d39-6ab64df58d4a")
+		(property "Reference" "C29"
+			(at 132.842 178.054 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 132.842 180.086 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 130.81 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 130.81 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6b4cf46f-d1f0-4671-8f82-ec6cdb3a8052")
+		)
+		(pin "2"
+			(uuid "2273bf3c-6f6f-4093-84fc-f2c0f91c45f7")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 22.86 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6e78a05-22b4-4e8e-8254-6c79ae98a02d")
+		(property "Reference" "#PWR0113"
+			(at 22.86 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 22.86 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 22.86 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a90632c-dcd7-4604-a941-2530b61fea69")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -17961,7 +21320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7d6d30c-f2d4-4f03-a7de-5d69e01bdafc")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR016"
 			(at 92.71 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -18021,7 +21380,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR014")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -18039,7 +21398,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba2035f9-1055-4285-ae2a-0a27c9219ad2")
-		(property "Reference" "R35"
+		(property "Reference" "R37"
 			(at 233.68 125.222 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18101,15 +21460,8 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R35")
+					(reference "R37")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
 				)
 			)
 		)
@@ -18226,9 +21578,84 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "U3")
 					(unit 2)
-					(variant
-						(name "Testing")
-					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf04ffea-6bc3-483f-a944-9c461444ce7b")
+		(property "Reference" "#PWR0104"
+			(at 152.4 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6894ec9d-a935-44ea-a95d-2475e110c967")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "#PWR0104")
+					(unit 1)
 				)
 			)
 		)
@@ -18244,8 +21671,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1088600-e76d-49cf-affa-921a34198908")
-		(property "Reference" "FeedbackCV1"
-			(at 46.99 96.266 90)
+		(property "Reference" "RV3"
+			(at 46.99 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18255,7 +21682,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 46.99 98.806 90)
+			(at 46.99 99.568 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18297,6 +21724,17 @@
 				)
 			)
 		)
+		(property "Parameter" "Feedback CV"
+			(at 46.99 95.758 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+					(italic yes)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "250c7139-21ee-413f-b3d2-6d88bfbebf9f")
 		)
@@ -18309,11 +21747,8 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "FeedbackCV1")
+					(reference "RV3")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -18330,7 +21765,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c11317e7-4b61-4006-a3c5-4c74f59cb67f")
-		(property "Reference" "R30"
+		(property "Reference" "R32"
 			(at 201.93 22.352 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18392,15 +21827,87 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R30")
+					(reference "R32")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Connector:TestPoint_Small")
+		(at 199.39 133.35 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c1177642-c095-403e-b1e3-0fb889db3d02")
+		(property "Reference" "TP7"
+			(at 198.12 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EDWVO"
+			(at 198.12 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_4ms_TestPoint:TestPoint_Pad_06"
+			(at 194.31 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 199.39 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8cbe4600-2a5d-4e15-8f39-fcc29f6027e1")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "TP7")
+					(unit 1)
 				)
 			)
 		)
@@ -18517,9 +22024,6 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "U2")
 					(unit 2)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -18536,7 +22040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1d165e1-7d3a-42ef-ae40-f4db317a9731")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR047"
 			(at 177.8 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -18596,7 +22100,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR033")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -18614,7 +22118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c25909f5-b324-42b2-9b0d-8d317605656d")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR014"
 			(at 67.31 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -18674,7 +22178,88 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR012")
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 138.43 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c40fb3d8-035c-4daf-a837-5f1063443cd0")
+		(property "Reference" "C28"
+			(at 140.462 178.054 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 140.462 180.086 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 138.43 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 138.43 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77fb1db2-a2d7-4829-80f4-b62838ef00f8")
+		)
+		(pin "2"
+			(uuid "93365782-6a76-4135-90c9-4571c4d2074c")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -18692,7 +22277,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c72eee9e-d214-4cec-a9e4-154329e4e5ab")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 173.99 123.1899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18778,11 +22363,8 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -18799,7 +22381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8aef7c4-2ce5-4af9-9cf4-1d76d2f06d02")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR018"
 			(at 99.06 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -18859,7 +22441,88 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR016")
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 40.64 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ca1b8b73-67cc-4522-8cda-f52241bf0d79")
+		(property "Reference" "C25"
+			(at 41.402 179.324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 41.402 183.896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 41.6052 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 40.64 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f1ac0bd-e7d5-47c5-b270-a5bc4e2b9945")
+		)
+		(pin "2"
+			(uuid "0c39aceb-75c6-4140-8922-27aecdfe4819")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -18877,7 +22540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce7a43b0-b988-48ba-891f-61b9c5dce4af")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR033"
 			(at 128.27 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -18937,7 +22600,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR098")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -19018,13 +22681,6 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "R6")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
 				)
 			)
 		)
@@ -19107,9 +22763,6 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "SW1")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -19126,7 +22779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d03be318-3653-4888-b975-bdf6d5b395fb")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR054"
 			(at 215.9 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -19186,7 +22839,88 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR040")
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 40.64 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d142f1cc-0a02-4f3e-a5ea-3b8c83ae68f1")
+		(property "Reference" "C24"
+			(at 41.402 169.164 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 41.402 173.736 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 41.6052 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 40.64 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60c9002c-f5e7-4ee2-bfb6-2851e10d73b8")
+		)
+		(pin "2"
+			(uuid "14dc543f-a536-4c74-8420-b5314d12c8fe")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -19203,7 +22937,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d182acc0-f179-4ea9-8c29-25ac93840ffa")
-		(property "Reference" "R36"
+		(property "Reference" "R38"
 			(at 238.76 68.326 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19265,11 +22999,8 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R36")
+					(reference "R38")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -19285,7 +23016,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5af6c73-3f8a-4844-ae7d-cbaba4ad9c35")
-		(property "Reference" "U8"
+		(property "Reference" "U7"
 			(at 161.036 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19365,11 +23096,86 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "U8")
+					(reference "U7")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d729596c-0507-4f20-b309-9dd0630eec49")
+		(property "Reference" "#PWR0101"
+			(at 153.67 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3b01542-e0f6-45b6-87cb-3c82f7dbfc3b")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "#PWR0101")
+					(unit 1)
 				)
 			)
 		)
@@ -19387,7 +23193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d76ee03b-74b2-4a13-9e5c-8afb5fecc121")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR056"
 			(at 222.25 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -19448,7 +23254,88 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR042")
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 130.81 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d8de4796-6cac-4b6f-ad58-c3f10514ac75")
+		(property "Reference" "C30"
+			(at 132.842 185.674 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 132.842 187.706 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 130.81 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 130.81 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "18f2013d-63b5-4eb7-ba58-603eea28fc6f")
+		)
+		(pin "2"
+			(uuid "151e98bf-33d3-4904-af22-8a0afcd4d3ac")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -19465,7 +23352,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da2a205b-e7a5-4de9-8a95-7587f869f6be")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR045"
 			(at 173.99 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -19525,7 +23412,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR031")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -19543,7 +23430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da8248b9-3e17-4e48-9dfd-d07aa304a255")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR013"
 			(at 53.34 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -19603,7 +23490,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -19620,7 +23507,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "daeaecbe-494a-4417-97ab-01c1f4409eaf")
-		(property "Reference" "R80"
+		(property "Reference" "R22"
 			(at 165.1 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19684,7 +23571,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R80")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -19702,7 +23589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc0feb44-00a5-4a0d-9adf-a45aeba507a2")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR049"
 			(at 186.69 127 0)
 			(hide yes)
 			(show_name no)
@@ -19762,7 +23649,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR035")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -19833,13 +23720,13 @@
 				)
 			)
 		)
-		(pin "T"
+		(pin "2"
 			(uuid "303185a3-dc9b-490c-a8c9-4a98e7ca54ed")
 		)
-		(pin "S"
+		(pin "1"
 			(uuid "13ce7814-f97c-4a55-915e-87d975c82380")
 		)
-		(pin "TN"
+		(pin "3"
 			(uuid "0addf08d-ba64-4bd5-8353-67ead68ac630")
 		)
 		(instances
@@ -19847,9 +23734,6 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "J1")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -19954,9 +23838,6 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "D2")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -19972,7 +23853,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e02f642f-6c92-4862-b933-058a203898ea")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR053"
 			(at 207.01 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -20032,7 +23913,86 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR039")
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Connector:TestPoint_Small")
+		(at 233.68 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1079a16-f2b8-4972-b260-6b7f6750375b")
+		(property "Reference" "TP6"
+			(at 234.95 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DWVO"
+			(at 234.95 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_4ms_TestPoint:TestPoint_Pad_06"
+			(at 238.76 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 233.68 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03dd3072-a225-4b16-91ca-5c97f744c84e")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -20113,13 +24073,87 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "R15")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 20.32 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e32a20a0-b2ae-4e95-95da-afbc4417983f")
+		(property "Reference" "C18"
+			(at 21.082 169.164 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 21.082 173.736 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 21.2852 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 20.32 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf2263a6-8e3a-45cf-a6a2-bfa85fffa842")
+		)
+		(pin "2"
+			(uuid "75a0ef18-f26b-4b14-a94e-10c3a2fb6683")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "C18")
+					(unit 1)
 				)
 			)
 		)
@@ -20135,7 +24169,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e33707be-aa49-427d-bafe-95442cb8a0ce")
-		(property "Reference" "RV8"
+		(property "Reference" "RV5"
 			(at 165.1 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20235,7 +24269,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "RV8")
+					(reference "RV5")
 					(unit 1)
 				)
 			)
@@ -20252,7 +24286,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e613de80-9630-413b-9e2c-aa94819aefe7")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 93.98 34.798 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20314,15 +24348,8 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
 				)
 			)
 		)
@@ -20340,7 +24367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6ea185f-97fa-45c9-a19f-f6bfc4b8da92")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR059"
 			(at 242.57 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -20400,7 +24427,86 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR045")
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Connector:TestPoint_Small")
+		(at 176.53 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7d6bad1-fa71-4935-b799-70018dd49cff")
+		(property "Reference" "TP5"
+			(at 177.8 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BBDOut"
+			(at 177.8 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_4ms_TestPoint:TestPoint_Pad_06"
+			(at 181.61 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 176.53 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8648ed82-dee9-41e4-989a-d8e719455269")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -20417,7 +24523,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e82bda75-83b2-47f4-bb53-c6feaa667d63")
-		(property "Reference" "R23"
+		(property "Reference" "R25"
 			(at 181.61 115.062 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20479,15 +24585,86 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R23")
+					(reference "R25")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-12V")
+		(at 68.58 185.42 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9f727df-0899-42c7-9ac9-81e0834a4c26")
+		(property "Reference" "#PWR0111"
+			(at 68.58 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-12V"
+			(at 68.58 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 68.58 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec8c1a05-4eed-4d1c-8938-a28da0a8cad3")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "#PWR0111")
+					(unit 1)
 				)
 			)
 		)
@@ -20504,7 +24681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eac44fbe-3bc5-454c-88a1-3b54e54d62e2")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR08"
 			(at 46.99 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -20564,7 +24741,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR06")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -20582,7 +24759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec860768-6fd7-4e45-8ad4-8ad4c701f26d")
-		(property "Reference" "J9"
+		(property "Reference" "J10"
 			(at 279.146 66.294 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20635,23 +24812,271 @@
 				)
 			)
 		)
-		(pin "T"
+		(pin "3"
 			(uuid "dedc2d5f-b65e-4f76-ba0b-2aa9b430549c")
 		)
-		(pin "S"
+		(pin "2"
 			(uuid "706d3669-d39c-4047-9ec8-ee36761b14c3")
 		)
-		(pin "TN"
+		(pin "1"
 			(uuid "614972e7-53b4-40bd-8c1f-7684241615bd")
 		)
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "J9")
+					(reference "J10")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 43.18 149.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed4bdb46-5d6f-4ea4-a81b-5d6de3467b83")
+		(property "Reference" "D11"
+			(at 44.958 152.908 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 44.958 150.368 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 43.18 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 43.18 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 43.18 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35f039dd-ad75-401e-9231-54df0bf60a6f")
+		)
+		(pin "2"
+			(uuid "d128a2d8-20de-4362-903b-cbad52d2588e")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eda321ea-9dbd-4ec3-a42e-60f68d5a326a")
+		(property "Reference" "#PWR0105"
+			(at 152.4 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d4929550-8b93-47e4-93b3-3ce647c62718")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 62.23 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ee22b8ef-729e-442d-ba13-0e85e64b6688")
+		(property "Reference" "C22"
+			(at 62.992 169.164 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 62.992 173.736 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 63.1952 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 62.23 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4aa05d6-4223-41d2-9caa-daf6280c3a4d")
+		)
+		(pin "2"
+			(uuid "6f5cd097-e033-4cba-8b8d-6833f759c0e2")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "C22")
+					(unit 1)
 				)
 			)
 		)
@@ -20755,9 +25180,6 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "D1")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -20774,7 +25196,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f25e1a9d-6e07-4389-accf-de0b34051aed")
-		(property "Reference" "J7"
+		(property "Reference" "J8"
 			(at 245.364 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20784,7 +25206,7 @@
 				)
 			)
 		)
-		(property "Value" "EffectRouteOut"
+		(property "Value" "EffectsRouteOut"
 			(at 245.364 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20827,23 +25249,20 @@
 				)
 			)
 		)
-		(pin "T"
+		(pin "3"
 			(uuid "8b25025c-fb4f-436f-b9d3-72c1e808bb23")
 		)
-		(pin "S"
+		(pin "1"
 			(uuid "509b56e6-1d2f-4f7c-acd6-28c31e0a7769")
 		)
-		(pin "TN"
+		(pin "2"
 			(uuid "57aa0a73-677b-4d24-a711-fb0f892e1ce7")
 		)
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -20860,7 +25279,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f29cd4fd-da83-42a7-8798-e982cb2b3306")
-		(property "Reference" "R25"
+		(property "Reference" "R27"
 			(at 181.61 144.018 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20922,15 +25341,8 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R25")
+					(reference "R27")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
 				)
 			)
 		)
@@ -20946,7 +25358,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2f5b422-e2a9-4819-b25d-47ab42fff6f8")
-		(property "Reference" "R21"
+		(property "Reference" "R23"
 			(at 171.45 115.062 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21008,11 +25420,8 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R21")
+					(reference "R23")
 					(unit 1)
-					(variant
-						(name "Testing")
-					)
 				)
 			)
 		)
@@ -21028,7 +25437,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f34ac746-f062-49c2-b6a4-b86c204f7cf9")
-		(property "Reference" "R26"
+		(property "Reference" "R28"
 			(at 184.15 22.352 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21090,15 +25499,8 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R26")
+					(reference "R28")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
 				)
 			)
 		)
@@ -21115,7 +25517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f37f1818-28f1-4064-84d0-c147575b0497")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR030"
 			(at 124.46 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -21175,7 +25577,7 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR095")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -21192,7 +25594,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5349e27-f18d-4535-a8bb-334f1338f354")
-		(property "Reference" "R24"
+		(property "Reference" "R26"
 			(at 181.61 124.714 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21254,15 +25656,89 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "R24")
+					(reference "R26")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 62.23 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f6213b05-73b5-423f-806c-13dc4e909743")
+		(property "Reference" "C23"
+			(at 62.992 179.324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 62.992 183.896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 63.1952 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 62.23 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34428a77-e3a1-46c4-8a14-267e2b1702a3")
+		)
+		(pin "2"
+			(uuid "02c0f232-61ca-440d-8127-74010765c34a")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "C23")
+					(unit 1)
 				)
 			)
 		)
@@ -21279,7 +25755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f99668b8-4145-49dd-89f6-30ff3a64b84a")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR023"
 			(at 106.68 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -21339,7 +25815,86 @@
 		(instances
 			(project "modularFeedbackProcessor"
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
-					(reference "#PWR096")
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Connector:TestPoint_Small")
+		(at 207.01 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa926b3c-0953-4dc9-a458-153d5d09ff12")
+		(property "Reference" "TP4"
+			(at 208.28 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DWV1"
+			(at 208.28 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_4ms_TestPoint:TestPoint_Pad_06"
+			(at 212.09 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 207.01 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e752ca0-5b4e-4be8-83f3-2adc1b12594a")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -21420,13 +25975,242 @@
 				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
 					(reference "R1")
 					(unit 1)
-					(variant
-						(name "Testing")
-						(field
-							(name "Footprint")
-							(value "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal")
-						)
-					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Connector:TestPoint_Small")
+		(at 153.67 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbd39296-fdf4-4a5c-82c2-772374efa59a")
+		(property "Reference" "TP9"
+			(at 154.94 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S&H"
+			(at 154.94 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_4ms_TestPoint:TestPoint_Pad_06"
+			(at 158.75 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 153.67 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77760481-cf08-47b5-b873-6b6107c978b7")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 68.58 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc3fabd7-83df-4251-90cf-182f78bcce57")
+		(property "Reference" "#PWR0110"
+			(at 68.58 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 68.58 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 68.58 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c579c4c5-f70c-425e-9f24-e0c828c6ca96")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Connector:TestPoint_Small")
+		(at 81.28 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdd07e65-6c08-458b-9fa2-f127e0907122")
+		(property "Reference" "TP10"
+			(at 82.55 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FBI1"
+			(at 82.55 138.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_4ms_TestPoint:TestPoint_Pad_06"
+			(at 86.36 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 81.28 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1d42b4a-9b4c-41bd-9098-0dcf00ddddbe")
+		)
+		(instances
+			(project "modularFeedbackProcessor"
+				(path "/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7"
+					(reference "TP10")
+					(unit 1)
 				)
 			)
 		)
