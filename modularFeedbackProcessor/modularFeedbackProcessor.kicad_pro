@@ -53,8 +53,99 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "missing_tuning_profile|0|0|00000000-0000-0000-0000-000000000000|00000000-0000-0000-0000-000000000000",
+          "dont need to worry too much about the tuning profile (I think)"
+        ],
+        [
+          "silk_over_copper|81230340|133351545|c8382528-751c-4172-9257-741dfb5800f7|b427bdc1-33b3-4bce-8b53-dc26c2326622",
+          ""
+        ],
+        [
+          "silk_over_copper|82769660|128868455|c8382528-751c-4172-9257-741dfb5800f7|de227cde-2bb6-47fe-ae62-b13891c5be20",
+          ""
+        ],
+        [
+          "silk_overlap|104250000|112990000|55be8f92-fa93-47b6-b604-94ae69bc00ef|c1c756c0-1264-47e8-a53c-e8b8df72923f",
+          ""
+        ],
+        [
+          "silk_overlap|104250000|60570000|e9047d29-0988-41f1-a0db-aa7d237c6194|f8667c9b-7de8-4d3a-bd31-060ac6ae2daf",
+          ""
+        ],
+        [
+          "silk_overlap|104250000|77490000|a91eb01f-e365-4d60-ad5e-5f36d223d9a7|f937452d-5c35-497e-9b1f-6cb08e80a464",
+          ""
+        ],
+        [
+          "silk_overlap|104250000|96070000|0ffd5549-64cf-46b8-a020-ee10fff2fcfe|edb8dedf-2c3d-42ae-b768-fc68e0a06a98",
+          ""
+        ],
+        [
+          "silk_overlap|77200000|60570000|58649943-6fa4-4200-b1b3-e5831b34bc36|7ae3b6c3-d1be-4e1d-9043-bfa6ca0ac121",
+          ""
+        ],
+        [
+          "silk_overlap|77243947|112990000|67b5c77d-ca56-4464-93e3-ae18eb0da266|9bc9f968-0867-41c5-a85b-ff8b560b46ac",
+          ""
+        ],
+        [
+          "silk_overlap|77250000|44070000|14082ef2-5587-4158-9d2c-8031e0db47be|9cd54412-dac3-412e-8928-d52493e27e40",
+          ""
+        ],
+        [
+          "silk_overlap|77250000|77490000|9f8d4f73-5392-4743-a74e-e4d2dabc6e49|d8a87615-c89e-4a0e-a667-fb993be5ad13",
+          ""
+        ],
+        [
+          "silk_overlap|77250000|96070000|414c85c7-bf47-4b0d-88ce-ccfce98cf2c5|5b6d2c1d-5942-4976-8443-8b92eb7052f8",
+          ""
+        ],
+        [
+          "silk_overlap|86743947|112990000|4eaa0401-7848-4ec4-802a-cb08a1401940|fe80900e-176d-412d-8751-0142c7962db1",
+          ""
+        ],
+        [
+          "silk_overlap|86750000|60570000|9c6db428-d9f3-4163-87ba-d6778ad6eec1|9c7eb883-e0e1-41c7-a71a-beb06da6952d",
+          ""
+        ],
+        [
+          "silk_overlap|86750000|77490000|3db27dce-960e-4dae-b841-e39a53ba2177|a412127c-b130-4628-9df1-fe2f09fce8c2",
+          ""
+        ],
+        [
+          "silk_overlap|86750000|96070000|15487572-0265-4249-9f5e-be03149fd1aa|42bc3689-4c85-42f0-9c79-61e28f8acbbb",
+          ""
+        ],
+        [
+          "silk_overlap|86800000|44070000|025f954e-fd6a-4e13-bf95-bb71a13130f5|f5939f7f-c8fc-431b-a4c0-ef2544d4377d",
+          ""
+        ],
+        [
+          "silk_overlap|94700000|96070000|19465b4b-d0ac-4d32-b0fd-ae8ce8daa523|d2b89e2b-394b-419b-b2a6-799b490c4e51",
+          ""
+        ],
+        [
+          "silk_overlap|94750000|112990000|127f2340-1fb6-4e48-8394-47f9af467af9|56cc2cb7-3fad-424f-b2fd-26a576e8c916",
+          ""
+        ],
+        [
+          "silk_overlap|94750000|60570000|c32a184d-495f-49cc-8d1d-af6a6a801419|f3de0634-2dac-4eec-9e00-8e932a521282",
+          ""
+        ],
+        [
+          "silk_overlap|94750000|77490000|54db5aea-c0b3-4130-8e28-b3e37e859e13|5967f1b8-b368-4929-826f-bbdb00b6f052",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -187,7 +278,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -214,7 +307,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -526,8 +628,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "0.25 mm",
-        "via_diameter": 0.2,
-        "via_drill": 0.6,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -542,8 +644,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "tuning_profile": "0.25 mm",
-        "via_diameter": 0.2,
-        "via_drill": 0.6
+        "via_diameter": 0.5,
+        "via_drill": 0.3
       }
     ],
     "meta": {
