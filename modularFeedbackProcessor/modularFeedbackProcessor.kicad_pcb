@@ -122,7 +122,7 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "")
 		)
@@ -6605,7 +6605,7 @@
 		(property "Reference" "C13"
 			(at 2.955112 -3.5 180)
 			(layer "F.SilkS")
-			(uuid "41eec046-dc3e-4ba4-954c-2990ef8d55b5")
+			(uuid "3a2ae0a4-12cf-4cc7-a4df-a459465eefc5")
 			(effects
 				(font
 					(size 1 1)
@@ -6616,7 +6616,7 @@
 		(property "Value" "10u"
 			(at -1.044888 -3.5 180)
 			(layer "F.Fab")
-			(uuid "50ef2c32-fabf-41a4-bf7e-b7d9c8af93bb")
+			(uuid "acc8aa9c-160e-4346-919d-62400cb109c5")
 			(effects
 				(font
 					(size 1 1)
@@ -6628,7 +6628,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7513dadc-abd7-4a24-80cd-42f4beae1e8c")
+			(uuid "aa5da062-a4e4-495c-aca4-5111fde2416d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6639,7 +6639,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7d9141b8-bf5a-4139-877f-fd7f2029c969")
+			(uuid "3f67ec6b-99aa-4172-9478-7e8c927ca918")
 			(effects
 				(font
 					(size 1.27 1.27)
