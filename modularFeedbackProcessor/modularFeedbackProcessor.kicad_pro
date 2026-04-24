@@ -332,35 +332,35 @@
   "erc": {
     "erc_exclusions": [
       [
-        "pin_not_connected|1193800|990600|4b264e3c-c6a0-4da8-b26a-cffb37c97811|00000000-0000-0000-0000-000000000000|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|",
+        "pin_not_connected|1193800|990600|4b264e3c-c6a0-4da8-b26a-cffb37c97811|00000000-0000-0000-0000-000000000000|||",
         "only using OUT1"
       ],
       [
-        "pin_not_connected|1320800|292100|781758f0-e27b-40fa-b962-fe51c979efa7|00000000-0000-0000-0000-000000000000|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|",
+        "pin_not_connected|1320800|292100|781758f0-e27b-40fa-b962-fe51c979efa7|00000000-0000-0000-0000-000000000000|||",
         "don't need to connect PHPLS"
       ],
       [
-        "pin_not_connected|1409700|1714500|3c68aa99-0ee9-4918-832a-1feccf4ba96f|00000000-0000-0000-0000-000000000000|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|",
+        "pin_not_connected|1409700|1714500|3c68aa99-0ee9-4918-832a-1feccf4ba96f|00000000-0000-0000-0000-000000000000|||",
         "can leave output disconnected here"
       ],
       [
-        "pin_not_connected|1409700|1892300|3fe9b3f0-f04e-467a-9ca5-65df2920dd0c|00000000-0000-0000-0000-000000000000|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|",
+        "pin_not_connected|1409700|1892300|3fe9b3f0-f04e-467a-9ca5-65df2920dd0c|00000000-0000-0000-0000-000000000000|||",
         "can leave output disconnected here"
       ],
       [
-        "pin_not_connected|1549400|1765300|83933efe-8137-46c0-9b41-16689a8a1c1f|00000000-0000-0000-0000-000000000000|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|",
+        "pin_not_connected|1549400|1765300|83933efe-8137-46c0-9b41-16689a8a1c1f|00000000-0000-0000-0000-000000000000|||",
         "can leave output disconnected here"
       ],
       [
-        "pin_not_connected|1574800|317500|16e0183c-2c8e-44c0-9397-56c585221200|00000000-0000-0000-0000-000000000000|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|",
+        "pin_not_connected|1574800|317500|16e0183c-2c8e-44c0-9397-56c585221200|00000000-0000-0000-0000-000000000000|||",
         "don't need the zener diode"
       ],
       [
-        "pin_not_connected|1574800|368300|1499fc5e-4301-43af-bab4-7b83cfd5edf5|00000000-0000-0000-0000-000000000000|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|",
+        "pin_not_connected|1574800|368300|1499fc5e-4301-43af-bab4-7b83cfd5edf5|00000000-0000-0000-0000-000000000000|||",
         "no phase comp II"
       ],
       [
-        "pin_not_connected|1574800|444500|a2b8c76e-cab1-4c42-870d-4f08491eeab0|00000000-0000-0000-0000-000000000000|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|/a81d404d-f7d3-4fe2-a135-d74fc6d7b6a7|",
+        "pin_not_connected|1574800|444500|a2b8c76e-cab1-4c42-870d-4f08491eeab0|00000000-0000-0000-0000-000000000000|||",
         "not demodulating nothin"
       ]
     ],
@@ -661,7 +661,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "fab/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -799,7 +799,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "${DNP}"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,

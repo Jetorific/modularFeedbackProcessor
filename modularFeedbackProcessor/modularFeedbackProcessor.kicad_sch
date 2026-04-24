@@ -19584,6 +19584,7 @@
 	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_GDS")
 		(at 78.74 118.11 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19593,7 +19594,7 @@
 		(dnp no)
 		(uuid "a953b1e4-e001-492c-97b6-e25fccca4501")
 		(property "Reference" "Q1"
-			(at 83.058 115.57 0)
+			(at 83.058 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19604,7 +19605,7 @@
 			)
 		)
 		(property "Value" "Q_PMOS_GDS"
-			(at 85.09 119.3799 0)
+			(at 85.09 116.8401 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19616,7 +19617,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 83.82 115.57 0)
+			(at 83.82 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
